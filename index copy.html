@@ -821,7 +821,6 @@
                 </div><!-- / .contact-info-wrapper -->
               </div><!-- / .row -->
 
-            <!-- Contact Form -->
               <div class="container ptb">
                 <center><h1><bold>Get in touch if you want access</bold></h1></center>
                 <!--/container-->
@@ -846,7 +845,48 @@
                         </form>
                       </div> <!-- end col -->
                     </div>
-                </div>
+              </div>
+
+
+              <!-- Contact Form -->
+              <div class="row">
+                <form action="assets/contact-form/contact-form.php" method="POST" id="contact-form-1" class="form-ajax">
+                  <div class="col-md-offset-2 col-md-4 wow fadeInUp" data-wow-duration="1s">
+
+                    <!-- Name -->
+                    <div class="form-group">
+                      <input type="text" name="name" id="name-contact-1" class="form-control validate-locally" placeholder="Enter your name">
+                      <label for="name-contact-1">Name</label>
+                      <span class="pull-right alert-error"></span>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                      <input type="email" name="email" id="email-contact-1" class="form-control validate-locally" placeholder="Enter your email">
+                      <label for="email-contact-1">Email</label>
+                      <span class="pull-right alert-error"></span>
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-4 wow fadeInUp" data-wow-duration="1s">
+
+                    <!-- Message -->
+                    <div class="form-group">
+                      <textarea name="message" id="message-contact-1" class="form-control" rows="5" placeholder="Your Message"></textarea>
+                      <label for="message-contact-1">Message</label>
+                    </div>
+                    <div>
+                      <input type="submit" class="btn pull-right" value="Send Message">
+                    </div>
+
+                    <!-- Ajax Message -->
+                    <div class="ajax-message col-md-12 no-gap"></div>
+
+                  </div><!-- / .col-md-4 -->
+
+                </form>
+              </div><!-- / .row -->
             </div><!-- / .container -->
           </div><!-- / .contact-wrapper -->
         </section><!-- / .contact-1 -->
