@@ -6,7 +6,7 @@
 
 /* ---- 14.1 Team - 3 Columns ---- */
 .team-3col {
-	
+
 	.t-item {
 		display: block;
 		border-top: 1px solid $lighter;
@@ -244,7 +244,7 @@
 			transform: translateY(50px);
 
 			li {
-				
+
 				&:first-child {
 					transition: transform .5s;
 				}

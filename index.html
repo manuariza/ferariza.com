@@ -29,8 +29,24 @@
 
         <!-- JS -->
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <!-- Custom Twitter -->
+        <script>
+          var widgetCSS = "" +
+            "#twitter-widget-0{width: 100% !important;}"+
+            ".timeline-Tweet-text{font-size:12px !important;}";
+
+          function customTwitter(){
+            var w = document.getElementById("twitter-widget-0").contentDocument;
+
+            var s = document.createElement("style");
+            s.innerHTML = widgetCSS;
+            s.type = "text/css";
+            w.head.appendChild(s);
+          }
+        </script>
     </head>
-    <body id="page-top" data-spy="scroll" data-target=".navbar">
+    <body id="page-top" data-spy="scroll" data-target=".navbar" onload="customTwitter();">
 
       <!-- cookiealert styles -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
@@ -68,6 +84,7 @@
               <li><a href="#home">Inicio<span class="sr-only"></span></a></li>
               <li><a href="#portfolio">Bibliografía<span class="sr-only"></span></a></li>
               <li><a href="#testimonials">Reseñas<span class="sr-only"></span></a></li>
+              <li><a href="fernando.html">Acerca de<span class="sr-only"></span></a></li>
               <li><a href="#contact">Contacto<span class="sr-only"></span></a></li>
             </ul><!-- / .nav .navbar-nav -->
           </div><!--/.navbar-collapse -->
@@ -91,7 +108,7 @@
                     <h1 class="hero-lead">Fuiste el rey</h1>
                     <h4 class="h-alt hero-subheading">TODOS HEMOS PASADO MALOS MOMENTOS</h4>
 
-                    <a href="pages/portfolio/fuiste-el-rey.html" class="btn-light">Más Información</a>
+                    <a href="fuiste-el-rey.html" class="btn-light">Más Información</a>
 
                   </div>
                 </div>
@@ -110,7 +127,7 @@
 
                     <h1 class="hero-lead wow fadeInUp" data-wow-duration="2s">Ciudad dormida</h1>
                     <h4 class="h-alt hero-subheading wow fadeIn" data-wow-delay=".5s" data-wow-duration="1.5s">Una novela victoriana</h4>
-                    <a href="pages/portfolio/ciudad-dormida.html" class="btn btn-light wow fadeIn" data-wow-delay=".7s" data-wow-duration="2s">Más información</a>
+                    <a href="ciudad-dormida.html" class="btn btn-light wow fadeIn" data-wow-delay=".7s" data-wow-duration="2s">Más información</a>
 
                   </div>
                 </div>
@@ -215,7 +232,7 @@
                   <figcaption>
                     <h5 class="hover-heading">Fuiste el rey</h5>
                     <p class="hover-text">Todos hemos pasado malos momentos.</p>
-                    <a href="pages/portfolio/fuiste-el-rey.html" class="hover-more-btn"><span class="linea-arrows-slim-right"></span></a>
+                    <a href="fuiste-el-rey.html" class="hover-more-btn"><span class="linea-arrows-slim-right"></span></a>
                     <ul class="hover-btns">
                       <li><a href="assets/images/fuiste-el-rey.png" class="open-gallery"><span class="linea-arrows-expand"></span></a></li>
                       <!-- <li><a href="#"><span class="linea-basic-heart"></span></a></li> -->
@@ -231,7 +248,7 @@
                   <figcaption>
                     <h5 class="hover-heading">Ciudad dormida</h5>
                     <p class="hover-text">Un cóctel diferente.</p>
-                    <a href="pages/portfolio/ciudad-dormida.html" class="hover-more-btn"><span class="linea-arrows-slim-right"></span></a>
+                    <a href="ciudad-dormida.html" class="hover-more-btn"><span class="linea-arrows-slim-right"></span></a>
                     <ul class="hover-btns">
                       <li><a href="assets/images/ciudad-dormida.png" class="open-gallery"><span class="linea-arrows-expand"></span></a></li>
                       <!-- <li><a href="#"><span class="linea-basic-heart"></span></a></li> -->
@@ -482,7 +499,7 @@
 
         <!-- START Bootstrap-Cookie-Alert -->
         <div class="alert text-center cookiealert" role="alert">
-            <b>Esta página web usa cookies.</b> Utilizamos cookies para garantizar que obtenga la mejor experiencia en este sitio web. <a href="pages/portfolio/cookies.html" target="_blank" style="color:#ececec; ">Más información</a>
+            <b>Esta página web usa cookies.</b> Utilizamos cookies para garantizar que obtenga la mejor experiencia en este sitio web. <a href="cookies.html" target="_blank" style="color:#ececec; ">Más información</a>
 
             <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close" style="background-color: #ececec; border-color: #ececec; color: black;">
               <b>De acuerdo</b>
