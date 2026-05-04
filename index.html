@@ -1,376 +1,360 @@
 <!doctype html>
-<html class="no-js" lang="es">
-
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Fernando Ariza</title>
-  <meta name="description" content="Sitio oficial de Fernando Ariza: obra literaria, biografía, reseñas y contacto.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Favicon -->
+  <title>Fernando Ariza González | Escritura, crítica e investigación literaria</title>
+  <meta name="description" content="Web de Fernando Ariza González: escritor, profesor universitario, investigador en literatura española y crítico literario. Obra, artículos, reseñas, bibliografía y contacto.">
+  <meta name="theme-color" content="#f3eadb">
+  <link rel="canonical" href="https://ferariza.com/">
   <link rel="shortcut icon" href="favicon.ico">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css">
-  <!-- Fonts -->
-  <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
-  <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
-  <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
-  <!-- Slider -->
-  <link rel="stylesheet" href="assets/styles/vendor/slick.css">
-  <!-- Lightbox -->
-  <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css">
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="assets/styles/vendor/animate.css">
-
-
-  <!-- Site CSS -->
-  <link rel="stylesheet" href="assets/styles/main.css">
-  <link rel="stylesheet" href="assets/styles/responsive.css">
-
-  <!-- JS -->
-  <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
-  <!-- Custom Twitter -->
-  <script>
-    var widgetCSS = "" +
-      "#twitter-widget-0{width: 100% !important;}" +
-      ".timeline-Tweet-text{font-size:12px !important;}";
-
-    function customTwitter() {
-      var w = document.getElementById("twitter-widget-0").contentDocument;
-
-      var s = document.createElement("style");
-      s.innerHTML = widgetCSS;
-      s.type = "text/css";
-      w.head.appendChild(s);
-    }
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152728016-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-152728016-1');
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("has-js");</script>
+  <link rel="stylesheet" href="assets/site/styles.css">
 </head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar" onload="customTwitter();">
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">FA</span>
+      <span class="brand-rule"></span>
+      <span class="brand-copy">
+        <strong>Fernando Ariza</strong>
+        <span>Escritor · Ensayista · Profesor</span>
+      </span>
+    </a>
 
-  <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-principal" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Abrir menú</span>
+    </button>
 
+    <nav id="nav-principal" class="site-nav" aria-label="Navegación principal" data-nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#biografia">Biografía</a>
+      <a href="#obra">Obra</a>
+      <a href="#investigacion">Investigación</a>
+      <a href="#prensa">Prensa</a>
+      <a href="#bibliografia">Bibliografía</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-  <!-- ========== Preloader ========== -->
+  <main id="contenido">
+    <section id="inicio" class="section hero section-01" aria-labelledby="hero-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>01</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
 
-  <div class="preloader">
-    <img src="assets/images/loader.svg" alt="Loading...">
-  </div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Literatura · Lenguaje · Memoria</p>
+        <h1 id="hero-title">Fernando Ariza González</h1>
+        <p class="hero-kicker">Ficción, crítica e investigación literaria.</p>
+        <p class="lede">Una trayectoria dedicada a contar cómo circulan los libros, cómo se forman los relatos y qué lugar ocupa la literatura en la vida contemporánea.</p>
+        <div class="hero-actions" aria-label="Acciones principales">
+          <a class="button button-primary" href="#obra">Explorar la obra <span aria-hidden="true">→</span></a>
+          <a class="button button-text" href="#bibliografia">Ver bibliografía</a>
+        </div>
+      </div>
 
+      <div class="hero-collage reveal delay-1" aria-label="Collage editorial de Fernando Ariza">
+        <div class="paper paper-top"></div>
+        <div class="red-block"></div>
+        <img class="hero-portrait" src="assets/images/fernando.png" alt="Retrato de Fernando Ariza">
+        <img class="hero-city" src="assets/images/ciudad-dormida-background.png" alt="" aria-hidden="true">
+        <div class="note-card">
+          <span>Cuadernos de lectura</span>
+          <strong>N.º 23</strong>
+          <small>Madrid · 2002–2026</small>
+        </div>
+        <div class="ink-quote">La literatura es una forma de conocimiento.</div>
+      </div>
 
+      <div class="hero-meta reveal delay-2">
+        <span>Profesor titular de Literatura en la Universidad CEU San Pablo</span>
+        <span>Crítico literario y responsable de Libros en El Debate</span>
+      </div>
+    </section>
 
-  <!-- ========== Navigation ========== -->
+    <section id="biografia" class="section bio section-02" aria-labelledby="bio-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>02</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
 
-  <nav class="navbar navbar-default navbar-fixed-top mega navbar-trans navbar-fw">
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-        aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!-- Logo -->
-      <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/logo.png"
-          alt="Fernando Ariza"></a>
-    </div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">Biografía</p>
+        <h2 id="bio-title">Escribir, enseñar, investigar.</h2>
+        <p>Fernando Ariza González nació en Madrid en 1978. Estudió Filología en la Universidad Complutense de Madrid, donde se doctoró en Literatura Española, y completó un máster en Edición en la Universidad de Salamanca.</p>
+      </div>
 
-    <!-- Navbar Links -->
-    <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
-      <ul class="nav navbar-nav">
-        <li><a href="#home">Inicio<span class="sr-only"></span></a></li>
-        <li><a href="#portfolio">Bibliografía<span class="sr-only"></span></a></li>
-        <li><a href="#testimonials">Reseñas<span class="sr-only"></span></a></li>
-        <li><a href="fernando.html">Acerca de<span class="sr-only"></span></a></li>
-        <li><a href="#contact">Contacto<span class="sr-only"></span></a></li>
-      </ul><!-- / .nav .navbar-nav -->
-    </div>
-    <!--/.navbar-collapse -->
-  </nav><!-- / .navbar -->
+      <div class="bio-grid">
+        <div class="bio-portrait reveal delay-1">
+          <img src="assets/images/fernando.png" alt="Fernando Ariza">
+          <div class="stamp">Archivo personal</div>
+        </div>
 
+        <div class="profile-card reveal delay-2">
+          <h3>Perfil académico</h3>
+          <ul>
+            <li><span>Origen</span><strong>Madrid, 1978</strong></li>
+            <li><span>Formación</span><strong>Doctor en Literatura Española</strong></li>
+            <li><span>Docencia</span><strong>Universidad CEU San Pablo</strong></li>
+            <li><span>Estancias</span><strong>Columbia, Texas y Nueva York</strong></li>
+            <li><span>Trabajo crítico</span><strong>El Debate · Zenda · medios culturales</strong></li>
+          </ul>
+        </div>
 
+        <article class="bio-text reveal delay-3">
+          <h3>Una mirada entre archivo y narración</h3>
+          <p>Su trabajo combina docencia universitaria, investigación sobre narrativa española contemporánea, historia del libro, mercado editorial, recepción internacional de la literatura española y creación literaria.</p>
+          <p>Como crítico, escribe desde una base filológica clara y divulgativa, atento a clásicos vivos, narrativa contemporánea, distopía, gótico, ciencia ficción, memoria cultural y ética de la ficción.</p>
+        </article>
+      </div>
+    </section>
 
-  <!-- ========== Hero Cover ========== -->
+    <section id="obra" class="section works section-03" aria-labelledby="works-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>03</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
 
-  <div id="home" class="fw-slider-hero">
-    <div class="fw-slider">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Obra literaria</p>
+        <h2 id="works-title">Novelas, biografías narrativas y ficción de crisis.</h2>
+        <p>Su ficción se mueve entre la investigación criminal, la atmósfera literaria, la biografía novelada y los conflictos personales atravesados por la crisis contemporánea.</p>
+      </div>
 
-      <!-- Slide 2 -->
-      <div class="fw-slider-item fw-slide-2" style="background: url(assets/images/lluvia.png);">
-        <div class="bg-overlay">
-
-          <!-- Hero Content -->
-          <div class="hero-content-wrapper">
-            <div class="hero-content">
-
-              <h1 class="hero-lead">Fuiste el rey</h1>
-              <h4 class="h-alt hero-subheading">TODOS HEMOS PASADO MALOS MOMENTOS</h4>
-
-              <a href="#portfolio" class="btn-light">Más información</a>
-
-            </div>
+      <div class="book-stage">
+        <article class="book-feature reveal">
+          <img src="assets/images/fuiste-el-rey.png" alt="Cubierta de Fuiste el rey">
+          <div>
+            <p class="eyebrow">Novela · 2019</p>
+            <h3>Fuiste el rey</h3>
+            <p>Una pareja joven abandona España en plena crisis y llega a Bruselas buscando una vida mejor. Precariedad, enfermedad, celos, amor y autodestrucción se convierten en materia narrativa.</p>
           </div>
+        </article>
 
-        </div><!-- / .bg-overlay -->
-      </div><!-- / .fw-slide-2 -->
-
-
-      <!-- Slide 1 -->
-      <div class="fw-slider-item fw-slide-1" style="background: url(assets/images/ciudad-dormida-background.png);">
-        <div class="bg-overlay">
-
-          <!-- Hero Content -->
-          <div class="hero-content-wrapper">
-            <div class="hero-content">
-
-              <h1 class="hero-lead wow fadeInUp" data-wow-duration="2s">Ciudad dormida</h1>
-              <h4 class="h-alt hero-subheading wow fadeIn" data-wow-delay=".5s" data-wow-duration="1.5s">Una novela
-                victoriana</h4>
-              <a href="#portfolio" class="btn btn-light wow fadeIn" data-wow-delay=".7s"
-                data-wow-duration="2s">Más información</a>
-
-            </div>
+        <article class="book-feature book-feature-alt reveal delay-1">
+          <img src="assets/images/ciudad-dormida.png" alt="Cubierta de Ciudad dormida">
+          <div>
+            <p class="eyebrow">Novela · 2014</p>
+            <h3>Ciudad dormida</h3>
+            <p>Lang, un detective fracasado, se ve arrastrado a un enigma que atraviesa mansiones, jardines, azoteas, alcantarillas y secretos de una ciudad que parece despertar de su letargo.</p>
           </div>
+        </article>
 
-        </div><!-- / .bg-overlay -->
-      </div><!-- / .fw-slide-1 -->
-
-
-    </div><!-- / .fw-slider -->
-
-  </div><!-- / .fs-slider-hero -->
-
-  <!-- ========== Portfolio ========== -->
-
-  <section id="portfolio" class="container-fluid portfolio-layout portfolio-columns-fw">
-    <div class="row">
-      <header class="sec-heading">
-        <h2>Bibliografía</h2>
-      </header>
-    </div><!-- / .row -->
-
-    <div class="row">
-      <div id="pfolio">
-
-        <!-- Item 1 -->
-        <div class="col-md-6 portfolio-item hover-side novela">
-          <figure>
-            <img src="assets/images/fuiste-el-rey.png" alt="Cubierta de Fuiste el rey">
-            <figcaption>
-              <h5 class="hover-heading">Fuiste el rey</h5>
-              <p class="hover-text">Todos hemos pasado malos momentos.</p>
-              <a href="assets/images/fuiste-el-rey.png" class="hover-more-btn open-gallery"><span class="linea-arrows-expand"></span></a>
-              <ul class="hover-btns">
-                <li><a href="assets/images/fuiste-el-rey.png" class="open-gallery"><span
-                      class="linea-arrows-expand"></span></a></li>
-              </ul>
-            </figcaption>
-          </figure>
-        </div><!-- / .portfolio-item -->
-
-        <!-- Item 2 -->
-        <div class="col-md-6 portfolio-item hover-side novela">
-          <figure>
-            <img src="assets/images/ciudad-dormida.png" alt="Cubierta de Ciudad dormida">
-            <figcaption>
-              <h5 class="hover-heading">Ciudad dormida</h5>
-              <p class="hover-text">Un cóctel diferente.</p>
-              <a href="assets/images/ciudad-dormida.png" class="hover-more-btn open-gallery"><span class="linea-arrows-expand"></span></a>
-              <ul class="hover-btns">
-                <li><a href="assets/images/ciudad-dormida.png" class="open-gallery"><span
-                      class="linea-arrows-expand"></span></a></li>
-              </ul>
-            </figcaption>
-          </figure>
-        </div><!-- / .portfolio-item -->
-
-      </div><!-- / #pfolio -->
-    </div><!-- / .row -->
-  </section><!-- / .portfolio-columns-fw -->
-
-
-
-  <!-- ========== Testimonials ========== -->
-
-  <div id="testimonials" class="gray-bg">
-    <section class="container testimonials-3col">
-
-      <div class="row section">
-
-        <header class="sec-heading">
-          <h2>Reseñas</h2>
-        </header>
-
-        <!-- Item 1 -->
-        <div class="col-md-4 mb-sm-50">
-          <div class="t-item wow fadeIn" data-wow-duration="1s">
-            <img src="assets/images/recaredo-veredas.png" alt="Testimonial">
-            <blockquote>
-              <p>Una novela que nos atañe a todos, porque todos hemos pasado malos momentos y hemos peleado para
-                superarlos. Una novela compasiva, pero no complaciente que, además, cuenta con una escritura espléndida
-              </p>
-              <footer>
-                <cite>por Recaredo Veredas<span>Escritor</span></cite>
-              </footer>
-            </blockquote>
-            <span class="et-quote t-icon"></span>
-          </div><!-- / .t-item -->
-        </div><!-- / .col-md-4 -->
-
-        <!-- Item 2 -->
-        <div class="col-md-4 mb-sm-50">
-          <div class="t-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-            <img src="assets/images/tamburri.png" alt="Testimonial">
-            <blockquote>
-              <p>Hubo un tiempo en el que escribir era elegante y leer imprescindible. Parecemos estar en un tiempo en
-                el que ambas cosas han dejado de ser verdad; pero Ariza demuestra que la batalla no está perdida y que
-                hay quien puede ganarla.</p>
-              <footer>
-                <cite>por Pascual Tamburri Bariain<span>El semanal digital</span></cite>
-              </footer>
-            </blockquote>
-            <span class="et-quote t-icon"></span>
-          </div><!-- / .t-item -->
-        </div><!-- / .col-md-4 -->
-
-        <!-- Item 3 -->
-        <div class="col-md-4">
-          <div class="t-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
-            <img src="assets/images/ballesteros.png" alt="Testimonial">
-            <blockquote>
-              <p>Novela planteada conforme a criterios de hibridismo de géneros, de personajes, de temas. Un cóctel
-                diferente.</p>
-              <footer>
-                <cite>por Ana Isabel Ballesteros<span>Artes Hoy</span></cite>
-              </footer>
-            </blockquote>
-            <span class="et-quote t-icon"></span>
-          </div><!-- / .t-item -->
-        </div><!-- / .col-md-4 -->
-
-      </div><!-- / .row -->
-
-      <!-- Client Slider -->
-      <div class="row">
-        <ul class="t-clients clients-slider ws-m">
-          <li><a href="#"><img src="assets/images/nueva-revista.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/aceprensa.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/el-semanal-digital.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/artes-hoy.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/tres-hermanas.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/ediciones-del-serbal.png" alt="Client"></a></li>
-        </ul><!-- / .t-clients -->
-      </div><!-- / .row -->
-
-    </section><!-- / .container -->
-  </div><!-- / .gray-bg -->
-
-
-
-  <!-- ========== Contact ========== -->
-
-  <section id="contact" class="section contact-1">
-
-    <header class="sec-heading">
-      <h2>Contacto</h2>
-      <span class="subheading">Puedes ponerte en contacto en ferariza @ ferariza.com</span>
-    </header>
-  </section><!-- / .contact-1 -->
-
-
-
-  <!-- ========== Footer ========== -->
-
-  <footer class="footer-widgets">
-    <div class="container">
-      <div class="row section">
-
-        <!-- About Us -->
-        <div class="col-md-3 col-sm-6 mb-sm-100">
-          <div class="widget about-widget">
-            <h5 class="header-widget">Acerca de</h5>
-            <p>Fernando Ariza combina la docencia y la investigación universitarias con la escritura de ficción. Además
-              de varios ensayos literarios y artículos en revistas especializadas, publicó en 2014 la novela Ciudad
-              dormida.</p>
-
-            <ul class="social-links">
-              <li><a href="https://twitter.com/@ferariza_"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/fernando-ariza-075b2959/"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-          </div><!-- / .widget -->
-        </div><!-- / .col-md-3 -->
-
-        <!-- Twitter Feed -->
-        <div class="col-md-9 col-sm-6 mb-sm-100">
-          <div class="widget twitter-widget">
-            <h5 class="header-widget">Twitter </h5>
-            <a class="twitter-timeline" data-height="180" data-theme="dark"
-              href="https://twitter.com/ferariza_?ref_src=twsrc%5Etfw"
-              data-chrome="noheader nofooter noborders transparent">
-            </a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="fiction-list reveal delay-2">
+          <h3>Primeras ficciones</h3>
+          <p><strong>Bécquer, el romántico</strong> y <strong>Valle-Inclán, el bohemio</strong> abren una línea de biografías narrativas juveniles donde literatura, personaje y pedagogía se cruzan.</p>
+          <div class="tag-row" aria-label="Temas de ficción">
+            <span>Bruselas</span>
+            <span>Crisis</span>
+            <span>Misterio</span>
+            <span>Ciudad</span>
+            <span>Memoria</span>
           </div>
         </div>
-      </div><!-- / .row -->
-    </div><!-- / .container -->
+      </div>
+    </section>
 
+    <section id="investigacion" class="section research section-04" aria-labelledby="research-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>04</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
 
-    <!-- Copyright -->
-    <div class="copyright">
-      <div class="container">
-        <div class="row">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Ensayo, investigación y crítica</p>
+        <h2 id="research-title">El libro como industria, memoria y circulación cultural.</h2>
+        <p>Su obra investigadora analiza la literatura española contemporánea desde la historia editorial, la sociología del libro, la recepción internacional y las estrategias del mercado cultural.</p>
+      </div>
 
-          <div class="col-sm-6">
-            <small>&copy; Fernando Ariza</small>
+      <div class="dossier-grid">
+        <article class="dossier-card large reveal">
+          <p class="eyebrow">Monografía</p>
+          <h3>Construyendo puentes</h3>
+          <p>La travesía de la narrativa española en los Estados Unidos (1870-1975): prensa, editores, archivos, derechos, traducción y recepción.</p>
+          <span>Comares · 2023 / 2024</span>
+        </article>
+        <article class="dossier-card reveal delay-1">
+          <p class="eyebrow">Historia editorial</p>
+          <h3>Premios Planeta</h3>
+          <p>Historia y estrategias comerciales de uno de los grandes fenómenos de la industria cultural española.</p>
+        </article>
+        <article class="dossier-card reveal delay-2">
+          <p class="eyebrow">Mercado del libro</p>
+          <h3>Literatura y mercado editorial en España</h3>
+          <p>Un estudio sobre el mercado editorial español entre 1950 y 2000.</p>
+        </article>
+        <article class="dossier-card reveal delay-3">
+          <p class="eyebrow">Narración y ética</p>
+          <h3>El pensamiento narrativo</h3>
+          <p>Con Miguel Herrero Herrero: principios de storytelling, conflicto, punto de vista y valores.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="prensa" class="section press section-05" aria-labelledby="press-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>05</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">Artículos y prensa</p>
+        <h2 id="press-title">Una crítica literaria sostenida en medios culturales.</h2>
+        <p>El perfil recoge 98 entradas visibles en El Debate entre 2021 y 2026 y 23 publicaciones en Zenda: un archivo de lectura amplio, atento al canon, la narrativa actual y las formas de contar.</p>
+      </div>
+
+      <div class="press-layout">
+        <article class="newspaper reveal">
+          <div class="newspaper-head">
+            <span>El Debate</span>
+            <strong>Archivo de autor</strong>
           </div>
+          <ul>
+            <li>Andrea, la chica rara</li>
+            <li>Ignacio Aldecoa, el pulso del cuento</li>
+            <li>Jekyll y Hyde: actualidad de un clásico</li>
+            <li>La crisis de la narración</li>
+            <li>Un mundo feliz: lectura de urgencia</li>
+            <li>Dune, el renacer de un clásico</li>
+          </ul>
+        </article>
 
-          <div class="col-sm-6">
-            <small><a href="#page-top" class="pull-right to-the-top">Ir al principio<i
-                  class="fa fa-angle-up"></i></a></small>
+        <article class="newspaper zenda reveal delay-1">
+          <div class="newspaper-head">
+            <span>Zenda</span>
+            <strong>Crítica y lectura</strong>
           </div>
+          <ul>
+            <li>Picaresca y destino en la posguerra</li>
+            <li>Estética de la desolación</li>
+            <li>La fábula oscura de Bora Chung</li>
+            <li>Los cuentos de hadas son para todas las edades</li>
+            <li>Las vidas creadas de los grandes creadores</li>
+          </ul>
+        </article>
 
-        </div><!-- / .row -->
-      </div><!-- / .container -->
-    </div><!-- / .copyright -->
+        <div class="press-note reveal delay-2">
+          <p>Clásicos vivos, narrativa contemporánea, distopía, ciencia ficción, novela rural, gótico, memoria cultural y ética de la ficción.</p>
+          <a class="button button-text" href="https://www.eldebate.com/autor/fernando-ariza/" target="_blank" rel="noreferrer">Leer en El Debate</a>
+        </div>
+      </div>
+    </section>
 
-  </footer><!-- / .footer-widgets -->
+    <section id="recepcion" class="section reception section-06" aria-labelledby="reception-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>06</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
 
-  <!-- ========== Scripts ========== -->
+      <div class="section-heading reveal">
+        <p class="eyebrow">Reseñas y recepción crítica</p>
+        <h2 id="reception-title">Voces que dialogan con su obra.</h2>
+      </div>
 
-  <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-  <script src="assets/js/vendor/google-fonts.js"></script>
-  <script src="assets/js/vendor/jquery.easing.js"></script>
-  <script src="assets/js/vendor/jquery.waypoints.min.js"></script>
-  <script src="assets/js/vendor/bootstrap.min.js"></script>
-  <script src="assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
-  <script src="assets/js/vendor/smoothscroll.js"></script>
-  <script src="assets/js/vendor/jquery.localScroll.min.js"></script>
-  <script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
-  <script src="assets/js/vendor/jquery.stellar.min.js"></script>
-  <script src="assets/js/vendor/jquery.parallax.js"></script>
-  <script src="assets/js/vendor/slick.min.js"></script>
-  <script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
-  <script src="assets/js/vendor/countup.min.js"></script>
-  <script src="assets/js/vendor/isotope.min.js"></script>
-  <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/vendor/wow.min.js"></script>
-  <script src="assets/js/vendor/jquery.ajaxchimp.js"></script>
+      <div class="quote-wall">
+        <blockquote class="quote-card quote-main reveal">
+          <p>«Una novela que nos atañe a todos, porque todos hemos pasado malos momentos y hemos peleado para superarlos.»</p>
+          <cite>Recaredo Veredas · República de las Letras</cite>
+        </blockquote>
+        <blockquote class="quote-card reveal delay-1">
+          <p>«Ariza demuestra que la batalla no está perdida y que hay quien puede ganarla.»</p>
+          <cite>Pascual Tamburri Bariain · El Semanal Digital</cite>
+        </blockquote>
+        <blockquote class="quote-card reveal delay-2">
+          <p>«Un cóctel diferente.»</p>
+          <cite>Ana Isabel Ballesteros · Artes Hoy</cite>
+        </blockquote>
+        <blockquote class="quote-card reveal delay-3">
+          <p>«Un elogio a la literatura y a su capacidad de penetrar en la naturaleza humana.»</p>
+          <cite>Alberto Portolés · Aceprensa</cite>
+        </blockquote>
+      </div>
+    </section>
 
-  <!-- Site JS -->
-  <script src="assets/js/main.js"></script>
+    <section id="bibliografia" class="section bibliography section-07" aria-labelledby="bibliography-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>07</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">Bibliografía completa</p>
+        <h2 id="bibliography-title">Libros, monografías, guías, ediciones y volúmenes.</h2>
+        <p>Selección ordenada de la obra verificable recogida en el perfil, incluyendo las atribuciones tratadas con cautela cuando procede.</p>
+      </div>
+
+      <div class="bibliography-table reveal">
+        <article><time>2004 / 2006</time><h3>Literatura y sociedad: el premio Planeta</h3><p>Tesis doctoral / memoria académica.</p></article>
+        <article><time>2006</time><h3>Bécquer, el romántico</h3><p>Narrativa biográfica juvenil.</p></article>
+        <article><time>2007</time><h3>Valle-Inclán, el bohemio</h3><p>Narrativa biográfica juvenil.</p></article>
+        <article><time>2008</time><h3>Premios Planeta. Historia y estrategias comerciales</h3><p>Ensayo e historia editorial.</p></article>
+        <article><time>2008</time><h3>El camino. Guía de lectura</h3><p>Guía didáctica sobre Miguel Delibes.</p></article>
+        <article><time>2010</time><h3>Literatura y mercado editorial en España (1950-2000)</h3><p>Monografía académica.</p></article>
+        <article><time>2014</time><h3>Ciudad dormida</h3><p>Novela.</p></article>
+        <article><time>2017</time><h3>Correspondencia entre Vicente Blasco Ibáñez y John Macrae</h3><p>Edición, traducción, introducción y notas.</p></article>
+        <article><time>2019</time><h3>Fuiste el rey</h3><p>Novela.</p></article>
+        <article><time>2021</time><h3>Manipulación social en Rebelión en la Granja</h3><p>Guía crítica y didáctica.</p></article>
+        <article><time>2023</time><h3>El pensamiento narrativo</h3><p>Ensayo teórico con Miguel Herrero Herrero.</p></article>
+        <article><time>2023 / 2024</time><h3>Construyendo puentes</h3><p>Recepción de la narrativa española en Estados Unidos.</p></article>
+        <article><time>2023 / 2024</time><h3>Miguel Delibes: encuadres y figuras</h3><p>Volumen coordinado con Ana Isabel Ballesteros Dorado.</p></article>
+        <article><time>2024</time><h3>Dualidad y sentido ético en Dr. Jekyll y Mr. Hyde</h3><p>Guía reconocida como mejor obra didáctica en los Premios UNE.</p></article>
+        <article><time>2025</time><h3>María Zambrano y las escritoras del 27</h3><p>Volumen editado, atribución de ficha editorial tratada con cautela.</p></article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact section-08" aria-labelledby="contact-title">
+      <div class="section-rail" aria-hidden="true">
+        <span>08</span>
+        <i></i>
+        <small>/ 08</small>
+      </div>
+
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2 id="contact-title">Lecturas, prensa, encuentros o colaboración académica.</h2>
+        <p>Puedes escribir a Fernando Ariza en</p>
+        <a class="contact-mail" href="mailto:ferariza@ferariza.com">ferariza@ferariza.com</a>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:ferariza@ferariza.com">Escribir un mensaje <span aria-hidden="true">→</span></a>
+          <a class="button button-text" href="#inicio">Volver al inicio</a>
+        </div>
+      </div>
+
+      <div class="contact-collage reveal delay-1" aria-hidden="true">
+        <img src="assets/images/lluvia.png" alt="">
+        <div class="paper contact-paper"></div>
+        <div class="red-block"></div>
+        <p>La literatura no es solo una forma de conocimiento: es una forma de mirar el mundo.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Fernando Ariza</p>
+    <nav aria-label="Enlaces secundarios">
+      <a href="#obra">Obra</a>
+      <a href="#prensa">Prensa</a>
+      <a href="#bibliografia">Bibliografía</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </footer>
+
+  <script src="assets/site/app.js"></script>
 </body>
-
 </html>
