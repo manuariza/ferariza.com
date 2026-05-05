@@ -85,6 +85,8 @@ window.addEventListener("load", () => {
   revealVisibleItems();
   requestAnimationFrame(alignHashTarget);
   window.setTimeout(alignHashTarget, 350);
+  window.setTimeout(alignHashTarget, 1200);
+  window.setTimeout(alignHashTarget, 2200);
 });
 
 function setActiveFromScroll() {
