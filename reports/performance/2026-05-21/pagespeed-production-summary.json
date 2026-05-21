@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-05-21T11:34:26.147Z",
+  "api": "PageSpeed Insights v5",
+  "status": "unavailable",
+  "reason": "Unauthenticated PageSpeed Insights API requests returned HTTP 429 for all requested route/strategy combinations during baseline capture.",
+  "requested": [
+    {
+      "url": "https://ferariza.com/",
+      "strategy": "mobile"
+    },
+    {
+      "url": "https://ferariza.com/",
+      "strategy": "desktop"
+    },
+    {
+      "url": "https://ferariza.com/fernando.html",
+      "strategy": "mobile"
+    },
+    {
+      "url": "https://ferariza.com/fernando.html",
+      "strategy": "desktop"
+    }
+  ],
+  "fallback": "Lighthouse CLI production reports saved as lighthouse-production-*.report.json/html in this directory."
+}

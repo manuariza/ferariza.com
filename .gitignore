@@ -1,2 +1,5 @@
 .DS_Store
 docs/
+reports/performance/**/*.report.html
+reports/performance/**/*.report.json
+reports/performance/**/*.png

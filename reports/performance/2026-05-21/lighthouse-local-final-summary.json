@@ -1,0 +1,573 @@
+{
+  "generatedAt": "2026-05-21T12:13:37.561Z",
+  "summary": [
+    {
+      "route": "/",
+      "strategy": "mobile",
+      "scores": {
+        "performance": 77,
+        "accessibility": 100,
+        "bestPractices": 79,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "2.7 s",
+        "lcp": "5.1 s",
+        "cls": "0.002",
+        "tbt": "0 ms",
+        "speedIndex": "2.7 s",
+        "ttfb": "Root document took 0 ms"
+      },
+      "numericMetrics": {
+        "fcpMs": 2706.1773,
+        "lcpMs": 5139.650100000001,
+        "cls": 0.001858,
+        "tbtMs": 0,
+        "speedIndexMs": 2706.1773,
+        "ttfbMs": 0.32099999999999995
+      },
+      "lcpElement": null,
+      "opportunities": [
+        {
+          "id": "render-blocking-resources",
+          "title": "Eliminate render-blocking resources",
+          "displayValue": "Est savings of 1,920 ms",
+          "wastedMs": 1921
+        },
+        {
+          "id": "uses-text-compression",
+          "title": "Enable text compression",
+          "displayValue": "Est savings of 314 KiB",
+          "wastedMs": 1810
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "displayValue": "Est savings of 60 KiB",
+          "wastedMs": 310
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 125 KiB",
+          "wastedMs": 300
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "displayValue": "Est savings of 28 KiB",
+          "wastedMs": 150
+        }
+      ],
+      "failed": {
+        "performance": [
+          {
+            "id": "first-contentful-paint",
+            "title": "First Contentful Paint",
+            "displayValue": "2.7 s",
+            "score": 0.6
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "displayValue": "5.1 s",
+            "score": 0.24
+          },
+          {
+            "id": "speed-index",
+            "title": "Speed Index",
+            "displayValue": "2.7 s",
+            "score": 0.96
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "displayValue": "Est savings of 976 KiB",
+            "score": 0
+          },
+          {
+            "id": "document-latency-insight",
+            "title": "Document request latency",
+            "displayValue": "Est savings of 12 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "font-display-insight",
+            "title": "Font display",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "displayValue": "Est savings of 160 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render blocking requests",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "interactive",
+            "title": "Time to Interactive",
+            "displayValue": "5.2 s",
+            "score": 0.75
+          },
+          {
+            "id": "render-blocking-resources",
+            "title": "Eliminate render-blocking resources",
+            "displayValue": "Est savings of 1,920 ms",
+            "score": 0
+          }
+        ],
+        "accessibility": [],
+        "best-practices": [
+          {
+            "id": "is-on-https",
+            "title": "Does not use HTTPS",
+            "displayValue": "5 insecure requests found",
+            "score": 0
+          },
+          {
+            "id": "image-size-responsive",
+            "title": "Serves images with low resolution",
+            "displayValue": "",
+            "score": 0
+          }
+        ],
+        "seo": []
+      }
+    },
+    {
+      "route": "/",
+      "strategy": "desktop",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "bestPractices": 81,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "0.6 s",
+        "lcp": "1.2 s",
+        "cls": "0",
+        "tbt": "0 ms",
+        "speedIndex": "0.6 s",
+        "ttfb": "Root document took 0 ms"
+      },
+      "numericMetrics": {
+        "fcpMs": 570.80855,
+        "lcpMs": 1209.85105,
+        "cls": 0.000314,
+        "tbtMs": 0,
+        "speedIndexMs": 570.80855,
+        "ttfbMs": 0.39699999999999996
+      },
+      "lcpElement": null,
+      "opportunities": [
+        {
+          "id": "render-blocking-resources",
+          "title": "Eliminate render-blocking resources",
+          "displayValue": "Est savings of 360 ms",
+          "wastedMs": 358
+        },
+        {
+          "id": "uses-text-compression",
+          "title": "Enable text compression",
+          "displayValue": "Est savings of 314 KiB",
+          "wastedMs": 320
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 125 KiB",
+          "wastedMs": 60
+        }
+      ],
+      "failed": {
+        "performance": [
+          {
+            "id": "first-contentful-paint",
+            "title": "First Contentful Paint",
+            "displayValue": "0.6 s",
+            "score": 0.99
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "displayValue": "1.2 s",
+            "score": 0.89
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "displayValue": "Est savings of 976 KiB",
+            "score": 0
+          },
+          {
+            "id": "document-latency-insight",
+            "title": "Document request latency",
+            "displayValue": "Est savings of 12 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "font-display-insight",
+            "title": "Font display",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "displayValue": "Est savings of 106 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render blocking requests",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "render-blocking-resources",
+            "title": "Eliminate render-blocking resources",
+            "displayValue": "Est savings of 360 ms",
+            "score": 0
+          },
+          {
+            "id": "uses-responsive-images",
+            "title": "Properly size images",
+            "displayValue": "Est savings of 43 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "unminified-javascript",
+            "title": "Minify JavaScript",
+            "displayValue": "Est savings of 28 KiB",
+            "score": 0.5
+          }
+        ],
+        "accessibility": [],
+        "best-practices": [
+          {
+            "id": "is-on-https",
+            "title": "Does not use HTTPS",
+            "displayValue": "5 insecure requests found",
+            "score": 0
+          }
+        ],
+        "seo": []
+      }
+    },
+    {
+      "route": "/fernando.html",
+      "strategy": "mobile",
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "bestPractices": 79,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "2.1 s",
+        "lcp": "4.3 s",
+        "cls": "0",
+        "tbt": "0 ms",
+        "speedIndex": "2.1 s",
+        "ttfb": "Root document took 0 ms"
+      },
+      "numericMetrics": {
+        "fcpMs": 2107.2024,
+        "lcpMs": 4296.6071999999995,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 2107.2024,
+        "ttfbMs": 0.346
+      },
+      "lcpElement": null,
+      "opportunities": [
+        {
+          "id": "uses-text-compression",
+          "title": "Enable text compression",
+          "displayValue": "Est savings of 307 KiB",
+          "wastedMs": 1660
+        },
+        {
+          "id": "render-blocking-resources",
+          "title": "Eliminate render-blocking resources",
+          "displayValue": "Est savings of 1,340 ms",
+          "wastedMs": 1337
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 193 KiB",
+          "wastedMs": 760
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "displayValue": "Est savings of 67 KiB",
+          "wastedMs": 310
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "displayValue": "Est savings of 26 KiB",
+          "wastedMs": 160
+        }
+      ],
+      "failed": {
+        "performance": [
+          {
+            "id": "first-contentful-paint",
+            "title": "First Contentful Paint",
+            "displayValue": "2.1 s",
+            "score": 0.81
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "displayValue": "4.3 s",
+            "score": 0.42
+          },
+          {
+            "id": "speed-index",
+            "title": "Speed Index",
+            "displayValue": "2.1 s",
+            "score": 0.99
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "displayValue": "Est savings of 513 KiB",
+            "score": 0
+          },
+          {
+            "id": "document-latency-insight",
+            "title": "Document request latency",
+            "displayValue": "Est savings of 10 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "font-display-insight",
+            "title": "Font display",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "displayValue": "Est savings of 4 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render blocking requests",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "interactive",
+            "title": "Time to Interactive",
+            "displayValue": "4.3 s",
+            "score": 0.84
+          },
+          {
+            "id": "render-blocking-resources",
+            "title": "Eliminate render-blocking resources",
+            "displayValue": "Est savings of 1,340 ms",
+            "score": 0
+          }
+        ],
+        "accessibility": [],
+        "best-practices": [
+          {
+            "id": "is-on-https",
+            "title": "Does not use HTTPS",
+            "displayValue": "5 insecure requests found",
+            "score": 0
+          },
+          {
+            "id": "image-size-responsive",
+            "title": "Serves images with low resolution",
+            "displayValue": "",
+            "score": 0
+          }
+        ],
+        "seo": []
+      }
+    },
+    {
+      "route": "/fernando.html",
+      "strategy": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "bestPractices": 81,
+        "seo": 100
+      },
+      "metrics": {
+        "fcp": "0.5 s",
+        "lcp": "0.9 s",
+        "cls": "0",
+        "tbt": "0 ms",
+        "speedIndex": "0.5 s",
+        "ttfb": "Root document took 0 ms"
+      },
+      "numericMetrics": {
+        "fcpMs": 486.21645,
+        "lcpMs": 870.3607499999998,
+        "cls": 0.000016,
+        "tbtMs": 0,
+        "speedIndexMs": 486.21645,
+        "ttfbMs": 0.363
+      },
+      "lcpElement": null,
+      "opportunities": [
+        {
+          "id": "render-blocking-resources",
+          "title": "Eliminate render-blocking resources",
+          "displayValue": "Est savings of 280 ms",
+          "wastedMs": 280
+        },
+        {
+          "id": "uses-text-compression",
+          "title": "Enable text compression",
+          "displayValue": "Est savings of 307 KiB",
+          "wastedMs": 280
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 192 KiB",
+          "wastedMs": 120
+        }
+      ],
+      "failed": {
+        "performance": [
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "displayValue": "0.9 s",
+            "score": 0.97
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "displayValue": "Est savings of 513 KiB",
+            "score": 0
+          },
+          {
+            "id": "document-latency-insight",
+            "title": "Document request latency",
+            "displayValue": "Est savings of 10 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "font-display-insight",
+            "title": "Font display",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "displayValue": "Est savings of 4 KiB",
+            "score": 0.5
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render blocking requests",
+            "displayValue": "",
+            "score": 0
+          },
+          {
+            "id": "render-blocking-resources",
+            "title": "Eliminate render-blocking resources",
+            "displayValue": "Est savings of 280 ms",
+            "score": 0
+          },
+          {
+            "id": "unminified-javascript",
+            "title": "Minify JavaScript",
+            "displayValue": "Est savings of 26 KiB",
+            "score": 0
+          },
+          {
+            "id": "unused-css-rules",
+            "title": "Reduce unused CSS",
+            "displayValue": "Est savings of 67 KiB",
+            "score": 0
+          },
+          {
+            "id": "unused-javascript",
+            "title": "Reduce unused JavaScript",
+            "displayValue": "Est savings of 192 KiB",
+            "score": 0
+          }
+        ],
+        "accessibility": [],
+        "best-practices": [
+          {
+            "id": "is-on-https",
+            "title": "Does not use HTTPS",
+            "displayValue": "5 insecure requests found",
+            "score": 0
+          }
+        ],
+        "seo": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1473 @@
+[
+  {
+    "name": "lighthouse-production-fernando-desktop",
+    "target": "production",
+    "route": "/fernando.html",
+    "strategy": "desktop",
+    "finalUrl": "https://ferariza.com/fernando.html",
+    "fetchTime": "2026-05-21T11:32:25.900Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 98,
+      "accessibility": 82,
+      "bestPractices": 78,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "0.3 s",
+        "numericValue": 346.99199999999996,
+        "score": 1
+      },
+      "lcp": {
+        "displayValue": "0.7 s",
+        "numericValue": 670.792,
+        "score": 0.99
+      },
+      "cls": {
+        "displayValue": "0",
+        "numericValue": 0.000016,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "1.5 s",
+        "numericValue": 1459.0509633699664,
+        "score": 0.85
+      },
+      "ttfb": {
+        "displayValue": "Root document took 10 ms",
+        "numericValue": 10.331000000000003,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "20 ms",
+        "numericValue": 16,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "0.7 s",
+        "numericValue": 670.792,
+        "score": 1
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedMs": 83,
+        "totalBytes": 20756
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65759,
+        "totalBytes": 119266
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "https://ferariza.com/assets/styles/main.css",
+        "wastedBytes": 60418,
+        "totalBytes": 62879
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 19609,
+        "totalBytes": 20620
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "https://ferariza.com/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">",
+          "wastedBytes": 284157,
+          "totalBytes": 300993
+        }
+      ],
+      "properlySized": [],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "https://ferariza.com/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/logo.png",
+          "node": "<img class=\"navbar-logo\" src=\"assets/images/logo.png\" alt=\"Fernando Ariza\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 13.792999997735023
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 73.52499999850988
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 72.73799999803305
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 77.18899999558926
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138335,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 127160,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119622,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6059,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 1,
+        "displayValue": "Total size was 978 KiB",
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/images/fernando.png",
+            "totalBytes": 301454
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119622
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fferariza.com",
+            "totalBytes": 105859
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "totalBytes": 64714
+          },
+          {
+            "url": "https://ferariza.com/assets/styles/main.css",
+            "totalBytes": 63064
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "totalBytes": 45208
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "totalBytes": 43100
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "totalBytes": 36059
+          },
+          {
+            "url": "https://ferariza.com/assets/js/vendor/jquery-2.1.4.min.js",
+            "totalBytes": 29967
+          },
+          {
+            "url": "https://platform.twitter.com/widgets.js",
+            "totalBytes": 28119
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "0.2 s",
+        "items": [
+          {
+            "duration": 58.598999999999975,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 45.46999999999992,
+            "group": "other"
+          },
+          {
+            "duration": 29.55199999999996,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 14.248,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 13.897999999999968,
+            "group": "paintCompositeRender"
+          },
+          {
+            "duration": 8.506999999999996,
+            "group": "parseHTML"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": null,
+        "displayValue": "",
+        "items": []
+      },
+      "networkRequests": 46
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  },
+  {
+    "name": "lighthouse-production-fernando-mobile",
+    "target": "production",
+    "route": "/fernando.html",
+    "strategy": "mobile",
+    "finalUrl": "https://ferariza.com/fernando.html",
+    "fetchTime": "2026-05-21T11:32:09.382Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 61,
+      "accessibility": 82,
+      "bestPractices": 75,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "5.6 s",
+        "numericValue": 5611.184499999999,
+        "score": 0.05
+      },
+      "lcp": {
+        "displayValue": "9.0 s",
+        "numericValue": 9011.722,
+        "score": 0.01
+      },
+      "cls": {
+        "displayValue": "0",
+        "numericValue": 0,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "5.6 s",
+        "numericValue": 5611.184499999999,
+        "score": 0.53
+      },
+      "ttfb": {
+        "displayValue": "Root document took 150 ms",
+        "numericValue": 146.238,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "20 ms",
+        "numericValue": 16,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "9.0 s",
+        "numericValue": 9011.722,
+        "score": 0.34
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "https://ferariza.com/assets/js/vendor/modernizr-2.8.3.min.js",
+        "wastedMs": 151,
+        "totalBytes": 6494
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/main.css",
+        "wastedMs": 605,
+        "totalBytes": 63157
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/animate.css",
+        "wastedMs": 151,
+        "totalBytes": 4716
+      },
+      {
+        "url": "https://ferariza.com/assets/fonts/linea-font/css/linea-font.css",
+        "wastedMs": 151,
+        "totalBytes": 3427
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedMs": 302,
+        "totalBytes": 20813
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65759,
+        "totalBytes": 119266
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "https://ferariza.com/assets/styles/main.css",
+        "wastedBytes": 60422,
+        "totalBytes": 62879
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 19934,
+        "totalBytes": 20620
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "https://ferariza.com/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">",
+          "wastedBytes": 284157,
+          "totalBytes": 300993
+        }
+      ],
+      "properlySized": [],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "https://ferariza.com/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/logo.png",
+          "node": "<img class=\"navbar-logo\" src=\"assets/images/logo.png\" alt=\"Fernando Ariza\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 11.31700000166893
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 84.35300000011921
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 71.81800000369549
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 83.50499999523163
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138331,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 127160,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119622,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6059,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 1,
+        "displayValue": "Total size was 978 KiB",
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/images/fernando.png",
+            "totalBytes": 301379
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119622
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fferariza.com",
+            "totalBytes": 105858
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "totalBytes": 64667
+          },
+          {
+            "url": "https://ferariza.com/assets/styles/main.css",
+            "totalBytes": 63157
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "totalBytes": 45208
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "totalBytes": 43515
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "totalBytes": 35644
+          },
+          {
+            "url": "https://ferariza.com/assets/js/vendor/jquery-2.1.4.min.js",
+            "totalBytes": 30086
+          },
+          {
+            "url": "https://platform.twitter.com/widgets.js",
+            "totalBytes": 28118
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "0.6 s",
+        "items": [
+          {
+            "duration": 266.9760000000006,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 118.14800000000031,
+            "group": "other"
+          },
+          {
+            "duration": 92.54799999999999,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 57.83999999999998,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 39.11600000000001,
+            "group": "parseHTML"
+          },
+          {
+            "duration": 5.123999999999995,
+            "group": "paintCompositeRender"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": 1,
+        "displayValue": "0.2 s",
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/js/vendor/jquery-2.1.4.min.js"
+          },
+          {
+            "url": "Unattributable"
+          },
+          {
+            "url": "https://platform.twitter.com/widgets.js"
+          },
+          {
+            "url": "https://ferariza.com/assets/js/vendor/modernizr-2.8.3.min.js"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1"
+          }
+        ]
+      },
+      "networkRequests": 46
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "score": 0,
+          "displayValue": null,
+          "description": "Image natural dimensions should be proportional to the display size and the pixel ratio to maximize image clarity. [Learn how to provide responsive images](https://web.dev/articles/serve-responsive-images)."
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  },
+  {
+    "name": "lighthouse-production-root-desktop",
+    "target": "production",
+    "route": "/",
+    "strategy": "desktop",
+    "finalUrl": "https://ferariza.com/",
+    "fetchTime": "2026-05-21T11:31:53.457Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 71,
+      "accessibility": 70,
+      "bestPractices": 74,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "0.4 s",
+        "numericValue": 362.96399999999994,
+        "score": 1
+      },
+      "lcp": {
+        "displayValue": "5.3 s",
+        "numericValue": 5310.518999999998,
+        "score": 0.07
+      },
+      "cls": {
+        "displayValue": "0",
+        "numericValue": 0.000457,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "2.4 s",
+        "numericValue": 2361.8727031912968,
+        "score": 0.47
+      },
+      "ttfb": {
+        "displayValue": "Root document took 10 ms",
+        "numericValue": 11.824000000000012,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "20 ms",
+        "numericValue": 16,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "5.3 s",
+        "numericValue": 5310.868999999999,
+        "score": 0.36
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedMs": 81,
+        "totalBytes": 20774
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65759,
+        "totalBytes": 119266
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "https://ferariza.com/assets/styles/main.css",
+        "wastedBytes": 59028,
+        "totalBytes": 62879
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 19414,
+        "totalBytes": 20620
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "https://ferariza.com/assets/images/lluvia.png",
+          "node": "<div class=\"fw-slider-item fw-slide-2 slick-slide slick-active\" style=\"background: url(&quot;assets/images/lluvia.png&quot;); width: 1350px;\" data-slick-index=\"0\" aria-hidden=\"false\">",
+          "wastedBytes": 2054682,
+          "totalBytes": 2318573
+        },
+        {
+          "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 1379673.9,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 1276119.5,
+          "totalBytes": 1410726
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida-background.png",
+          "node": "<div class=\"fw-slider-item fw-slide-1 slick-slide\" style=\"background: url(&quot;assets/images/ciudad-dormida-background.png&quot;);\" data-slick-index=\"1\" aria-hidden=\"true\">",
+          "wastedBytes": 884280.2,
+          "totalBytes": 972093
+        },
+        {
+          "url": "https://ferariza.com/assets/images/tamburri.png",
+          "node": "<img src=\"assets/images/tamburri.png\" alt=\"Testimonial\">",
+          "wastedBytes": 12599.8,
+          "totalBytes": 14756
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ballesteros.png",
+          "node": "<img src=\"assets/images/ballesteros.png\" alt=\"Testimonial\">",
+          "wastedBytes": 11757.55,
+          "totalBytes": 13661
+        },
+        {
+          "url": "https://ferariza.com/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">",
+          "wastedBytes": 9397.35,
+          "totalBytes": 11287
+        },
+        {
+          "url": "https://ferariza.com/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">",
+          "wastedBytes": 8631.15,
+          "totalBytes": 9791
+        }
+      ],
+      "properlySized": [
+        {
+          "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 839555,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 806926,
+          "totalBytes": 1410726
+        }
+      ],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/aceprensa.png",
+          "node": "<img src=\"assets/images/aceprensa.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/artes-hoy.png",
+          "node": "<img src=\"assets/images/artes-hoy.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ediciones-del-serbal.png",
+          "node": "<img src=\"assets/images/ediciones-del-serbal.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/nueva-revista.png",
+          "node": "<img src=\"assets/images/nueva-revista.png\" alt=\"Client\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/fonts/linea-font/fonts/linea-icon-font.woff",
+            "wastedMs": 59.10099999606609
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/et-lineicons/fonts/icomoon.woff?-3gtgps",
+            "wastedMs": 58.87000000476837
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 59.56300000101328
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 71.80099999904633
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 72.1000000089407
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 72.043999992311
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138313,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 127160,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119622,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6059,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 0.5,
+        "displayValue": "Total size was 6,879 KiB",
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/images/lluvia.png",
+            "totalBytes": 2320007
+          },
+          {
+            "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+            "totalBytes": 1468930
+          },
+          {
+            "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+            "totalBytes": 1411733
+          },
+          {
+            "url": "https://ferariza.com/assets/images/ciudad-dormida-background.png",
+            "totalBytes": 972875
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119622
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fferariza.com",
+            "totalBytes": 105859
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "totalBytes": 64777
+          },
+          {
+            "url": "https://ferariza.com/assets/styles/main.css",
+            "totalBytes": 63023
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/et-lineicons/fonts/icomoon.woff?-3gtgps",
+            "totalBytes": 47114
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "totalBytes": 45208
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "0.3 s",
+        "items": [
+          {
+            "duration": 106.10100000000146,
+            "group": "other"
+          },
+          {
+            "duration": 73.77599999999998,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 52.43900000000002,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 27.64500000000029,
+            "group": "paintCompositeRender"
+          },
+          {
+            "duration": 16.244999999999994,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 10.389000000000001,
+            "group": "parseHTML"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": 1,
+        "displayValue": "0.0 s",
+        "items": [
+          {
+            "url": "https://ferariza.com/"
+          }
+        ]
+      },
+      "networkRequests": 62
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name)."
+        },
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "score": 0,
+          "displayValue": null,
+          "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list)."
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "score": 0,
+          "displayValue": null,
+          "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  },
+  {
+    "name": "lighthouse-production-root-mobile",
+    "target": "production",
+    "route": "/",
+    "strategy": "mobile",
+    "finalUrl": "https://ferariza.com/",
+    "fetchTime": "2026-05-21T11:31:34.995Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 57,
+      "accessibility": 70,
+      "bestPractices": 71,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "5.2 s",
+        "numericValue": 5181.188,
+        "score": 0.08
+      },
+      "lcp": {
+        "displayValue": "21.8 s",
+        "numericValue": 21814.59550000001,
+        "score": 0
+      },
+      "cls": {
+        "displayValue": "0",
+        "numericValue": 0,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "8.8 s",
+        "numericValue": 8778.106987854697,
+        "score": 0.16
+      },
+      "ttfb": {
+        "displayValue": "Root document took 230 ms",
+        "numericValue": 231.13399999999996,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "40 ms",
+        "numericValue": 40,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "21.8 s",
+        "numericValue": 21844.932100000013,
+        "score": 0.01
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedMs": 311,
+        "totalBytes": 20780
+      },
+      {
+        "url": "https://ferariza.com/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedMs": 156,
+        "totalBytes": 6285
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/main.css",
+        "wastedMs": 622,
+        "totalBytes": 63038
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65719,
+        "totalBytes": 119266
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "https://ferariza.com/assets/styles/main.css",
+        "wastedBytes": 59102,
+        "totalBytes": 62879
+      },
+      {
+        "url": "https://ferariza.com/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 19709,
+        "totalBytes": 20620
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "https://ferariza.com/assets/images/lluvia.png",
+          "node": "<div class=\"fw-slider-item fw-slide-2 slick-slide\" style=\"background: url(&quot;assets/images/lluvia.png&quot;); width: 412px;\" data-slick-index=\"0\" aria-hidden=\"true\">",
+          "wastedBytes": 2054682,
+          "totalBytes": 2318573
+        },
+        {
+          "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 1379673.9,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 1276119.5,
+          "totalBytes": 1410726
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida-background.png",
+          "node": "<div class=\"fw-slider-item fw-slide-1 slick-slide slick-active\" style=\"background: url(&quot;assets/images/ciudad-dormida-background.png&quot;);\" data-slick-index=\"1\" aria-hidden=\"false\">",
+          "wastedBytes": 884280.2,
+          "totalBytes": 972093
+        },
+        {
+          "url": "https://ferariza.com/assets/images/tamburri.png",
+          "node": "<img src=\"assets/images/tamburri.png\" alt=\"Testimonial\">",
+          "wastedBytes": 12599.8,
+          "totalBytes": 14756
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ballesteros.png",
+          "node": "<img src=\"assets/images/ballesteros.png\" alt=\"Testimonial\">",
+          "wastedBytes": 11757.55,
+          "totalBytes": 13661
+        },
+        {
+          "url": "https://ferariza.com/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">",
+          "wastedBytes": 9397.35,
+          "totalBytes": 11287
+        },
+        {
+          "url": "https://ferariza.com/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">",
+          "wastedBytes": 8631.15,
+          "totalBytes": 9791
+        }
+      ],
+      "properlySized": [
+        {
+          "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 751079,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 721888,
+          "totalBytes": 1410726
+        }
+      ],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/ediciones-del-serbal.png",
+          "node": "<img src=\"assets/images/ediciones-del-serbal.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/nueva-revista.png",
+          "node": "<img src=\"assets/images/nueva-revista.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/aceprensa.png",
+          "node": "<img src=\"assets/images/aceprensa.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/artes-hoy.png",
+          "node": "<img src=\"assets/images/artes-hoy.png\" alt=\"Client\">"
+        },
+        {
+          "url": "https://ferariza.com/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/fonts/linea-font/fonts/linea-icon-font.woff",
+            "wastedMs": 185.11500000208616
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/et-lineicons/fonts/icomoon.woff?-3gtgps",
+            "wastedMs": 185.25300000607967
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 186.26699999719858
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 61.04500000178814
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 63.01500000059605
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 70.32000000029802
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138313,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 127160,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119622,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6059,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 0.5,
+        "displayValue": "Total size was 6,879 KiB",
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/images/lluvia.png",
+            "totalBytes": 2319989
+          },
+          {
+            "url": "https://ferariza.com/assets/images/fuiste-el-rey.png",
+            "totalBytes": 1468908
+          },
+          {
+            "url": "https://ferariza.com/assets/images/ciudad-dormida.png",
+            "totalBytes": 1411754
+          },
+          {
+            "url": "https://ferariza.com/assets/images/ciudad-dormida-background.png",
+            "totalBytes": 972771
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119622
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fferariza.com",
+            "totalBytes": 105859
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "totalBytes": 64726
+          },
+          {
+            "url": "https://ferariza.com/assets/styles/main.css",
+            "totalBytes": 63038
+          },
+          {
+            "url": "https://ferariza.com/assets/fonts/et-lineicons/fonts/icomoon.woff?-3gtgps",
+            "totalBytes": 47199
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "totalBytes": 45208
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "0.8 s",
+        "items": [
+          {
+            "duration": 321.8160000000019,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 234.1319999999992,
+            "group": "other"
+          },
+          {
+            "duration": 153.31599999999997,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 58.251999999999995,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 39.22399999999999,
+            "group": "parseHTML"
+          },
+          {
+            "duration": 21.507999999999992,
+            "group": "paintCompositeRender"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": 1,
+        "displayValue": "0.3 s",
+        "items": [
+          {
+            "url": "https://ferariza.com/assets/js/vendor/jquery-2.1.4.min.js"
+          },
+          {
+            "url": "https://ferariza.com/"
+          },
+          {
+            "url": "Unattributable"
+          },
+          {
+            "url": "https://ferariza.com/assets/js/vendor/modernizr-2.8.3.min.js"
+          },
+          {
+            "url": "https://platform.twitter.com/widgets.js"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1"
+          }
+        ]
+      },
+      "networkRequests": 62
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name)."
+        },
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "score": 0,
+          "displayValue": null,
+          "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list)."
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "score": 0,
+          "displayValue": null,
+          "description": "Image natural dimensions should be proportional to the display size and the pixel ratio to maximize image clarity. [Learn how to provide responsive images](https://web.dev/articles/serve-responsive-images)."
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "score": 0,
+          "displayValue": null,
+          "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  }
+]

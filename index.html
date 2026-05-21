@@ -1,51 +1,66 @@
 <!doctype html>
-<html class="no-js" lang="es">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Fernando Ariza</title>
-  <meta name="description" content="Sitio oficial de Fernando Ariza: obra literaria, biografía, reseñas y contacto.">
+  <title>Fernando Ariza | Escritor, profesor e investigador literario</title>
+  <meta name="description" content="Sitio oficial de Fernando Ariza: escritor, profesor universitario e investigador literario. Obra, biografía, reseñas y contacto.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#111111">
+  <link rel="canonical" href="https://ferariza.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Fernando Ariza">
+  <meta property="og:title" content="Fernando Ariza | Escritor, profesor e investigador literario">
+  <meta property="og:description" content="Obra literaria, biografía, reseñas y contacto de Fernando Ariza.">
+  <meta property="og:url" content="https://ferariza.com/">
+  <meta property="og:image" content="https://ferariza.com/assets/images/fernando.png">
+  <meta property="og:image:width" content="360">
+  <meta property="og:image:height" content="440">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fernando Ariza | Escritor, profesor e investigador literario">
+  <meta name="twitter:description" content="Obra literaria, biografía, reseñas y contacto de Fernando Ariza.">
+  <meta name="twitter:image" content="https://ferariza.com/assets/images/fernando.png">
+  <meta name="twitter:site" content="@ferariza_">
+  <meta name="twitter:creator" content="@ferariza_">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="preload" as="image" href="assets/images/lluvia-hero-1080.webp" type="image/webp" imagesrcset="assets/images/lluvia-hero-720.webp 720w, assets/images/lluvia-hero-1080.webp 1080w, assets/images/lluvia-hero.webp 1477w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,800italic,400,300,600,700,800%7CMontserrat:400,700&amp;display=optional" media="print" onload="this.media='all'">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css">
   <!-- Fonts -->
-  <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
-  <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
-  <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css" media="print" onload="this.media='all'">
   <!-- Slider -->
   <link rel="stylesheet" href="assets/styles/vendor/slick.css">
   <!-- Lightbox -->
-  <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css">
+  <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css" media="print" onload="this.media='all'">
   <!-- Animate.css -->
-  <link rel="stylesheet" href="assets/styles/vendor/animate.css">
+  <link rel="stylesheet" href="assets/styles/vendor/animate.css" media="print" onload="this.media='all'">
 
 
   <!-- Site CSS -->
   <link rel="stylesheet" href="assets/styles/main.css">
   <link rel="stylesheet" href="assets/styles/responsive.css">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,800italic,400,300,600,700,800%7CMontserrat:400,700&amp;display=optional">
+    <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/styles/vendor/animate.css">
+  </noscript>
 
-  <!-- JS -->
-  <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
-  <!-- Custom Twitter -->
-  <script>
-    var widgetCSS = "" +
-      "#twitter-widget-0{width: 100% !important;}" +
-      ".timeline-Tweet-text{font-size:12px !important;}";
-
-    function customTwitter() {
-      var w = document.getElementById("twitter-widget-0").contentDocument;
-
-      var s = document.createElement("style");
-      s.innerHTML = widgetCSS;
-      s.type = "text/css";
-      w.head.appendChild(s);
-    }
-  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152728016-1"></script>
   <script>
@@ -55,9 +70,60 @@
 
     gtag('config', 'UA-152728016-1');
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://ferariza.com/#person",
+        "name": "Fernando Ariza",
+        "url": "https://ferariza.com/",
+        "image": "https://ferariza.com/assets/images/fernando.png",
+        "email": "mailto:ferariza@ferariza.com",
+        "jobTitle": ["Escritor", "Profesor universitario", "Investigador literario"],
+        "birthPlace": "Madrid, España",
+        "sameAs": [
+          "https://twitter.com/ferariza_",
+          "https://www.linkedin.com/in/fernando-ariza-075b2959/"
+        ],
+        "knowsAbout": [
+          "literatura española",
+          "narrativa española contemporánea",
+          "crítica literaria",
+          "investigación literaria"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://ferariza.com/#website",
+        "url": "https://ferariza.com/",
+        "name": "Fernando Ariza",
+        "inLanguage": "es",
+        "publisher": {"@id": "https://ferariza.com/#person"}
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://ferariza.com/#webpage",
+        "url": "https://ferariza.com/",
+        "name": "Fernando Ariza | Escritor, profesor e investigador literario",
+        "description": "Sitio oficial de Fernando Ariza: escritor, profesor universitario e investigador literario. Obra, biografía, reseñas y contacto.",
+        "isPartOf": {"@id": "https://ferariza.com/#website"},
+        "about": {"@id": "https://ferariza.com/#person"},
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://ferariza.com/assets/images/fernando.png",
+          "width": 360,
+          "height": 440
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar" onload="customTwitter();">
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+  <a class="sr-only sr-only-focusable skip-link" href="#main">Saltar al contenido</a>
 
   <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -65,12 +131,6 @@
 
 
   <!-- ========== Preloader ========== -->
-
-  <div class="preloader">
-    <img src="assets/images/loader.svg" alt="Loading...">
-  </div>
-
-
 
   <!-- ========== Navigation ========== -->
 
@@ -84,8 +144,8 @@
         <span class="icon-bar"></span>
       </button>
       <!-- Logo -->
-      <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/logo.png"
-          alt="Fernando Ariza"></a>
+      <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/logo.png" srcset="assets/images/logo.png 1x, assets/images/logo-2x.png 2x"
+          alt="Fernando Ariza" width="150" height="30"></a>
     </div>
 
     <!-- Navbar Links -->
@@ -102,6 +162,7 @@
   </nav><!-- / .navbar -->
 
 
+  <main id="main" tabindex="-1">
 
   <!-- ========== Hero Cover ========== -->
 
@@ -109,7 +170,11 @@
     <div class="fw-slider">
 
       <!-- Slide 2 -->
-      <div class="fw-slider-item fw-slide-2" style="background: url(assets/images/lluvia.png);">
+      <div class="fw-slider-item fw-slide-2">
+        <picture class="hero-bg-media" aria-hidden="true">
+          <source srcset="assets/images/lluvia-hero-720.webp 720w, assets/images/lluvia-hero-1080.webp 1080w, assets/images/lluvia-hero.webp 1477w" sizes="100vw" type="image/webp">
+          <img src="assets/images/lluvia.png" alt="" width="1477" height="1072" loading="eager" fetchpriority="high" decoding="sync">
+        </picture>
         <div class="bg-overlay">
 
           <!-- Hero Content -->
@@ -117,7 +182,7 @@
             <div class="hero-content">
 
               <h1 class="hero-lead">Fuiste el rey</h1>
-              <h4 class="h-alt hero-subheading">TODOS HEMOS PASADO MALOS MOMENTOS</h4>
+              <p class="h-alt hero-subheading">TODOS HEMOS PASADO MALOS MOMENTOS</p>
 
               <a href="#portfolio" class="btn-light">Más información</a>
 
@@ -129,7 +194,7 @@
 
 
       <!-- Slide 1 -->
-      <div class="fw-slider-item fw-slide-1" style="background: url(assets/images/ciudad-dormida-background.png);">
+      <div class="fw-slider-item fw-slide-1" style="background-image: url('assets/images/ciudad-dormida-background.png'); background-image: image-set(url('assets/images/ciudad-dormida-background-hero.webp') type('image/webp'), url('assets/images/ciudad-dormida-background.png') type('image/png'));">
         <div class="bg-overlay">
 
           <!-- Hero Content -->
@@ -137,8 +202,8 @@
             <div class="hero-content">
 
               <h1 class="hero-lead wow fadeInUp" data-wow-duration="2s">Ciudad dormida</h1>
-              <h4 class="h-alt hero-subheading wow fadeIn" data-wow-delay=".5s" data-wow-duration="1.5s">Una novela
-                victoriana</h4>
+              <p class="h-alt hero-subheading wow fadeIn" data-wow-delay=".5s" data-wow-duration="1.5s">Una novela
+                victoriana</p>
               <a href="#portfolio" class="btn btn-light wow fadeIn" data-wow-delay=".7s"
                 data-wow-duration="2s">Más información</a>
 
@@ -168,14 +233,17 @@
         <!-- Item 1 -->
         <div class="col-md-6 portfolio-item hover-side novela">
           <figure>
-            <img src="assets/images/fuiste-el-rey.png" alt="Cubierta de Fuiste el rey">
+            <picture>
+              <source type="image/webp" srcset="assets/images/fuiste-el-rey-520.webp 520w, assets/images/fuiste-el-rey-800.webp 800w, assets/images/fuiste-el-rey.webp 1032w" sizes="(min-width: 992px) 50vw, 100vw">
+              <img src="assets/images/fuiste-el-rey.png" alt="Cubierta de Fuiste el rey" width="1032" height="1600" loading="lazy" decoding="async">
+            </picture>
             <figcaption>
-              <h5 class="hover-heading">Fuiste el rey</h5>
+              <h3 class="hover-heading">Fuiste el rey</h3>
               <p class="hover-text">Todos hemos pasado malos momentos.</p>
-              <a href="assets/images/fuiste-el-rey.png" class="hover-more-btn open-gallery"><span class="linea-arrows-expand"></span></a>
+              <a href="assets/images/fuiste-el-rey.png" class="hover-more-btn open-gallery" aria-label="Ampliar cubierta de Fuiste el rey"><span class="linea-arrows-expand" aria-hidden="true"></span></a>
               <ul class="hover-btns">
-                <li><a href="assets/images/fuiste-el-rey.png" class="open-gallery"><span
-                      class="linea-arrows-expand"></span></a></li>
+                <li><a href="assets/images/fuiste-el-rey.png" class="open-gallery" aria-label="Abrir imagen de Fuiste el rey"><span
+                      class="linea-arrows-expand" aria-hidden="true"></span></a></li>
               </ul>
             </figcaption>
           </figure>
@@ -184,14 +252,17 @@
         <!-- Item 2 -->
         <div class="col-md-6 portfolio-item hover-side novela">
           <figure>
-            <img src="assets/images/ciudad-dormida.png" alt="Cubierta de Ciudad dormida">
+            <picture>
+              <source type="image/webp" srcset="assets/images/ciudad-dormida-520.webp 520w, assets/images/ciudad-dormida-800.webp 800w, assets/images/ciudad-dormida.webp 1032w" sizes="(min-width: 992px) 50vw, 100vw">
+              <img src="assets/images/ciudad-dormida.png" alt="Cubierta de Ciudad dormida" width="1032" height="1600" loading="lazy" decoding="async">
+            </picture>
             <figcaption>
-              <h5 class="hover-heading">Ciudad dormida</h5>
+              <h3 class="hover-heading">Ciudad dormida</h3>
               <p class="hover-text">Un cóctel diferente.</p>
-              <a href="assets/images/ciudad-dormida.png" class="hover-more-btn open-gallery"><span class="linea-arrows-expand"></span></a>
+              <a href="assets/images/ciudad-dormida.png" class="hover-more-btn open-gallery" aria-label="Ampliar cubierta de Ciudad dormida"><span class="linea-arrows-expand" aria-hidden="true"></span></a>
               <ul class="hover-btns">
-                <li><a href="assets/images/ciudad-dormida.png" class="open-gallery"><span
-                      class="linea-arrows-expand"></span></a></li>
+                <li><a href="assets/images/ciudad-dormida.png" class="open-gallery" aria-label="Abrir imagen de Ciudad dormida"><span
+                      class="linea-arrows-expand" aria-hidden="true"></span></a></li>
               </ul>
             </figcaption>
           </figure>
@@ -217,7 +288,7 @@
         <!-- Item 1 -->
         <div class="col-md-4 mb-sm-50">
           <div class="t-item wow fadeIn" data-wow-duration="1s">
-            <img src="assets/images/recaredo-veredas.png" alt="Testimonial">
+            <img src="assets/images/recaredo-veredas.png" alt="Recaredo Veredas" width="75" height="75" loading="lazy" decoding="async">
             <blockquote>
               <p>Una novela que nos atañe a todos, porque todos hemos pasado malos momentos y hemos peleado para
                 superarlos. Una novela compasiva, pero no complaciente que, además, cuenta con una escritura espléndida
@@ -233,7 +304,7 @@
         <!-- Item 2 -->
         <div class="col-md-4 mb-sm-50">
           <div class="t-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-            <img src="assets/images/tamburri.png" alt="Testimonial">
+            <img src="assets/images/tamburri.png" alt="Pascual Tamburri Bariain" width="75" height="75" loading="lazy" decoding="async">
             <blockquote>
               <p>Hubo un tiempo en el que escribir era elegante y leer imprescindible. Parecemos estar en un tiempo en
                 el que ambas cosas han dejado de ser verdad; pero Ariza demuestra que la batalla no está perdida y que
@@ -249,7 +320,7 @@
         <!-- Item 3 -->
         <div class="col-md-4">
           <div class="t-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
-            <img src="assets/images/ballesteros.png" alt="Testimonial">
+            <img src="assets/images/ballesteros.png" alt="Ana Isabel Ballesteros" width="75" height="75" loading="lazy" decoding="async">
             <blockquote>
               <p>Novela planteada conforme a criterios de hibridismo de géneros, de personajes, de temas. Un cóctel
                 diferente.</p>
@@ -265,14 +336,14 @@
 
       <!-- Client Slider -->
       <div class="row">
-        <ul class="t-clients clients-slider ws-m">
-          <li><a href="#"><img src="assets/images/nueva-revista.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/aceprensa.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/el-semanal-digital.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/artes-hoy.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/tres-hermanas.png" alt="Client"></a></li>
-          <li><a href="#"><img src="assets/images/ediciones-del-serbal.png" alt="Client"></a></li>
-        </ul><!-- / .t-clients -->
+        <div class="t-clients clients-slider ws-m" aria-label="Medios y editoriales relacionadas">
+          <div class="client-logo"><img src="assets/images/nueva-revista.png" alt="Nueva Revista" width="125" height="100" loading="lazy" decoding="async"></div>
+          <div class="client-logo"><img src="assets/images/aceprensa.png" alt="Aceprensa" width="125" height="100" loading="lazy" decoding="async"></div>
+          <div class="client-logo"><img src="assets/images/el-semanal-digital.png" alt="El Semanal Digital" width="125" height="100" loading="lazy" decoding="async"></div>
+          <div class="client-logo"><img src="assets/images/artes-hoy.png" alt="Artes Hoy" width="125" height="100" loading="lazy" decoding="async"></div>
+          <div class="client-logo"><img src="assets/images/tres-hermanas.png" alt="Tres Hermanas" width="125" height="100" loading="lazy" decoding="async"></div>
+          <div class="client-logo"><img src="assets/images/ediciones-del-serbal.png" alt="Ediciones del Serbal" width="125" height="100" loading="lazy" decoding="async"></div>
+        </div><!-- / .t-clients -->
       </div><!-- / .row -->
 
     </section><!-- / .container -->
@@ -286,9 +357,11 @@
 
     <header class="sec-heading">
       <h2>Contacto</h2>
-      <span class="subheading">Puedes ponerte en contacto en ferariza @ ferariza.com</span>
+      <span class="subheading">Puedes ponerte en contacto en <a href="mailto:ferariza@ferariza.com">ferariza@ferariza.com</a></span>
     </header>
   </section><!-- / .contact-1 -->
+
+  </main>
 
 
 
@@ -301,14 +374,14 @@
         <!-- About Us -->
         <div class="col-md-3 col-sm-6 mb-sm-100">
           <div class="widget about-widget">
-            <h5 class="header-widget">Acerca de</h5>
+            <h2 class="header-widget">Acerca de</h2>
             <p>Fernando Ariza combina la docencia y la investigación universitarias con la escritura de ficción. Además
               de varios ensayos literarios y artículos en revistas especializadas, publicó en 2014 la novela Ciudad
               dormida.</p>
 
             <ul class="social-links">
-              <li><a href="https://twitter.com/@ferariza_"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/fernando-ariza-075b2959/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://twitter.com/ferariza_" aria-label="Fernando Ariza en X/Twitter" rel="me noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/fernando-ariza-075b2959/" aria-label="Fernando Ariza en LinkedIn" rel="me noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
           </div><!-- / .widget -->
         </div><!-- / .col-md-3 -->
@@ -316,12 +389,8 @@
         <!-- Twitter Feed -->
         <div class="col-md-9 col-sm-6 mb-sm-100">
           <div class="widget twitter-widget">
-            <h5 class="header-widget">Twitter </h5>
-            <a class="twitter-timeline" data-height="180" data-theme="dark"
-              href="https://twitter.com/ferariza_?ref_src=twsrc%5Etfw"
-              data-chrome="noheader nofooter noborders transparent">
-            </a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <h2 class="header-widget">Twitter</h2>
+            <p><a class="twitter-profile-link" href="https://twitter.com/ferariza_" rel="me noopener" target="_blank">Ver publicaciones de Fernando Ariza en X/Twitter</a></p>
           </div>
         </div>
       </div><!-- / .row -->
@@ -351,7 +420,6 @@
   <!-- ========== Scripts ========== -->
 
   <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-  <script src="assets/js/vendor/google-fonts.js"></script>
   <script src="assets/js/vendor/jquery.easing.js"></script>
   <script src="assets/js/vendor/jquery.waypoints.min.js"></script>
   <script src="assets/js/vendor/bootstrap.min.js"></script>

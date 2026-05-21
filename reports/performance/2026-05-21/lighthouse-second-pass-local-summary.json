@@ -1,0 +1,150 @@
+[
+  {
+    "route": "/",
+    "device": "mobile",
+    "baseline": {
+      "perf": 57,
+      "a11y": 70,
+      "bp": 54,
+      "seo": 100,
+      "fcp": "7.1 s",
+      "lcp": "42.2 s",
+      "si": "8.3 s",
+      "tbt": "0 ms",
+      "cls": "0.002"
+    },
+    "firstPass": {
+      "perf": 77,
+      "a11y": 100,
+      "bp": 79,
+      "seo": 100,
+      "fcp": "2.7 s",
+      "lcp": "5.1 s",
+      "si": "2.7 s",
+      "tbt": "0 ms",
+      "cls": "0.002"
+    },
+    "secondPass": {
+      "perf": 80,
+      "a11y": 100,
+      "bp": 100,
+      "seo": 100,
+      "fcp": "1.7 s",
+      "lcp": "5.3 s",
+      "si": "1.7 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    }
+  },
+  {
+    "route": "/",
+    "device": "desktop",
+    "baseline": {
+      "perf": 68,
+      "a11y": 70,
+      "bp": 56,
+      "seo": 100,
+      "fcp": "1.2 s",
+      "lcp": "7.1 s",
+      "si": "2.1 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    },
+    "firstPass": {
+      "perf": 97,
+      "a11y": 100,
+      "bp": 81,
+      "seo": 100,
+      "fcp": "0.6 s",
+      "lcp": "1.2 s",
+      "si": "0.6 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    },
+    "secondPass": {
+      "perf": 97,
+      "a11y": 100,
+      "bp": 100,
+      "seo": 100,
+      "fcp": "0.4 s",
+      "lcp": "1.3 s",
+      "si": "0.4 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    }
+  },
+  {
+    "route": "/fernando.html",
+    "device": "mobile",
+    "baseline": {
+      "perf": 59,
+      "a11y": 82,
+      "bp": 57,
+      "seo": 100,
+      "fcp": "6.5 s",
+      "lcp": "10.4 s",
+      "si": "6.5 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    },
+    "firstPass": {
+      "perf": 84,
+      "a11y": 100,
+      "bp": 79,
+      "seo": 100,
+      "fcp": "2.1 s",
+      "lcp": "4.3 s",
+      "si": "2.1 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    },
+    "secondPass": {
+      "perf": 91,
+      "a11y": 100,
+      "bp": 100,
+      "seo": 100,
+      "fcp": "1.4 s",
+      "lcp": "3.5 s",
+      "si": "1.4 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    }
+  },
+  {
+    "route": "/fernando.html",
+    "device": "desktop",
+    "baseline": {
+      "perf": 88,
+      "a11y": 82,
+      "bp": 59,
+      "seo": 100,
+      "fcp": "1.2 s",
+      "lcp": "1.9 s",
+      "si": "1.5 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    },
+    "firstPass": {
+      "perf": 99,
+      "a11y": 100,
+      "bp": 81,
+      "seo": 100,
+      "fcp": "0.5 s",
+      "lcp": "0.9 s",
+      "si": "0.5 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    },
+    "secondPass": {
+      "perf": 100,
+      "a11y": 100,
+      "bp": 100,
+      "seo": 100,
+      "fcp": "0.3 s",
+      "lcp": "0.7 s",
+      "si": "0.7 s",
+      "tbt": "0 ms",
+      "cls": "0"
+    }
+  }
+]

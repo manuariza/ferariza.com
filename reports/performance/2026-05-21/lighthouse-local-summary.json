@@ -1,0 +1,1754 @@
+[
+  {
+    "name": "lighthouse-local-fernando-desktop",
+    "target": "local",
+    "route": "/fernando.html",
+    "strategy": "desktop",
+    "finalUrl": "http://127.0.0.1:4173/fernando.html",
+    "fetchTime": "2026-05-21T11:33:26.665Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 88,
+      "accessibility": 82,
+      "bestPractices": 59,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "1.2 s",
+        "numericValue": 1170.8243,
+        "score": 0.77
+      },
+      "lcp": {
+        "displayValue": "1.9 s",
+        "numericValue": 1850.8242999999998,
+        "score": 0.68
+      },
+      "cls": {
+        "displayValue": "0",
+        "numericValue": 0.000016,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "1.5 s",
+        "numericValue": 1537.7001098096757,
+        "score": 0.82
+      },
+      "ttfb": {
+        "displayValue": "Root document took 0 ms",
+        "numericValue": 0.42299999999999993,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "20 ms",
+        "numericValue": 16,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "1.9 s",
+        "numericValue": 1850.8242999999998,
+        "score": 0.97
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/modernizr-2.8.3.min.js",
+        "wastedMs": 124,
+        "totalBytes": 15708
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedMs": 924,
+        "totalBytes": 690362
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedMs": 164,
+        "totalBytes": 27124
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/magnific-popup.css",
+        "wastedMs": 124,
+        "totalBytes": 7974
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedMs": 364,
+        "totalBytes": 71276
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+        "wastedMs": 564,
+        "totalBytes": 123809
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/slick.css",
+        "wastedMs": 84,
+        "totalBytes": 1904
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedMs": 204,
+        "totalBytes": 26898
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65757,
+        "totalBytes": 119263
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+        "wastedBytes": 39024,
+        "totalBytes": 84345
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/slick.min.js",
+        "wastedBytes": 33935,
+        "totalBytes": 36927
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/bootstrap.min.js",
+        "wastedBytes": 28803,
+        "totalBytes": 36816
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/isotope.min.js",
+        "wastedBytes": 25598,
+        "totalBytes": 40863
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedBytes": 663166,
+        "totalBytes": 690174
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 117560,
+        "totalBytes": 123621
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedBytes": 71089,
+        "totalBytes": 71089
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedBytes": 26937,
+        "totalBytes": 26937
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedBytes": 26403,
+        "totalBytes": 26711
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/linea-font/css/linea-font.css",
+        "wastedBytes": 22408,
+        "totalBytes": 22408
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">",
+          "wastedBytes": 284157,
+          "totalBytes": 300993
+        }
+      ],
+      "properlySized": [],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/logo.png",
+          "node": "<img class=\"navbar-logo\" src=\"assets/images/logo.png\" alt=\"Fernando Ariza\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 7.590999990701675
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 45.52799999713898
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 52.61999999731779
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 45.40500000864267
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138334,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 128829,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119618,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6347,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 1,
+        "displayValue": "Total size was 2,064 KiB",
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/main.css",
+            "totalBytes": 690362
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/fernando.png",
+            "totalBytes": 301182
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+            "totalBytes": 123809
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119618
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=http%3A%2F%2F127.0.0.1%3A4173",
+            "totalBytes": 105859
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+            "totalBytes": 84539
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+            "totalBytes": 71276
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "totalBytes": 64653
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "totalBytes": 45832
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "totalBytes": 43724
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "0.2 s",
+        "items": [
+          {
+            "duration": 60.05899999999997,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 44.85399999999995,
+            "group": "other"
+          },
+          {
+            "duration": 30.299999999999972,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 14.664999999999996,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 14.160999999999962,
+            "group": "paintCompositeRender"
+          },
+          {
+            "duration": 8.991999999999996,
+            "group": "parseHTML"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": null,
+        "displayValue": "",
+        "items": []
+      },
+      "networkRequests": 46
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "is-on-https",
+          "title": "Does not use HTTPS",
+          "score": 0,
+          "displayValue": "5 insecure requests found",
+          "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/)."
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  },
+  {
+    "name": "lighthouse-local-fernando-mobile",
+    "target": "local",
+    "route": "/fernando.html",
+    "strategy": "mobile",
+    "finalUrl": "http://127.0.0.1:4173/fernando.html",
+    "fetchTime": "2026-05-21T11:33:13.159Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 59,
+      "accessibility": 82,
+      "bestPractices": 57,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "6.5 s",
+        "numericValue": 6462.851550000001,
+        "score": 0.02
+      },
+      "lcp": {
+        "displayValue": "10.4 s",
+        "numericValue": 10362.85155,
+        "score": 0
+      },
+      "cls": {
+        "displayValue": "0",
+        "numericValue": 0,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "6.5 s",
+        "numericValue": 6462.851550000001,
+        "score": 0.39
+      },
+      "ttfb": {
+        "displayValue": "Root document took 0 ms",
+        "numericValue": 0.6220000000000001,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "40 ms",
+        "numericValue": 41,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "10.4 s",
+        "numericValue": 10362.85155,
+        "score": 0.24
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedMs": 5404,
+        "totalBytes": 690362
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/modernizr-2.8.3.min.js",
+        "wastedMs": 604,
+        "totalBytes": 15708
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedMs": 1054,
+        "totalBytes": 27124
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedMs": 2104,
+        "totalBytes": 71276
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedMs": 1204,
+        "totalBytes": 26898
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/magnific-popup.css",
+        "wastedMs": 454,
+        "totalBytes": 7974
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/slick.css",
+        "wastedMs": 304,
+        "totalBytes": 1904
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/linea-font/css/linea-font.css",
+        "wastedMs": 1054,
+        "totalBytes": 22595
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65853,
+        "totalBytes": 119403
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+        "wastedBytes": 40139,
+        "totalBytes": 84345
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/slick.min.js",
+        "wastedBytes": 33935,
+        "totalBytes": 36927
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/bootstrap.min.js",
+        "wastedBytes": 28803,
+        "totalBytes": 36816
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/isotope.min.js",
+        "wastedBytes": 25598,
+        "totalBytes": 40863
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedBytes": 663209,
+        "totalBytes": 690174
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 119509,
+        "totalBytes": 123621
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedBytes": 71089,
+        "totalBytes": 71089
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedBytes": 26403,
+        "totalBytes": 26711
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedBytes": 24403,
+        "totalBytes": 26937
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/linea-font/css/linea-font.css",
+        "wastedBytes": 22408,
+        "totalBytes": 22408
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">",
+          "wastedBytes": 284157,
+          "totalBytes": 300993
+        }
+      ],
+      "properlySized": [],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fernando.png",
+          "node": "<img src=\"assets/images/fernando.png\" alt=\"Fernando Ariza\" class=\"img-responsive\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/logo.png",
+          "node": "<img class=\"navbar-logo\" src=\"assets/images/logo.png\" alt=\"Fernando Ariza\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 9.25900000333786
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 47.373000003397465
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 42.43199999630451
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 46.28599999845028
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138328,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 128829,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119758,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6347,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 1,
+        "displayValue": "Total size was 2,064 KiB",
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/main.css",
+            "totalBytes": 690362
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/fernando.png",
+            "totalBytes": 301182
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+            "totalBytes": 123809
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119758
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=http%3A%2F%2F127.0.0.1%3A4173",
+            "totalBytes": 105858
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+            "totalBytes": 84539
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+            "totalBytes": 71276
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "totalBytes": 64653
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "totalBytes": 45832
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "totalBytes": 43724
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "0.8 s",
+        "items": [
+          {
+            "duration": 264.32800000000015,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 204.3759999999997,
+            "group": "other"
+          },
+          {
+            "duration": 130.16399999999993,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 68.42400000000009,
+            "group": "paintCompositeRender"
+          },
+          {
+            "duration": 58.10399999999998,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 34.55199999999999,
+            "group": "parseHTML"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": 1,
+        "displayValue": "0.2 s",
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/fernando.html"
+          },
+          {
+            "url": "Unattributable"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/modernizr-2.8.3.min.js"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1"
+          },
+          {
+            "url": "https://platform.twitter.com/widgets.js"
+          }
+        ]
+      },
+      "networkRequests": 46
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "is-on-https",
+          "title": "Does not use HTTPS",
+          "score": 0,
+          "displayValue": "5 insecure requests found",
+          "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/)."
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "score": 0,
+          "displayValue": null,
+          "description": "Image natural dimensions should be proportional to the display size and the pixel ratio to maximize image clarity. [Learn how to provide responsive images](https://web.dev/articles/serve-responsive-images)."
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  },
+  {
+    "name": "lighthouse-local-root-desktop",
+    "target": "local",
+    "route": "/",
+    "strategy": "desktop",
+    "finalUrl": "http://127.0.0.1:4173/",
+    "fetchTime": "2026-05-21T11:32:58.086Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 68,
+      "accessibility": 70,
+      "bestPractices": 56,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "1.2 s",
+        "numericValue": 1247.3536,
+        "score": 0.72
+      },
+      "lcp": {
+        "displayValue": "7.1 s",
+        "numericValue": 7069.804799999999,
+        "score": 0.02
+      },
+      "cls": {
+        "displayValue": "0",
+        "numericValue": 0.000457,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "2.1 s",
+        "numericValue": 2112.738442671483,
+        "score": 0.57
+      },
+      "ttfb": {
+        "displayValue": "Root document took 0 ms",
+        "numericValue": 0.40800000000000003,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "20 ms",
+        "numericValue": 18,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "7.1 s",
+        "numericValue": 7079.804799999999,
+        "score": 0.16
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedMs": 1002,
+        "totalBytes": 690362
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/modernizr-2.8.3.min.js",
+        "wastedMs": 122,
+        "totalBytes": 15708
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedMs": 162,
+        "totalBytes": 27124
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/magnific-popup.css",
+        "wastedMs": 122,
+        "totalBytes": 7974
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedMs": 402,
+        "totalBytes": 71276
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/slick.css",
+        "wastedMs": 82,
+        "totalBytes": 1904
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/et-lineicons/css/style.css",
+        "wastedMs": 82,
+        "totalBytes": 5174
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedMs": 202,
+        "totalBytes": 26898
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65759,
+        "totalBytes": 119266
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+        "wastedBytes": 28909,
+        "totalBytes": 84345
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/bootstrap.min.js",
+        "wastedBytes": 28194,
+        "totalBytes": 36816
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedBytes": 647901,
+        "totalBytes": 690174
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 116392,
+        "totalBytes": 123621
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedBytes": 70941,
+        "totalBytes": 71089
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedBytes": 26937,
+        "totalBytes": 26937
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedBytes": 26403,
+        "totalBytes": 26711
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/linea-font/css/linea-font.css",
+        "wastedBytes": 21901,
+        "totalBytes": 22408
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/lluvia.png",
+          "node": "<div class=\"fw-slider-item fw-slide-2 slick-slide slick-active\" style=\"background: url(&quot;assets/images/lluvia.png&quot;); width: 1350px;\" data-slick-index=\"0\" aria-hidden=\"false\">",
+          "wastedBytes": 2054682,
+          "totalBytes": 2318573
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 1379673.9,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 1276119.5,
+          "totalBytes": 1410726
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida-background.png",
+          "node": "<div class=\"fw-slider-item fw-slide-1 slick-slide\" style=\"background: url(&quot;assets/images/ciudad-dormida-background.png&quot;);\" data-slick-index=\"1\" aria-hidden=\"true\">",
+          "wastedBytes": 884280.2,
+          "totalBytes": 972093
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/tamburri.png",
+          "node": "<img src=\"assets/images/tamburri.png\" alt=\"Testimonial\">",
+          "wastedBytes": 12599.8,
+          "totalBytes": 14756
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ballesteros.png",
+          "node": "<img src=\"assets/images/ballesteros.png\" alt=\"Testimonial\">",
+          "wastedBytes": 11757.55,
+          "totalBytes": 13661
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">",
+          "wastedBytes": 9397.35,
+          "totalBytes": 11287
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">",
+          "wastedBytes": 8631.15,
+          "totalBytes": 9791
+        }
+      ],
+      "properlySized": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 839555,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 806926,
+          "totalBytes": 1410726
+        }
+      ],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/aceprensa.png",
+          "node": "<img src=\"assets/images/aceprensa.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/artes-hoy.png",
+          "node": "<img src=\"assets/images/artes-hoy.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ediciones-del-serbal.png",
+          "node": "<img src=\"assets/images/ediciones-del-serbal.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/nueva-revista.png",
+          "node": "<img src=\"assets/images/nueva-revista.png\" alt=\"Client\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/linea-font/fonts/linea-icon-font.woff",
+            "wastedMs": 17.844999998807907
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/et-lineicons/fonts/icomoon.woff?-3gtgps",
+            "wastedMs": 36.898999996483326
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 39.573999993503094
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 46.215999998152256
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 46.32699999958277
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 39.631999999284744
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138309,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 128829,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119622,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6347,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 0.5,
+        "displayValue": "Total size was 7,969 KiB",
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/images/lluvia.png",
+            "totalBytes": 2318763
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+            "totalBytes": 1467962
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+            "totalBytes": 1410916
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida-background.png",
+            "totalBytes": 972282
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/main.css",
+            "totalBytes": 690362
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+            "totalBytes": 123809
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119622
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=http%3A%2F%2F127.0.0.1%3A4173",
+            "totalBytes": 105859
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+            "totalBytes": 84539
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+            "totalBytes": 71276
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "0.3 s",
+        "items": [
+          {
+            "duration": 147.60700000000213,
+            "group": "other"
+          },
+          {
+            "duration": 71.30299999999986,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 53.831000000000145,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 26.754000000000275,
+            "group": "paintCompositeRender"
+          },
+          {
+            "duration": 14.546,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 9.612000000000002,
+            "group": "parseHTML"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": 1,
+        "displayValue": "0.0 s",
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/"
+          }
+        ]
+      },
+      "networkRequests": 62
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name)."
+        },
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "score": 0,
+          "displayValue": null,
+          "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list)."
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "is-on-https",
+          "title": "Does not use HTTPS",
+          "score": 0,
+          "displayValue": "5 insecure requests found",
+          "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/)."
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "score": 0,
+          "displayValue": null,
+          "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  },
+  {
+    "name": "lighthouse-local-root-mobile",
+    "target": "local",
+    "route": "/",
+    "strategy": "mobile",
+    "finalUrl": "http://127.0.0.1:4173/",
+    "fetchTime": "2026-05-21T11:32:43.817Z",
+    "lighthouseVersion": "12.6.0",
+    "scores": {
+      "performance": 57,
+      "accessibility": 70,
+      "bestPractices": 54,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": {
+        "displayValue": "7.1 s",
+        "numericValue": 7058.087100000001,
+        "score": 0.01
+      },
+      "lcp": {
+        "displayValue": "42.2 s",
+        "numericValue": 42238.478500000005,
+        "score": 0
+      },
+      "cls": {
+        "displayValue": "0.002",
+        "numericValue": 0.001858,
+        "score": 1
+      },
+      "tbt": {
+        "displayValue": "0 ms",
+        "numericValue": 0,
+        "score": 1
+      },
+      "speedIndex": {
+        "displayValue": "8.3 s",
+        "numericValue": 8323.88703537789,
+        "score": 0.19
+      },
+      "ttfb": {
+        "displayValue": "Root document took 0 ms",
+        "numericValue": 4.027,
+        "score": 1
+      },
+      "maxPotentialFid": {
+        "displayValue": "40 ms",
+        "numericValue": 41,
+        "score": 1
+      },
+      "interactive": {
+        "displayValue": "42.3 s",
+        "numericValue": 42275.97850000001,
+        "score": 0
+      }
+    },
+    "lcpElement": [
+      {},
+      {}
+    ],
+    "renderBlockingResources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedMs": 6003,
+        "totalBytes": 690362
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/modernizr-2.8.3.min.js",
+        "wastedMs": 603,
+        "totalBytes": 15708
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedMs": 1053,
+        "totalBytes": 27124
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedMs": 2553,
+        "totalBytes": 71276
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/magnific-popup.css",
+        "wastedMs": 453,
+        "totalBytes": 7974
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/slick.css",
+        "wastedMs": 303,
+        "totalBytes": 1904
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/linea-font/css/linea-font.css",
+        "wastedMs": 1053,
+        "totalBytes": 22595
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedMs": 1203,
+        "totalBytes": 26898
+      }
+    ],
+    "unusedJavaScript": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+        "wastedBytes": 65759,
+        "totalBytes": 119266
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+        "wastedBytes": 28549,
+        "totalBytes": 84345
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/js/vendor/bootstrap.min.js",
+        "wastedBytes": 28194,
+        "totalBytes": 36816
+      }
+    ],
+    "unusedCSS": [
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/main.css",
+        "wastedBytes": 648713,
+        "totalBytes": 690174
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+        "wastedBytes": 118162,
+        "totalBytes": 123621
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+        "wastedBytes": 70941,
+        "totalBytes": 71089
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/css/font-awesome.min.css",
+        "wastedBytes": 26403,
+        "totalBytes": 26711
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/styles/responsive.css",
+        "wastedBytes": 24765,
+        "totalBytes": 26937
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/linea-font/css/linea-font.css",
+        "wastedBytes": 21901,
+        "totalBytes": 22408
+      }
+    ],
+    "imageIssues": {
+      "modernFormats": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/lluvia.png",
+          "node": "<div class=\"fw-slider-item fw-slide-2 slick-slide slick-active\" style=\"background: url(&quot;assets/images/lluvia.png&quot;); width: 412px;\" data-slick-index=\"0\" aria-hidden=\"false\">",
+          "wastedBytes": 2054682,
+          "totalBytes": 2318573
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 1379673.9,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 1276119.5,
+          "totalBytes": 1410726
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida-background.png",
+          "node": "<div class=\"fw-slider-item fw-slide-1 slick-slide\" style=\"background: url(&quot;assets/images/ciudad-dormida-background.png&quot;);\" data-slick-index=\"1\" aria-hidden=\"true\">",
+          "wastedBytes": 884280.2,
+          "totalBytes": 972093
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/tamburri.png",
+          "node": "<img src=\"assets/images/tamburri.png\" alt=\"Testimonial\">",
+          "wastedBytes": 12599.8,
+          "totalBytes": 14756
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ballesteros.png",
+          "node": "<img src=\"assets/images/ballesteros.png\" alt=\"Testimonial\">",
+          "wastedBytes": 11757.55,
+          "totalBytes": 13661
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">",
+          "wastedBytes": 9397.35,
+          "totalBytes": 11287
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">",
+          "wastedBytes": 8631.15,
+          "totalBytes": 9791
+        }
+      ],
+      "properlySized": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">",
+          "wastedBytes": 751079,
+          "totalBytes": 1467772
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">",
+          "wastedBytes": 721888,
+          "totalBytes": 1410726
+        }
+      ],
+      "optimized": [],
+      "explicitDimensions": [
+        {
+          "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+          "node": "<img src=\"assets/images/fuiste-el-rey.png\" alt=\"Cubierta de Fuiste el rey\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+          "node": "<img src=\"assets/images/ciudad-dormida.png\" alt=\"Cubierta de Ciudad dormida\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/ediciones-del-serbal.png",
+          "node": "<img src=\"assets/images/ediciones-del-serbal.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/nueva-revista.png",
+          "node": "<img src=\"assets/images/nueva-revista.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/aceprensa.png",
+          "node": "<img src=\"assets/images/aceprensa.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/el-semanal-digital.png",
+          "node": "<img src=\"assets/images/el-semanal-digital.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/artes-hoy.png",
+          "node": "<img src=\"assets/images/artes-hoy.png\" alt=\"Client\">"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/images/tres-hermanas.png",
+          "node": "<img src=\"assets/images/tres-hermanas.png\" alt=\"Client\">"
+        }
+      ]
+    },
+    "fontIssues": {
+      "fontDisplay": {
+        "score": 0.5,
+        "displayValue": null,
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/linea-font/fonts/linea-icon-font.woff",
+            "wastedMs": 6.246999993920326
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/et-lineicons/fonts/icomoon.woff?-3gtgps",
+            "wastedMs": 6.898000001907349
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "wastedMs": 7.847000002861023
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "wastedMs": 147.05299999564886
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "wastedMs": 45.3830000013113
+          },
+          {
+            "url": "http://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "wastedMs": 41.78700000047684
+          }
+        ]
+      }
+    },
+    "thirdParty": [
+      {
+        "transferSize": 138329,
+        "blockingTime": 0,
+        "entity": "Twitter"
+      },
+      {
+        "transferSize": 128829,
+        "blockingTime": 0,
+        "entity": "Google Fonts"
+      },
+      {
+        "transferSize": 119622,
+        "blockingTime": 0,
+        "entity": "Google Tag Manager"
+      },
+      {
+        "transferSize": 21409,
+        "blockingTime": 0,
+        "entity": "Google Analytics"
+      },
+      {
+        "transferSize": 6347,
+        "blockingTime": 0,
+        "entity": "Google CDN"
+      }
+    ],
+    "diagnostics": {
+      "totalByteWeight": {
+        "score": 0.5,
+        "displayValue": "Total size was 7,969 KiB",
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/assets/images/lluvia.png",
+            "totalBytes": 2318763
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/fuiste-el-rey.png",
+            "totalBytes": 1467962
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida.png",
+            "totalBytes": 1410916
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/images/ciudad-dormida-background.png",
+            "totalBytes": 972282
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/main.css",
+            "totalBytes": 690362
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/bootstrap.min.css",
+            "totalBytes": 123809
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1",
+            "totalBytes": 119622
+          },
+          {
+            "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=http%3A%2F%2F127.0.0.1%3A4173",
+            "totalBytes": 105859
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js",
+            "totalBytes": 84539
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/styles/vendor/animate.css",
+            "totalBytes": 71276
+          }
+        ]
+      },
+      "mainThreadWork": {
+        "score": 1,
+        "displayValue": "1.0 s",
+        "items": [
+          {
+            "duration": 368.78400000000306,
+            "group": "other"
+          },
+          {
+            "duration": 297.18400000000014,
+            "group": "scriptEvaluation"
+          },
+          {
+            "duration": 190.51200000000026,
+            "group": "styleLayout"
+          },
+          {
+            "duration": 78.68800000000033,
+            "group": "paintCompositeRender"
+          },
+          {
+            "duration": 56.644000000000005,
+            "group": "scriptParseCompile"
+          },
+          {
+            "duration": 37.948000000000015,
+            "group": "parseHTML"
+          }
+        ]
+      },
+      "bootupTime": {
+        "score": 1,
+        "displayValue": "0.3 s",
+        "items": [
+          {
+            "url": "http://127.0.0.1:4173/"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/jquery-2.1.4.min.js"
+          },
+          {
+            "url": "https://platform.twitter.com/widgets.js"
+          },
+          {
+            "url": "Unattributable"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/js/vendor/modernizr-2.8.3.min.js"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-152728016-1"
+          }
+        ]
+      },
+      "networkRequests": 62
+    },
+    "failures": {
+      "accessibility": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name)."
+        },
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "score": 0,
+          "displayValue": null,
+          "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "displayValue": null,
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name)."
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list)."
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "score": 0,
+          "displayValue": null,
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "displayValue": null,
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order)."
+        }
+      ],
+      "bestPractices": [
+        {
+          "id": "is-on-https",
+          "title": "Does not use HTTPS",
+          "score": 0,
+          "displayValue": "5 insecure requests found",
+          "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/)."
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found",
+          "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview)."
+        },
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "score": 0,
+          "displayValue": null,
+          "description": "Image natural dimensions should be proportional to the display size and the pixel ratio to maximize image clarity. [Learn how to provide responsive images](https://web.dev/articles/serve-responsive-images)."
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "score": 0,
+          "displayValue": null,
+          "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null,
+          "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue."
+        }
+      ],
+      "seo": []
+    }
+  }
+]
