@@ -3,3 +3,9 @@ docs/
 reports/performance/**/*.report.html
 reports/performance/**/*.report.json
 reports/performance/**/*.png
+
+_site/
+__pycache__/
+*.pyc
+.playwright-mcp/
+modern-design/research/

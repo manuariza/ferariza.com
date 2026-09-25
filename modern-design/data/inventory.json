@@ -1,0 +1,2488 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-25",
+  "author": {
+    "name": "Fernando Ariza",
+    "aliases": [
+      "Fernando Ariza González",
+      "Fernando González-Ariza"
+    ],
+    "email": "ferariza@ferariza.com"
+  },
+  "works": [
+    {
+      "id": "fuiste-el-rey",
+      "title": "Fuiste el rey",
+      "year": 2019,
+      "category": "Novelas",
+      "role": "Autor",
+      "publisher": "Tres Hermanas",
+      "isbn": "9788412094312",
+      "description": "Una joven pareja abandona España para empezar de nuevo en Bruselas. La precariedad, la enfermedad y los celos ponen a prueba su relación.",
+      "cover": "images/fuiste-el-rey-800.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.agapea.com/Fernando-Gonzalez-Ariza/Fuiste-el-rey-9788412094312-i.htm",
+          "kind": "bibliographic"
+        },
+        {
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "kind": "bibliographic"
+        },
+        {
+          "git": "77f019e:index.html",
+          "kind": "description"
+        }
+      ],
+      "pages": 220,
+      "notes": [],
+      "showInShelf": true
+    },
+    {
+      "id": "ciudad-dormida",
+      "title": "Ciudad dormida",
+      "year": 2014,
+      "category": "Novelas",
+      "role": "Autor",
+      "publisher": "Ediciones del Serbal",
+      "isbn": "9788476287545",
+      "description": "El detective Lang acude a una fiesta en la mansión de un marqués. Un cadáver en el jardín lo arrastra a una investigación entre los secretos de la ciudad.",
+      "cover": "images/ciudad-dormida-800.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://dialnet.unirioja.es/servlet/libro?codigo=639960",
+          "kind": "bibliographic"
+        },
+        {
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "kind": "bibliographic"
+        },
+        {
+          "git": "77f019e:index.html",
+          "kind": "description"
+        }
+      ],
+      "pages": null,
+      "notes": [],
+      "showInShelf": true
+    },
+    {
+      "id": "puentes",
+      "title": "Construyendo puentes",
+      "year": 2024,
+      "category": "Ensayo e investigación",
+      "role": "Autor",
+      "publisher": "Comares",
+      "isbn": "9788413696980",
+      "description": "La travesía de la narrativa española en los Estados Unidos (1870–1975).",
+      "cover": "images/puentes.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.comares.com/libro/construyendo-puentes_150232/",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 276,
+      "notes": [
+        "Older author bios say 2023; publisher edition date is 2024-01-03."
+      ],
+      "coverWidth": 400,
+      "coverHeight": 614,
+      "showInShelf": true
+    },
+    {
+      "id": "pensamiento",
+      "title": "El pensamiento narrativo",
+      "year": 2023,
+      "category": "Ensayo e investigación",
+      "role": "Coautor con Miguel Herrero Herrero",
+      "publisher": "Sílex",
+      "isbn": "9788419661067",
+      "description": "Principios de storytelling. Un estudio de los elementos y técnicas que intervienen en la construcción de los relatos.",
+      "cover": "images/pensamiento.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://dialnet.unirioja.es/servlet/libro?codigo=932945",
+          "kind": "bibliographic"
+        },
+        {
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 192,
+      "notes": [],
+      "showInShelf": true,
+      "coverWidth": 366,
+      "coverHeight": 569
+    },
+    {
+      "id": "jekyll",
+      "title": "Dualidad y sentido ético en Dr. Jekyll y Mr. Hyde",
+      "year": 2024,
+      "category": "Guías de lectura",
+      "role": "Autor",
+      "publisher": "CEU Ediciones",
+      "isbn": "9788419976499",
+      "description": "Guía de lectura de la novela de Robert Louis Stevenson: narración, dualidad y sentido ético.",
+      "cover": "images/jekyll.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.ceuediciones.es/catalogo/libros/critica-literaria/dualidad-y-sentido-etico-en-dr-jekyll-y-mr-hyde-guia-de-lectura/",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 103,
+      "notes": [],
+      "showInShelf": true
+    },
+    {
+      "id": "rebelion",
+      "title": "Manipulación social en Rebelión en la Granja",
+      "year": 2021,
+      "category": "Guías de lectura",
+      "role": "Autor",
+      "publisher": "CEU Ediciones",
+      "isbn": "9788418463747",
+      "description": "Guía de lectura de la obra de George Orwell.",
+      "cover": "images/rebelion.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://dialnet.unirioja.es/servlet/libro?codigo=887314",
+          "kind": "bibliographic"
+        },
+        {
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": null,
+      "notes": [],
+      "showInShelf": true
+    },
+    {
+      "id": "becquer",
+      "title": "Bécquer, el romántico",
+      "year": 2006,
+      "category": "Biografías",
+      "role": "Autor",
+      "publisher": "El Rompecabezas",
+      "isbn": "9788496751118",
+      "description": "Biografía juvenil de Gustavo Adolfo Bécquer, publicada en la colección Sabelotod@s.",
+      "cover": "images/becquer.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.agapea.com/libros/Becquer-el-romantico-9788496751118-i.htm",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 128,
+      "notes": [
+        "Bookseller specifies December 2006 first edition; library legal deposit is 2007. Display first-edition year."
+      ],
+      "coverWidth": 223,
+      "coverHeight": 350,
+      "showInShelf": false
+    },
+    {
+      "id": "valle",
+      "title": "Valle-Inclán, el bohemio",
+      "year": 2007,
+      "category": "Biografías",
+      "role": "Autor",
+      "publisher": "El Rompecabezas",
+      "isbn": "9788496751231",
+      "description": "Biografía juvenil de Ramón del Valle-Inclán, publicada en la colección Sabelotod@s.",
+      "cover": "images/valle.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://dialnet.unirioja.es/servlet/libro?codigo=639957",
+          "kind": "bibliographic"
+        },
+        {
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 128,
+      "notes": [],
+      "coverWidth": 222,
+      "coverHeight": 350,
+      "showInShelf": false
+    },
+    {
+      "id": "planeta",
+      "title": "Premios Planeta. Historia y estrategias comerciales",
+      "year": 2008,
+      "category": "Ensayo e investigación",
+      "role": "Autor",
+      "publisher": "Sial / Trivium",
+      "isbn": "9788496464766",
+      "description": "Ensayo sobre la historia del Premio Planeta y sus estrategias comerciales. Prólogo de Antonio Prieto.",
+      "cover": "images/planeta.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://sialpigmalion.es/coleccion/academicas/trivium/page/4/",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": null,
+      "notes": [],
+      "showInShelf": true
+    },
+    {
+      "id": "camino",
+      "title": "El camino. Guía de lectura",
+      "year": 2008,
+      "category": "Guías de lectura",
+      "role": "Autor de la guía",
+      "publisher": "Cénlit",
+      "isbn": "9788496634220",
+      "description": "Guía de lectura de la novela de Miguel Delibes.",
+      "cover": "images/camino.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.agapea.com/libros/El-camino-Guia-de-Lectura-9788496634220-i.htm",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 96,
+      "notes": [],
+      "showInShelf": true
+    },
+    {
+      "id": "mercado",
+      "title": "Literatura y mercado editorial en España (1950–2000)",
+      "year": 2010,
+      "category": "Ensayo e investigación",
+      "role": "Autor",
+      "publisher": "Pliegos",
+      "isbn": "9788496045699",
+      "description": "Monografía sobre literatura y mercado editorial en España en la segunda mitad del siglo XX.",
+      "cover": "images/mercado.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://dialnet.unirioja.es/servlet/libro?codigo=639958",
+          "kind": "bibliographic"
+        },
+        {
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": null,
+      "notes": [],
+      "coverWidth": 1050,
+      "coverHeight": 1580,
+      "showInShelf": true
+    },
+    {
+      "id": "macrae",
+      "title": "Correspondencia entre Vicente Blasco Ibáñez y John Macrae",
+      "year": 2017,
+      "category": "Ediciones",
+      "role": "Edición, traducción, introducción y notas",
+      "publisher": "Editorial Académica Española",
+      "isbn": "9783639490138",
+      "description": "Correspondencia de 1918 a 1932, en edición traducida con introducción y notas de Fernando Ariza.",
+      "cover": "images/macrae.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.goodreads.com/book/show/97440642-correspondencia-entre-vicente-blasco-ib-ez-y-john-macrae-1918-1932",
+          "kind": "bibliographic"
+        },
+        {
+          "url": "https://accesoabiertocomares.com/index.php/coa/catalog/download/75/154/981?inline=1",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 176,
+      "notes": [
+        "ISBN and 176 pages verified against Goodreads edition metadata; actual cover credits Fernando Ariza (Ed.)."
+      ],
+      "coverWidth": 341,
+      "coverHeight": 500,
+      "showInShelf": true
+    },
+    {
+      "id": "delibes",
+      "title": "Miguel Delibes: encuadres y figuras en una España cambiante",
+      "year": 2024,
+      "category": "Ediciones",
+      "role": "Coordinación con Ana Isabel Ballesteros Dorado",
+      "publisher": "Iberoamericana / Vervuert",
+      "isbn": "9788491924111",
+      "description": "Estudios sobre la naturaleza, el lenguaje y la sociedad en la obra de Miguel Delibes.",
+      "cover": "images/delibes.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.iberoamericana-vervuert.es/Libros/231977.pdf",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 197,
+      "notes": [
+        "Dialnet lists 2023; publisher title and copyright pages explicitly state 2024. Publisher takes precedence."
+      ],
+      "coverWidth": 1226,
+      "coverHeight": 1800,
+      "showInShelf": true
+    },
+    {
+      "id": "tesis",
+      "title": "Literatura y sociedad: el premio Planeta",
+      "year": 2004,
+      "category": "Tesis",
+      "role": "Autor",
+      "publisher": "Universidad Complutense de Madrid",
+      "isbn": "8466928561",
+      "description": "Tesis doctoral dirigida por J. Ignacio Díez Fernández. Defendida en 2004; memoria publicada en 2006.",
+      "cover": "images/tesis.webp",
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://docta.ucm.es/bitstreams/f8415856-344b-49e4-914e-4521b69d5564/download",
+          "kind": "primary-document"
+        },
+        {
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": null,
+      "notes": [],
+      "coverWidth": 1272,
+      "coverHeight": 1800,
+      "coverAlt": "Portada original de la tesis Literatura y sociedad: el premio Planeta",
+      "coverKind": "original-title-page",
+      "showInShelf": true
+    },
+    {
+      "id": "baroja",
+      "title": "Pío Baroja y Vicente Blasco Ibáñez",
+      "year": 2026,
+      "category": "Ediciones",
+      "role": "Autor",
+      "publisher": "Sílex",
+      "isbn": "9791387694494",
+      "description": "Correspondencia editorial con Estados Unidos.",
+      "cover": "images/baroja.webp",
+      "status": "catalogue-verified",
+      "verifiedAt": "2026-09-25",
+      "language": "es",
+      "sources": [
+        {
+          "url": "https://www.popularlibros.com/libro/pio-baroja-y-vicente-blasco-ibanez-_1697581",
+          "kind": "bibliographic"
+        }
+      ],
+      "pages": 188,
+      "notes": [
+        "2026 catalogue record verified at bookseller; publisher confirmation and relationship to 2017 edition remain to be checked."
+      ],
+      "coverWidth": 600,
+      "coverHeight": 945,
+      "showInShelf": true
+    }
+  ],
+  "academicRecords": [
+    {
+      "id": "articulo10716749",
+      "title": "Itinerarios transnacionales de Señas de identidad de Juan Goytisolo : procesos editoriales, traducción y recepción entre Gallimard y Grove Press",
+      "category": "Artículos de revistas",
+      "citation": "Estudios de traducción , ISSN 2174-047X, ISSN-e 2254-1756, Nº. 16, 2026 (Ejemplar dedicado a: Monográfico: : Non-Professional Interpreters and Translators in Public Services. Training, Competences and Needs), págs. 237-248",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=10716749",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo10434553",
+      "title": "Construcción narrativa de una identidad transcultural chicana a través de los relatos de «Memorias del silencio»",
+      "category": "Artículos de revistas",
+      "citation": "RILCE: Revista de filología hispánica , ISSN 0213-2370, Vol. 41, Nº 3, 2025 (Ejemplar dedicado a: Kaleidoscopes of Brevity: Artistic Hybridisation and Cultural Cross-fertilisation (Ana Calvo Revilla and Ángel Arias Urrutia, eds.)), págs. 1048-1070",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=10434553",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo9254227",
+      "title": "The journey of the double in Mary Shelley’s Frankenstein",
+      "category": "Artículos de revistas",
+      "citation": "Aforismos: instituciones, ideas, movimientos , ISSN 2695-5253, Nº. 5-6, 2022 , págs. 123-132",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=9254227",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8312053",
+      "title": "La narrativa de los años 20 desde el punto de vista del storytelling",
+      "category": "Artículos de revistas",
+      "citation": "Aforismos: instituciones, ideas, movimientos , ISSN 2695-5253, Nº. 3, 2021 , págs. 111-120",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8312053",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8368322",
+      "title": "Identidad transfronteriza en los microrrelatos latinounidenses en la revista Azahares",
+      "category": "Artículos de revistas",
+      "citation": "Anales de literatura hispanoamericana , ISSN-e 1988-2351, ISSN 0210-4547, Nº 50, 2021 (Ejemplar dedicado a: Monográfico: Homenaje al 80º aniversario del exilio republicano español en Argentina. La segunda generación), págs. 287-293",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8368322",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo7503708",
+      "title": "Vicente Blasco Ibáñez, Pío Baroja y el comercio del libro en los Estados Unidos",
+      "category": "Artículos de revistas",
+      "citation": "Revista de literatura: España , ISSN 0034-849X, Tomo 82, Nº 163, 2020 , págs. 173-185",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7503708",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo6840067",
+      "title": "Conflictos Internacionales de propiedad intelectual. El caso Blasco Ibáñez en los Estados Unidos",
+      "category": "Artículos de revistas",
+      "citation": "Dicenda: Estudios de lengua y literatura españolas , ISSN-e 1988-2556, ISSN 0212-2952, Nº 36, 2018 , págs. 33-44",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6840067",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo6231771",
+      "title": "Recepción de la narrativa española en la prensa diaria estadounidense : 1870-1900",
+      "category": "Artículos de revistas",
+      "citation": "Dialogía: revista de lingüistica, literatura y cultura , ISSN 1819-365X, Vol. 11, 2017 , págs. 86-108",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6231771",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8127069",
+      "title": "The entry of Juan Goytisolo in the American publishing market",
+      "category": "Artículos de revistas",
+      "citation": "Journal of Iberian and Latin American Studies , ISSN-e 1469-9524, ISSN 1470-1847, Vol. 19, Nº. 3, 2013 , págs. 265-276",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8127069",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo3881412",
+      "title": "Pío Baroja y Afred A. Knopf : cuarenta años de relación editorial",
+      "category": "Artículos de revistas",
+      "citation": "Anales de la literatura española contemporánea, ALEC , ISSN 0272-1635, Vol. 37, Nº 1, 2012 , págs. 185-205",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3881412",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo3296575",
+      "title": "Letras escogidas",
+      "category": "Artículos de revistas",
+      "citation": "Litoral: revista de la poesía y el pensamiento , ISSN 0212-4378, Nº. 249, 2010 (Ejemplar dedicado a: Rock español. Poesía & imagen), págs. 210-213",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3296575",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo3409054",
+      "title": "Comerciantes de la memoria.Los editores y las visiones de la Guerra Civil Española.",
+      "category": "Artículos de revistas",
+      "citation": "Pliegos de Yuste: revista de cultura y pensamiento europeos , ISSN 1697-0152, 1 11-12, 2010 , págs. 41-46",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3409054",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo3265870",
+      "title": "Recepción de la novela española de posguerra en los Estados Unidos",
+      "category": "Artículos de revistas",
+      "citation": "Revista de literatura: España , ISSN 0034-849X, Tomo 72, Nº 143, 2010 , págs. 227-244",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3265870",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo3037132",
+      "title": "Los bailes y pantomimas en Madrid en el siglo XVIII : escenografía y fuentes",
+      "category": "Artículos de revistas",
+      "citation": "Dicenda: Estudios de lengua y literatura españolas , ISSN-e 1988-2556, ISSN 0212-2952, Nº 26, 2008 , págs. 73-82",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3037132",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo2550994",
+      "title": "Los premios literarios : entre la cultura y el marketing.",
+      "category": "Artículos de revistas",
+      "citation": "Nueva revista de política, cultura y arte , ISSN 1130-0426, Nº 114, 2007 , págs. 119-127",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=2550994",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo898803",
+      "title": "Léxico lorquiano : Poeta en Nueva York",
+      "category": "Artículos de revistas",
+      "citation": "Interlingüística , ISSN 1134-8941, Nº. 13, 2, 2002 , págs. 291-300",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=898803",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo10674574",
+      "title": "El Camino de Miguel Delibes. Libertad, naturaleza e infancia",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Vida y literatura : ensayos sobre grandes libros / Enrique Anrubia Aparici ( ed. lit. ), Santiago Celestino Pérez Jiménez ( ed. lit. ), 2026, ISBN 979-13-7033-090-3, págs. 23-35",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=10674574",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo10743110",
+      "title": "Análisis narrativo de una adicción : El extraño caso del Dr. Jekyll y Mr. Hyde de R L Stevenson",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Las adicciones en la literatura / Luis Fernando Alguacil ( dir. ), Antonio Piñas ( dir. ), 2025, ISBN 9788410815322, págs. 319-334",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=10743110",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo9625794",
+      "title": "Learning values through storytelling",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Iniciatives to educational and teaching innovation / coord. por Rocío Bonilla Quijada , María Rosario García-Bellido , Mª Fernanda Rey-Stolle Valcarce , Victoria Villagrasa Sebastián , 2023, ISBN 978-84-1170-452-6, págs. 254-258",
+      "authors": "Fernando Ariza González, Antonio Piñas Mesa , María del Mar Velasco González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=9625794",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo9322773",
+      "title": "Evolución del tratamiento de la fauna y flora en las novelas rurales de Miguel Delibes",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Miguel Delibes : encuadres y figuras en una España cambiante / coord. por Ana Isabel Ballesteros Dorado , Fernando Ariza González, 2023, ISBN 978-84-9192-411-1, págs. 51-89",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=9322773",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo7899801",
+      "title": "Influencias góticas en los microrrelatos de Historias y cronopios de Cortázar",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Epifanías de la brevedad : microformas literarias y artísticas en la red / coord. por Ana Calvo Revilla , 2019, ISBN 978-84-9895-211-7, págs. 169-178",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7899801",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8888518",
+      "title": "Cuando la piratería fue legal. La novela realista española en los Estados Unidos",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Perspectivas actuales del hispanismo mundial : Literatura – Cultura – Lengua / coord. por Christoph Strosetzki , Vol. 2, 2019 (Ss. XVIII y XIX | Literatura contemporánea / coord. por Andreas Gelz , Susanne Schlünder , Jan-Henrik Witthaus , Mechthild Albert , Jochen Mecke , Carmen Rivero Iglesias ), ISBN 978-3-487-16286-7, págs. 149-158",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8888518",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8889626",
+      "title": "Los silencios propios y las músicas extrañas en la poesía religiosa de Emily Dickinson",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "«Sermo silens» : la voz y el silencio en la poesía religiosa / coord. por Álvaro Cancela Cilleruelo ; Miguel Herrero de Jáuregui ( dir. congr. ), 2019, ISBN 978-84-17561-00-0, págs. 213-230",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8889626",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo6885484",
+      "title": "Última hora del microrrelato latinounidense (2000-2015) : Internet como vía de creación y transmisión",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Elogio de lo mínimo : estudios sobre microrrelato y minificción [en el siglo XXI] / coord. por Ana Calvo Revilla , 2018, ISBN 978-84-16922-58-1, págs. 187-199",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6885484",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo6795730",
+      "title": "Spengler en el siglo XXI. Tendencias actuales de la investigación",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "La idea de decadencia de Occidente cien años después : contexto y literalidad / coord. por Patricia Santos Rodríguez ; Antonio Martín Puerta ( dir. ), 2018, ISBN 978-84-9148-927-6, págs. 159-170",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6795730",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo9669636",
+      "title": "Literatura del siglo XX y cristianismo: : Charles Moeller, la obra de una vida",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Luces y sombras de la cultura católica en el siglo XX : aproximación general y análisis comparado / José Andrés-Gallego ( aut. ), Antonio Martín Puerta ( dir. ), Patricia Santos Rodríguez ( dir. ), 2018, ISBN 978-84-9045-755-9, págs. 41-50",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=9669636",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo5832552",
+      "title": "Vicente Blasco Ibáñez en América : literatura, periodismo y cine",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Diversidad en la literatura, el cine y la prensa española contemporánea / coord. por Fidel López Criado , 2015, ISBN 978-84-8408-922-3, págs. 189-195",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=5832552",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo5095119",
+      "title": "Humor combativo : la crítica política y social en las canciones de Javier Krahe",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "El humor y la ironía como armas de combate : literatura y medios de comunicacion en España (1960-2014) / coord. por Béatrice Bottin , Bénédicte de Buron-Brun , 2015, ISBN 978-84-16246-30-4, págs. 596-606",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=5095119",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo5509106",
+      "title": "El cine en las columnas de Umbral",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Francisco Umbral : verdades y contraverdades del cuarto poder / coord. por Bénédicte de Buron-Brun , 2015, ISBN 9788416246991, págs. 453-467",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=5509106",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo10478074",
+      "title": "Chesterton en la cultura popular : el caso Neil Gaiman",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Chesterton de pie / Pablo Gutiérrez Carreras ( ed. lit. ), María Isabel Abradelo de Usera ( ed. lit. ), 2013, ISBN 9788415382744, págs. 309-324",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=10478074",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo4575439",
+      "title": "Las Américas 1940-1970 : una editorial hispánica en Nueva York",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Historia y desafíos de la edición en el mundo hispánico : : II Foro editorial de estudios hispánicos y americanistas / coord. por Encarnación Castro Páez , Pedro Cervera Corbacho , Ana Bocanegra-Valle , Vol. 2, 2013 (CD-ROM), ISBN 978-84-9828-396-9, págs. 289-304",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=4575439",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo4205885",
+      "title": "Miles de pequeñas explosiones. El mercado del microrrelato en el mundo hispánico",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Las fronteras del microrrelato : teoría y crítica del microrrelato español e hispanoamericano / coord. por Ana Calvo Revilla , Javier Navascués , 2012, ISBN 978-84-8489-675-3, págs. 91-97",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=4205885",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo3248031",
+      "title": "El universo femenino en el primer Umbral : guapas y famosas",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Mujeres de Umbral : Travaux de Recherches du laboratoire Arc Atlantique EA 1925, Université de Pau et des Pays d l'Adour / coord. por Bénédicte de Buron-Brun , 2010, ISBN 978-84-937213-8-1, págs. 223-232",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3248031",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo2786518",
+      "title": "Valle-Inclán, el bohemio : hacia una propuesta pedagógica del esperpento",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Valle-Inclán : ensayos críticos sobre su obra y su trascendencia literaria / Fidel López Criado ( ed. lit. ), 2008, ISBN 978-84-96314-79-5, págs. 99-106",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=2786518",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8751625",
+      "title": "Impugnación del realismo: Pequeño teatro de Ana María Matute",
+      "category": "Colaboraciones en obras colectivas",
+      "citation": "Voces de la feminidad : Literatura y retórica de la mujer / coord. por María Ángeles Varela Olea , 2007, ISBN 9788496860414, págs. 51-58",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8751625",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8311590",
+      "title": "Storr, Will. The science of storytelling, William Collins, 2019",
+      "category": "Reseñas",
+      "citation": "Aforismos: instituciones, ideas, movimientos , ISSN 2695-5253, Nº. 2, 2020 , págs. 255-257",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8311590",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo7183507",
+      "title": "Pujante, Ángel- Luis. \"Shakespeare llega a España. Ilustración y Romanticismo\" : Alcalá de Henares, Madrid: A. Machado Libros, 2019, 374 pp.",
+      "category": "Reseñas",
+      "citation": "Cuadernos de Ilustración y Romanticismo: Revista del Grupo de Estudios del siglo XVIII , ISSN 2173-0687, Nº 25, 2019 (Ejemplar dedicado a: De Cartas Españolas a los Episodios Nacionales: los imaginarios de la nación), págs. 663-665",
+      "authors": "Fernando Ariza González ( res. )",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7183507",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo6364358",
+      "title": "Ana María FREIRE LÓPEZ y Ana Isabel BALLESTEROS DORADO (eds.). \"La literatura española en Europa 1850-1914\" : Madrid: UNED, 2017, 457 págs.",
+      "category": "Reseñas",
+      "citation": "Signa: Revista de la Asociación Española de Semiótica , ISSN 1133-3634, Nº 27, 2018 , págs. 1229-1232",
+      "authors": "Fernando Ariza González ( res. )",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6364358",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo8205283",
+      "title": "DÍEZ, J. Ignacio (ed.). Los placeres colectivos. Francisco Umbral como lector. Madrid: Fundación Francisco Umbral, 2012, 350 pp.",
+      "category": "Reseñas",
+      "citation": "Revista de literatura: España , ISSN 0034-849X, Tomo 77, Nº 153 (enero-junio), 2015 , págs. 330-331",
+      "authors": "Fernando Ariza González ( res. )",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8205283",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo7954222",
+      "title": "El teatro español ante el siglo XXI by César Oliva",
+      "category": "Reseñas",
+      "citation": "Anales de la literatura española contemporánea, ALEC , ISSN 0272-1635, Vol. 28, Nº 2, 2003 , págs. 456-459",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7954222",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "articulo7964813",
+      "title": "Aproximación al Teatro Español Universitario (TEU) by Luciano García Lorenzo",
+      "category": "Reseñas",
+      "citation": "Anales de la literatura española contemporánea, ALEC , ISSN 0272-1635, Vol. 27, Nº 1, 2002 (Ejemplar dedicado a: Teatro y cine: la búsqueda de nuevos lenguajes expresivos), págs. 224-225",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7964813",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro988083",
+      "title": "Dualidad y sentido ético en Dr. Jekyll y Mr. Hyde : guía de lectura",
+      "category": "Libros",
+      "citation": "Fundación Universitaria San Pablo CEU, CEU Ediciones, 2024. ISBN 978-84-19976-49-9",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=988083",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro932945",
+      "title": "El pensamiento narrativo : principios de storytelling",
+      "category": "Libros",
+      "citation": "Sílex, 2023. ISBN 9788419661067",
+      "authors": "Fernando Ariza González, Miguel Herrero Herrero",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=932945",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro887314",
+      "title": "Manipulación social en Rebelión en la Granja : Guía de lectura",
+      "category": "Libros",
+      "citation": "Fundación Universitaria San Pablo CEU, CEU Ediciones, 2021. ISBN 9788418463747",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=887314",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro808817",
+      "title": "Fuiste el rey",
+      "category": "Libros",
+      "citation": ", 2019. ISBN 978-84-120943-1-2",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=808817",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro639960",
+      "title": "Ciudad dormida",
+      "category": "Libros",
+      "citation": "Barcelona : Ediciones del Serbal, 2014. ISBN 978-84-7628-754-5",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=639960",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro639958",
+      "title": "Literatura y mercado editorial en España (1950-2000)",
+      "category": "Libros",
+      "citation": "Madrid : Pliegos, D.L. 2010. ISBN 978-84-96045-69-9",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=639958",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro639957",
+      "title": "Valle-Inclán, el bohemio",
+      "category": "Libros",
+      "citation": "Madrid : El Rompecabezas, [2007]. ISBN 978-84-96751-23-1",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=639957",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro270096",
+      "title": "Literatura y sociedad : el premio Planeta : memoria para optar al grado de doctor",
+      "category": "Libros",
+      "citation": "Madrid : Universidad Complutense, 2006. ISBN 84-669-2856-1",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=270096",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "tesis17274",
+      "title": "Literatura y sociedad el premio Planeta",
+      "category": "Tesis",
+      "citation": "Tesis doctoral dirigida por J. Ignacio Díez Fernández ( dir. tes. ). Universidad Complutense de Madrid (2004).",
+      "authors": "Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/tesis?codigo=17274",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    },
+    {
+      "id": "libro963218",
+      "title": "Miguel Delibes : encuadres y figuras en una España cambiante",
+      "category": "Coordinación",
+      "citation": "Iberoamericana : Vervuert, 2023. ISBN 978-84-9192-411-1",
+      "authors": "coord. por Ana Isabel Ballesteros Dorado , Fernando Ariza González",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=963218",
+      "source": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+      "retrievedAt": "2026-09-25"
+    }
+  ],
+  "articles": [
+    {
+      "id": "nunca-me-abandones-canto-a-la-finitud-humana",
+      "title": "‘Nunca me abandones’: canto a la finitud humana",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260919/nunca-me-abandones-canto-finitud-humana_459158.html",
+      "date": "2026-09-19",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "fortunata-y-jacinta-la-gran-novela-espanola",
+      "title": "‘Fortunata y Jacinta’, la Gran Novela Española",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260822/fortunata-jacinta-gran-novela-espanola_451036.html",
+      "date": "2026-08-22",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "madame-bovary-o-la-muerte-del-narrador",
+      "title": "'Madame Bovary' o la muerte del narrador",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260801/madame-bovary-muerte-narrador_445137.html",
+      "date": "2026-08-01",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": true,
+      "selectionReason": "Para conocer su mirada sobre el narrador y la construcción de una novela."
+    },
+    {
+      "id": "flujo-erudito-de-conciencia",
+      "title": "Flujo erudito de conciencia",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/flujo-erudito-de-conciencia/",
+      "date": "2026-07-30",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/flujo-erudito-de-conciencia/",
+      "sourceDescription": "Fernando Ariza escribe sobre 'Melancolía de los confines: Norte', de Mathias Enard, publicado por Mondadori.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2026/07/61bpkwydggl._sl1096_.jpg",
+      "dateEvidence": "30 Jul 2026",
+      "featured": false
+    },
+    {
+      "id": "mortal-y-rosa-el-dolor-que-umbral-convirtio-en-literatura",
+      "title": "'Mortal y rosa': el dolor que Umbral convirtió en literatura",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260620/mortal-rosa-dolor-umbral-convirtio-literatura_430215.html",
+      "date": "2026-06-20",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-genero-negro-llevado-a-la-trastienda-del-consumo",
+      "title": "El género negro llevado a la trastienda del consumo",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/el-genero-negro-llevado-a-la-trastienda-del-consumo/",
+      "date": "2026-06-04",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/el-genero-negro-llevado-a-la-trastienda-del-consumo/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'Mantis', un libro de Francisco Bescós publicado por Reservoir Books.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2026/06/francisco-bescos-mantis.jpg",
+      "dateEvidence": "04 Jun 2026",
+      "featured": false
+    },
+    {
+      "id": "cancionero-y-romancero-de-ausencias-la-voz-desnuda-del-prisionero",
+      "title": "'Cancionero y Romancero de Ausencias': la voz desnuda del prisionero",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260523/cancionero-romancero-ausencias-voz-desnuda-prisionero_420021.html",
+      "date": "2026-05-23",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-hija-que-el-fenix-no-quiso-ver",
+      "title": "La hija que el Fénix no quiso ver",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/la-hija-que-el-fenix-no-quiso-ver/",
+      "date": "2026-05-08",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/la-hija-que-el-fenix-no-quiso-ver/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'La hija del fénix', un libro de Fernando Bonete publicado por Espasa.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2026/05/la-hija-del-fenix-fernando-bonete.jpg",
+      "dateEvidence": "08 May 2026",
+      "featured": false
+    },
+    {
+      "id": "andrea-la-chica-rara",
+      "title": "Andrea, la chica rara",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260411/andrea-chica-rara_405088.html",
+      "date": "2026-04-11",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "picaresca-y-destino-en-la-posguerra",
+      "title": "Picaresca y destino en la posguerra",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/picaresca-y-destino-en-la-posguerra/",
+      "date": "2026-04-09",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/picaresca-y-destino-en-la-posguerra/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'Me hallará la muerte', una novela de Juan Manuel de Prada recuperada por Espasa.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2026/04/me-hallara-la-muerte-juan-manuel-de-prada.jpg",
+      "dateEvidence": "09 Abr 2026",
+      "featured": true,
+      "selectionReason": "La tradición picaresca como punto de partida para leer la narrativa contemporánea."
+    },
+    {
+      "id": "viejas-historias-de-castilla-la-vieja-delibes-y-la-memoria-de-una-tierra-que-resiste",
+      "title": "‘Viejas historias de Castilla la Vieja’: Delibes y la memoria de una tierra que resiste",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260307/viejas-historias-castilla-vieja-delibes-memoria-tierra-resiste_381803.html",
+      "date": "2026-03-07",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "retrato-en-negro-y-blanco-de-tres-pioneras-de-nuestras-letras",
+      "title": "Retrato en negro y blanco de tres pioneras de nuestras letras",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/retrato-en-negro-y-blanco-de-tres-pioneras-de-nuestras-letras/",
+      "date": "2026-03-05",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/retrato-en-negro-y-blanco-de-tres-pioneras-de-nuestras-letras/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'Tres amigas', un libro de Jesús Marchamalo publicado por Nórdica.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2026/03/jesus-marchamalo-tres-amigas.jpg",
+      "dateEvidence": "05 Mar 2026",
+      "featured": false
+    },
+    {
+      "id": "la-aristocracia-ante-el-espejo",
+      "title": "La aristocracia ante el espejo",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/la-aristocracia-ante-el-espejo/",
+      "date": "2026-02-04",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/la-aristocracia-ante-el-espejo/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Heredar el mérito', un ensayo de Rafael Atienza publicado por la editorial Pre-Textos.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2026/02/heredar-el-merito-rafael-atienza.jpg",
+      "dateEvidence": "04 Feb 2026",
+      "featured": false
+    },
+    {
+      "id": "las-ratas-y-la-dignidad-del-campo",
+      "title": "`Las ratas' y la dignidad del campo",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20260124/ratas-dignidad-campo_376954.html",
+      "date": "2026-01-24",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-arte-de-saltarse-las-reglas-la-irrupcion-de-un-narrador-que-juzga-insulta-y-divierte",
+      "title": "El arte de saltarse las reglas: la irrupción de un narrador que juzga, insulta y divierte",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/el-arte-de-saltarse-las-reglas-la-irrupcion-de-un-narrador-que-juzga-insulta-y-divierte/",
+      "date": "2026-01-01",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/el-arte-de-saltarse-las-reglas-la-irrupcion-de-un-narrador-que-juzga-insulta-y-divierte/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'Arte de hablar', un libro de Xavier Guillén publicado por Ediciones del Viento.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/12/xavier-guillen-arte-de-hablar.jpg",
+      "dateEvidence": "01 Ene 2026",
+      "featured": false
+    },
+    {
+      "id": "trascendencia-y-vacio",
+      "title": "Trascendencia y vacío",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/trascendencia-y-vacio/",
+      "date": "2025-12-29",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/trascendencia-y-vacio/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'Sobre Dios', el último libro de Byung-Chul Han, publicado por Paidós.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/11/sobre-dios-byung-chul-han.webp",
+      "dateEvidence": "29 Dic 2025",
+      "featured": false
+    },
+    {
+      "id": "ignacio-aldecoa-el-pulso-del-cuento",
+      "title": "Ignacio Aldecoa, el pulso del cuento",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20251227/ignacio-aldecoa-pulso-cuento_368715.html",
+      "date": "2025-12-27",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "cuando-la-amistad-es-destino",
+      "title": "Cuando la amistad es destino",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/cuando-la-amistad-es-destino/",
+      "date": "2025-11-29",
+      "source": "https://www.zendalibros.com/author/fernandoariza/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/cuando-la-amistad-es-destino/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'Querido J.', un libro de Lidia Jiménez publicado por la editorial Aliar.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/11/lidia-jimenez-querido-j.jpg",
+      "dateEvidence": "29 Nov 2025",
+      "featured": false
+    },
+    {
+      "id": "memorias-cruzadas-y-heridas-compartidas-una-intrahistoria-de-espana-en-clave-coral",
+      "title": "Memorias cruzadas y heridas compartidas: una intrahistoria de España en clave coral",
+      "publication": "República de las Letras",
+      "date": "2025-11-27",
+      "url": "https://republicadelasletras.acescritores.com/2025/11/27/memorias-cruzadas-y-heridas-compartidas-una-intrahistoria-de-espana-en-clave-coral/",
+      "source": "https://republicadelasletras.acescritores.com/2025/11/27/memorias-cruzadas-y-heridas-compartidas-una-intrahistoria-de-espana-en-clave-coral/",
+      "retrievedAt": "2026-09-25",
+      "authorshipEvidence": "Article body signed © FERNANDO ARIZA; author bio identifies Madrid 1978 / CEU literature professor.",
+      "featured": false
+    },
+    {
+      "id": "entre-visillos-redescubrir-la-calma-en-los-tiempos-del-vacio",
+      "title": "'Entre visillos': redescubrir la calma en los tiempos del vacío",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20251108/entre-visillos-redescubrir-calma-tiempos-vacio_352397.html",
+      "date": "2025-11-08",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "estetica-de-la-desolacion",
+      "title": "Estética de la desolación",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/estetica-de-la-desolacion/",
+      "date": "2025-11-01",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/estetica-de-la-desolacion/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'La sangre está cayendo al patio', un libro de Elvira Navarro publicado por Random House.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/10/la-sangre-esta-cayendo-al-patio-elvira-navarro.jpg",
+      "dateEvidence": "01 Nov 2025",
+      "featured": false
+    },
+    {
+      "id": "pequeno-teatro-la-opera-prima-de-ana-maria-matute",
+      "title": "`Pequeño teatro': la ópera prima de Ana María Matute",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20250927/pequeno-teatro-opera-prima-ana-maria-matute_337555.html",
+      "date": "2025-09-27",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "una-vida-literaria-unida-por-sus-fragmentos",
+      "title": "Una vida literaria unida por sus fragmentos",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/una-vida-literaria-unida-por-sus-fragmentos/",
+      "date": "2025-08-27",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/una-vida-literaria-unida-por-sus-fragmentos/",
+      "sourceDescription": "Fernando Ariza escribe sobre 'En esta red sonora', de Vicente Luis Mora, publicado por Galaxia Gutenberg.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/08/91jwivfzqpl._sl1500_.jpg",
+      "dateEvidence": "27 Ago 2025",
+      "featured": false
+    },
+    {
+      "id": "rafael-reig-si-tengo-un-descubierto-en-el-banco-ni-me-preocupo-ahi-sigo-escribiendo",
+      "title": "Rafael Reig: «Si tengo un descubierto en el banco, ni me preocupo; ahí sigo, escribiendo»",
+      "publication": "República de las Letras",
+      "date": "2025-08-27",
+      "url": "https://republicadelasletras.acescritores.com/2025/08/27/rafael-reig-si-tengo-un-descubierto-en-el-banco-ni-me-preocupo-ahi-sigo-escribiendo/",
+      "source": "https://republicadelasletras.acescritores.com/2025/08/27/rafael-reig-si-tengo-un-descubierto-en-el-banco-ni-me-preocupo-ahi-sigo-escribiendo/",
+      "retrievedAt": "2026-09-25",
+      "authorshipEvidence": "Article body signed © FERNANDO ARIZA; author bio identifies Madrid 1978 / CEU literature professor.",
+      "featured": true,
+      "selectionReason": "Una conversación de escritor a escritor sobre el oficio, la memoria y la literatura."
+    },
+    {
+      "id": "los-banquetes-del-gran-rey-el-siglo-de-oro-espanol-se-encuentra-con-la-dinastia-ming",
+      "title": "‘Los banquetes del gran rey’: el Siglo de Oro español se encuentra con la dinastía Ming",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20250816/banquetes-gran-rey-siglo-oro-espanol-encuentra-dinastia-ming_325635.html",
+      "date": "2025-08-16",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "martirio-y-milagro-entre-los-escombros-de-la-identidad",
+      "title": "Martirio y milagro entre los escombros de la identidad",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/martirio-y-milagro-entre-los-escombros-de-la-identidad/",
+      "date": "2025-08-03",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/martirio-y-milagro-entre-los-escombros-de-la-identidad/",
+      "sourceDescription": "Fernando Ariza escribe sobre '¡Mártir!', de Kaveh Akbar, publicado por Blackie Books.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/08/71etk4w2btl._sl1500_.jpg",
+      "dateEvidence": "03 Ago 2025",
+      "featured": false
+    },
+    {
+      "id": "salto-de-fe-versos-que-dudan-aman-y-recuerdan",
+      "title": "'Salto de fe': versos que dudan, aman y recuerdan",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20250719/salto-fe-versos-dudan-aman-recuerdan_312145.html",
+      "date": "2025-07-19",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "cuando-ellas-miran-piedad-memoria-y-deslumbramiento",
+      "title": "Cuando ellas miran: Piedad, memoria y deslumbramiento",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/cuando-ellas-miran-piedad-memoria-y-deslumbramiento/",
+      "date": "2025-07-08",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/cuando-ellas-miran-piedad-memoria-y-deslumbramiento/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de 'Cuando ellas', de Guadalupe Arbona, publicado por la editorial Pre-Textos.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/07/61t2-wptd2l._sl1024_.jpg",
+      "dateEvidence": "08 Jul 2025",
+      "featured": false
+    },
+    {
+      "id": "lo-que-se-de-almudena-rafael-reig-en-estado-puro",
+      "title": "‘Lo que sé de Almudena’: Rafael Reig en estado puro",
+      "publication": "República de las Letras",
+      "date": "2025-06-19",
+      "url": "https://republicadelasletras.acescritores.com/2025/06/19/lo-que-se-de-almudena-rafael-reig-en-estado-puro/",
+      "source": "https://republicadelasletras.acescritores.com/2025/06/19/lo-que-se-de-almudena-rafael-reig-en-estado-puro/",
+      "retrievedAt": "2026-09-25",
+      "authorshipEvidence": "Article body signed © FERNANDO ARIZA; author bio identifies Madrid 1978 / CEU literature professor.",
+      "featured": false
+    },
+    {
+      "id": "la-fabula-oscura-de-bora-chung",
+      "title": "La fábula oscura de Bora Chung",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/la-fabula-oscura-de-bora-chung/",
+      "date": "2025-06-16",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/la-fabula-oscura-de-bora-chung/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'La zorra', una novela de Bora Chung publicada por la editorial Alpha Decay.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/06/la-zorra-bora-chung-669x1024.png",
+      "dateEvidence": "16 Jun 2025",
+      "featured": false
+    },
+    {
+      "id": "el-mistico-sin-porque",
+      "title": "El místico sin porqué",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20250607/mistico-porque_303501.html",
+      "date": "2025-06-07",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "cioran-y-los-origenes-del-mal",
+      "title": "Cioran y los orígenes del mal",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/cioran-y-los-origenes-del-mal/",
+      "date": "2025-06-03",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/cioran-y-los-origenes-del-mal/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Cioran antes de Cioran', un libro de Vincent Piednoir publicado por Ediciones del Subsuelo.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/06/cioran-antes-de-cioran-vincent-piednoir.jpg",
+      "dateEvidence": "03 Jun 2025",
+      "featured": false
+    },
+    {
+      "id": "mientras-agonizo-la-muerte-y-la-vida-en-el-profundo-sur",
+      "title": "'Mientras agonizo': la muerte y la vida en el profundo sur",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20250524/mientras-agonizo-muerte-vida-profundo-sur_298693.html",
+      "date": "2025-05-24",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-red-desvelada",
+      "title": "La Red desvelada",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/la-red-desvelada/",
+      "date": "2025-05-06",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/la-red-desvelada/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'La comunicación en el diván', un libro de Pilar Carrera publicado por Cátedra.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/05/la-comunicacion-en-el-divan-pilar-carrera.jpg",
+      "dateEvidence": "06 May 2025",
+      "featured": false
+    },
+    {
+      "id": "hagiografia-laica-del-papa-francisco-por-javier-cercas",
+      "title": "Hagiografía laica del papa Francisco, por Javier Cercas",
+      "publication": "República de las Letras",
+      "date": "2025-04-19",
+      "url": "https://republicadelasletras.acescritores.com/2025/04/19/hagiografia-laica-del-papa-francisco-por-javier-cercas/",
+      "source": "https://republicadelasletras.acescritores.com/2025/04/19/hagiografia-laica-del-papa-francisco-por-javier-cercas/",
+      "retrievedAt": "2026-09-25",
+      "authorshipEvidence": "Article body signed © FERNANDO ARIZA; author bio identifies Madrid 1978 / CEU literature professor.",
+      "featured": false
+    },
+    {
+      "id": "loas-literarias-a-un-catalogo-espectacular",
+      "title": "Loas literarias a un catálogo espectacular",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/loas-literarias-a-un-catalogo-espectacular/",
+      "date": "2025-04-01",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/loas-literarias-a-un-catalogo-espectacular/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Secreto y pasión de la literatura', un libro de Juan Cruz Ruiz publicado por Tusquets.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/03/secreto-y-pasion-de-la-literatura-juan-cruz.jpg",
+      "dateEvidence": "01 Abr 2025",
+      "featured": false
+    },
+    {
+      "id": "tinta-invisible-cuando-la-vida-de-los-escritores-nos-dice-casi-tanto-como-lo-que-escribieron",
+      "title": "‘Tinta invisible’: cuando la vida de los escritores nos dice casi tanto como lo que escribieron",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20250329/tinta-invisible-cuando-vida-escritores-dice-casi-tanto-como-escribieron_281490.html",
+      "date": "2025-03-29",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "entre-osas-y-merinas-tragedia-y-naturaleza-en-la-cordillera-cantabrica",
+      "title": "Entre osas y merinas: tragedia y naturaleza en la Cordillera Cantábrica",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/entre-osas-y-merinas-tragedia-y-naturaleza-en-la-cordillera-cantabrica/",
+      "date": "2025-02-27",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/2/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/entre-osas-y-merinas-tragedia-y-naturaleza-en-la-cordillera-cantabrica/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Cordillera', la última novela de Marta del Riego Anta publicada por la editorial AdN.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/01/cordillera-marta-del-riego-anta-scaled.jpg",
+      "dateEvidence": "27 Feb 2025",
+      "featured": false
+    },
+    {
+      "id": "arboles-biograficos-y-culturales",
+      "title": "Árboles biográficos y culturales",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/arboles-biograficos-y-culturales/",
+      "date": "2025-01-22",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/arboles-biograficos-y-culturales/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Arboreto salvático', un libro de Mario Rigoni Stern publicado por Gallo Nero.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2025/01/arboreto-salvatico-mario-rigoni-stern.jpeg",
+      "dateEvidence": "22 Ene 2025",
+      "featured": false
+    },
+    {
+      "id": "antes-de-que-google-nos-alcance-una-poetica-contra-el-olvido-digital",
+      "title": "'Antes de que Google nos alcance': una poética contra el olvido digital",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20250118/antes-google-alcance-poetica-contra-olvido-digital_261470.html",
+      "date": "2025-01-18",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "gotico-botanico-cuentos-de-un-verdor-perverso",
+      "title": "‘Gótico botánico’: Cuentos de un verdor perverso",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20241228/gotico-botanico-cuentos-verdor-perverso_256303.html",
+      "date": "2024-12-28",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "elegia-al-campo-espanol",
+      "title": "Elegía al campo español",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/elegia-al-campo-espanol/",
+      "date": "2024-12-19",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/elegia-al-campo-espanol/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Escribir la tierra', un libro de Javier Morales publicado por la editorial Tres hermanas.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2024/12/escribir-la-tierra-javier-morales-1-scaled.jpg",
+      "dateEvidence": "19 Dic 2024",
+      "featured": false
+    },
+    {
+      "id": "las-vidas-creadas-de-los-grandes-creadores",
+      "title": "Las vidas creadas de los grandes creadores",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/las-vidas-creadas-de-los-grandes-creadores/",
+      "date": "2024-11-30",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/las-vidas-creadas-de-los-grandes-creadores/",
+      "sourceDescription": "Ferando Ariza escribe acerca de 'Malas lenguas', un libro de Fernando Bonete publicado por el sello Ediciones B.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2024/11/malas-lenguas-fernando-bonete-1-1.jpg",
+      "dateEvidence": "30 Nov 2024",
+      "featured": false
+    },
+    {
+      "id": "lecciones-de-realismo-social-y-metafisica-pop",
+      "title": "Lecciones de realismo social y metafísica pop",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/lecciones-de-realismo-social-y-metafisica-pop/",
+      "date": "2024-11-15",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/lecciones-de-realismo-social-y-metafisica-pop/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Jesuclisto', una novela de Mario Marín publicada por Ediciones del Viento.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2024/11/mario-marin-jesuclisto.jpg",
+      "dateEvidence": "15 Nov 2024",
+      "featured": false
+    },
+    {
+      "id": "cuentos-poe-en-la-memoria",
+      "title": "‘Cuentos’: Poe en la memoria",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20241109/cuentos-poe-memoria_243022.html",
+      "date": "2024-11-09",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "basilisco-domenado",
+      "title": "Basilisco domeñado",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20241019/basilisco-domenado_236792.html",
+      "date": "2024-10-19",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "ahi-fuera-novios-ciberneticos-y-casas-organicas",
+      "title": "‘Ahí fuera’: novios cibernéticos y casas orgánicas",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240928/ahi-fuera-novios-ciberneticos-casas-organicas_231173.html",
+      "date": "2024-09-28",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "blackwater-la-cosa-del-pantano-llega-a-yoknapatawpha",
+      "title": "Blackwater: La cosa del pantano llega a Yoknapatawpha",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/blackwater-la-cosa-del-pantano-llega-a-yoknapatawpha/",
+      "date": "2024-09-27",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/blackwater-la-cosa-del-pantano-llega-a-yoknapatawpha/",
+      "sourceDescription": "Fernando Ariza escribe en Zenda acerca de la saga de Blackwater, de Michael McDowell, recuperada por Blackie Books.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2024/09/michael-mcdowell.png",
+      "dateEvidence": "27 Sep 2024",
+      "featured": false
+    },
+    {
+      "id": "fantasia-destilada",
+      "title": "Fantasía destilada",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/fantasia-destilada/",
+      "date": "2024-09-09",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/fantasia-destilada/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'Criaturas imposibles', un libro de Katherine Rundell publicado por la editorial Destino.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2024/09/criaturas-imposibles-katherine-rundell-1.jpg",
+      "dateEvidence": "09 Sep 2024",
+      "featured": false
+    },
+    {
+      "id": "jekyll-y-hyde-actualidad-de-un-clasico",
+      "title": "Jekyll y Hyde: actualidad de un clásico",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240907/jekyll-hyde-actualidad-clasico_225489.html",
+      "date": "2024-09-07",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "los-cuentos-de-hadas-son-para-todas-las-edades",
+      "title": "Los cuentos de hadas son para todas las edades",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/los-cuentos-de-hadas-son-para-todas-las-edades/",
+      "date": "2024-08-30",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/los-cuentos-de-hadas-son-para-todas-las-edades/",
+      "sourceDescription": "Fernando Ariza escribe acerca de \"El gran timo de las hadas\" , de Félix J. Palma, una obra publicada por la editorial Destino.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2024/06/el-gran-timo-de-las-hadas-felix-j-palma-scaled.jpg",
+      "dateEvidence": "30 Ago 2024",
+      "featured": true,
+      "selectionReason": "Fantasía, historia y placer de narrar: una lectura cercana al universo de Ciudad dormida."
+    },
+    {
+      "id": "matar-un-ruisenor-el-valor-de-la-perspectiva",
+      "title": "‘Matar un ruiseñor’: el valor de la perspectiva",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240817/matar-ruisenor-valor-perspectiva_220606.html",
+      "date": "2024-08-17",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "cualquier-cosa-pequena-de-rafael-reig",
+      "title": "‘Cualquier cosa pequeña’, de Rafael Reig",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240727/cualquier-cosa-pequena-rafael-reig_216127.html",
+      "date": "2024-07-27",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-memoria-de-los-animales-la-pandemia-revisitada",
+      "title": "‘La memoria de los animales’: La pandemia revisitada",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240713/memoria-animales-pandemia-revisitada_212837.html",
+      "date": "2024-07-13",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-pesadilla-de-un-houellebecq-naturalista",
+      "title": "La pesadilla de un Houellebecq naturalista",
+      "publication": "Zenda",
+      "url": "https://www.zendalibros.com/la-pesadilla-de-un-houellebecq-naturalista/",
+      "date": "2024-07-09",
+      "source": "https://www.zendalibros.com/author/fernandoariza/page/3/",
+      "retrievedAt": "2026-09-25",
+      "dateSource": "https://www.zendalibros.com/la-pesadilla-de-un-houellebecq-naturalista/",
+      "sourceDescription": "Fernando Ariza escribe acerca de 'La charca', una novela de Manuel Bivar publicada por la editorial De Conatus.",
+      "sourceImage": "https://cdn.zendalibros.com/wp-content/uploads/2024/07/la-charca-manuel-bivar.jpg",
+      "dateEvidence": "09 Jul 2024",
+      "featured": false
+    },
+    {
+      "id": "magistral-tejido-de-historias-de-maggie-o-farrell",
+      "title": "Magistral tejido de historias de Maggie O'Farrell",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240615/magistral-tejido-historias-maggie-farrell_205384.html",
+      "date": "2024-06-15",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "los-aerostatos-pequena-gran-novela",
+      "title": "'Los aerostatos': pequeña gran novela",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240601/aerostatos-pequena-gran-novela_201625.html",
+      "date": "2024-06-01",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "mariana-enriquez-un-extrano-fenomeno-literario",
+      "title": "Mariana Enríquez, un extraño fenómeno literario",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240518/mariana-enriquez-extrano-fenomeno-literario_197814.html",
+      "date": "2024-05-18",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "defensa-de-los-clasicos-vivos-gonzalo-hidalgo-bayal",
+      "title": "Defensa de los clásicos vivos: Gonzalo Hidalgo Bayal",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240504/defensa-clasicos-vivos-gonzalo-hidalgo-bayal_194269.html",
+      "date": "2024-05-04",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "naci-sobre-una-rotativa-el-ortega-mas-involucrado-con-su-tiempo",
+      "title": "`Nací sobre una rotativa´: el Ortega más involucrado con su tiempo",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240420/naci-sobre-rotativa-ortega-involucrado-tiempo_190799.html",
+      "date": "2024-04-20",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "saga-familiar-con-la-historia-reciente-de-espana-como-escenario-y-el-poder-como-motor",
+      "title": "Saga familiar con la historia reciente de España como escenario y el poder como motor",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240413/saga-familiar-historia-reciente-espana-como-escenario-poder-como-motor_188866.html",
+      "date": "2024-04-13",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-ciudad-y-sus-muros-inciertos-platon-y-kafka-a-ritmo-de-jazz",
+      "title": "'La ciudad y sus muros inciertos': Platón y Kafka a ritmo de jazz",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240330/ciudad-muros-inciertos-platon-kafka-ritmo-jazz_185358.html",
+      "date": "2024-03-30",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "therese-desqueyroux-armonia-de-fondo-y-forma",
+      "title": "'Thérèse Desqueyroux': armonía de fondo y forma",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240309/therese-desqueyroux-armonia-fondo-forma_180403.html",
+      "date": "2024-03-09",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "solito-viaje-homerico-a-la-tierra-prometida",
+      "title": "'Solito': viaje homérico a la tierra prometida",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240217/solito-viaje-homerico-tierra-prometida_175289.html",
+      "date": "2024-02-17",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "federico-garcia-lorca-en-el-franquismo-un-poeta-en-los-meandros-de-la-historia",
+      "title": "'Federico García Lorca en el franquismo': un poeta en los meandros de la historia",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240210/federico-garcia-lorca-franquismo-poeta-meandros-historia_173248.html",
+      "date": "2024-02-10",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "solsticio-siniestro-cuentos-para-las-noches-mas-largas",
+      "title": "'Solsticio siniestro': cuentos para las noches más largas",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240203/solsticio-siniestro-cuentos-noches-largas_171480.html",
+      "date": "2024-02-03",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "aventureros-del-nuevo-mundo-esa-america-que-no-nos-contaron",
+      "title": "'Aventureros del Nuevo Mundo': esa América que no nos contaron",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240127/aventureros-nuevo-mundo-america-no-contaron_170081.html",
+      "date": "2024-01-27",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-asesino-ciego-sobre-la-memoria-y-sus-trampas",
+      "title": "'El Asesino Ciego': sobre la memoria y sus trampas",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20240113/asesino-ciego-sobre-memoria-trampas_166257.html",
+      "date": "2024-01-13",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-regreso-de-los-cuentos-navidenos-populares",
+      "title": "El regreso de los cuentos navideños populares",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231230/regreso-cuentos-navidenos-populares_163853.html",
+      "date": "2023-12-30",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "todas-las-criaturas-grandes-y-pequenas-aventuras-y-desventuras-de-un-veterinario-en-la-campina-inglesa",
+      "title": "'Todas las criaturas grandes y pequeñas': aventuras y desventuras de un veterinario en la campiña inglesa",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231202/todas-criaturas-grandes-pequenas-aventuras-desventuras-veterinario-campina-inglesa_157219.html",
+      "date": "2023-12-02",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/2/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "una-cabeza-cercenada-una-inteligente-y-divertida-satira-del-psicoanalisis",
+      "title": "'Una cabeza cercenada': una inteligente y divertida sátira del psicoanálisis",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231118/cabeza-cercenada-inteligente-divertida-satira-psicoanalisis_154434.html",
+      "date": "2023-11-18",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "birdgirl-la-familia-y-los-demas-son-pajaros",
+      "title": "'Birdgirl': la familia y los demás son pájaros",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231104/birdgirl-familia-demas-son-pajaros_150669.html",
+      "date": "2023-11-04",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-cancion-del-verdugo-un-gran-libro-de-psicologia-criminal",
+      "title": "'La canción del verdugo': un gran libro de psicología criminal",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231028/cancion-verdugo-gran-libro-psicologia-criminal_148996.html",
+      "date": "2023-10-28",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "conejo-maldito-fantasia-terror-y-ciencia-ficcion-con-contenido",
+      "title": "´Conejo maldito´: fantasía, terror y ciencia ficción con contenido",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231021/conejo-maldito-fantasia-terror-ciencia-ficcion-contenido_147543.html",
+      "date": "2023-10-21",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-crisis-de-la-narracion-el-arte-de-contar-buenas-historias",
+      "title": "`La crisis de la narración´: el arte de contar buenas historias",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231021/crisis-narracion-arte-contar-buenas-historias_147542.html",
+      "date": "2023-10-21",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-negro-de-vargas-llosa-divertido-homenaje-al-mundo-del-libro",
+      "title": "'El negro de Vargas Llosa': divertido homenaje al mundo del libro",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20231007/negro-vargas-llosa-divertido-homenaje-mundo-libro_144204.html",
+      "date": "2023-10-07",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "en-el-primer-aniversario-de-la-muerte-de-javier-marias",
+      "title": "En el primer aniversario de la muerte de Javier Marías",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230923/primer-aniversario-muerte-javier-marias_141069.html",
+      "date": "2023-09-23",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-mago-del-kremlin-la-politica-como-ficcion",
+      "title": "'El mago del Kremlin': la política como ficción",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230909/mago-kremlin-politica-como-ficcion_138347.html",
+      "date": "2023-09-09",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "arenas-de-arabia-canto-a-la-libertad",
+      "title": "'Arenas de Arabia': canto a la libertad",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230819/arenas-arabia-canto-libertad_127666.html",
+      "date": "2023-08-19",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "diez-clasicos-para-leer-con-tus-hijos-este-verano",
+      "title": "Diez clásicos para leer con tus hijos este verano",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230722/diez-clasicos-leer-tus-hijos-este-verano_129427.html",
+      "date": "2023-07-22",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "nosotros-la-madre-de-todas-las-distopias-politicas",
+      "title": "'Nosotros': la madre de todas las distopías políticas",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230701/nosotros-madre-todas-distopias-politicas_124886.html",
+      "date": "2023-07-01",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-querido-hermano-manuel-machado-entre-burgos-y-colliure",
+      "title": "'El querido hermano': Manuel Machado entre Burgos y Colliure",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230624/querido-hermano-manuel-machado-entre-burgos-colliure_123348.html",
+      "date": "2023-06-24",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-ronda-sangre-en-la-m-30",
+      "title": "´La Ronda´: sangre en la M-30",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230610/ronda-sangre-m-30_120348.html",
+      "date": "2023-06-10",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "un-ballet-de-leprosos-cohen-sin-engano",
+      "title": "´Un ballet de leprosos´: Cohen sin engaño",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230527/ballet-leprosos-cohen-engano_117250.html",
+      "date": "2023-05-27",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "lobo-unas-memorias-falsas-autorretrato-de-una-bestia-humana",
+      "title": "'Lobo. Unas memorias falsas': autorretrato de una bestia humana",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230513/lobo-memorias-falsas-autorretrato-bestia-humana_113928.html",
+      "date": "2023-05-13",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "fortuna-los-felices-anos-veinte-y-sus-resacas",
+      "title": "'Fortuna': los felices años veinte y sus resacas",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230429/fortuna-felices-anos-veinte-resacas_110886.html",
+      "date": "2023-04-29",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "elizabeth-finch-sobre-la-mitificacion-y-su-fracaso",
+      "title": "'Elizabeth Finch': sobre la mitificación y su fracaso",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230422/elizabeth-finch-sobre-mitificacion-fracaso_108372.html",
+      "date": "2023-04-22",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "much-dithering-donde-el-amor-siempre-triunfa",
+      "title": "'Much Dithering': donde el amor siempre triunfa",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230401/much-dithering-donde-amor-siempre-triunfa_104918.html",
+      "date": "2023-04-01",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "anoxia-loa-a-la-fotografia-mortuoria",
+      "title": "'Anoxia': loa a la fotografía mortuoria",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230318/anoxia-loa-fotografia-mortuoria_101471.html",
+      "date": "2023-03-18",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "orlando-furioso-en-los-origenes-del-quijote",
+      "title": "'Orlando furioso': en los orígenes del Quijote",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230311/orlando-furioso-origenes-quijote_99097.html",
+      "date": "2023-03-11",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/3/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "volver-a-cuando-la-revolucion-que-devora-a-sus-hijos",
+      "title": "'Volver a cuándo': la revolución que devora a sus hijos",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230304/volver-cuando-revolucion-devora-hijos_97389.html",
+      "date": "2023-03-04",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "arana-un-western-mitico-y-existencial",
+      "title": "'Araña': un wéstern mítico y existencial",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230225/arana-western-mitico-existencial_95529.html",
+      "date": "2023-02-25",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "un-mundo-feliz-lectura-de-urgencia",
+      "title": "'Un mundo feliz': lectura de urgencia",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230211/mundo-feliz-lectura-urgencia_92056.html",
+      "date": "2023-02-11",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "escenas-de-cine-mudo-recuerdos-olvidados-en-viejas-fotografias",
+      "title": "'Escenas de cine mudo': recuerdos olvidados en viejas fotografías",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230204/escenas-cine-mudo-recuerdos-olvidados-viejas-fotografias_90795.html",
+      "date": "2023-02-04",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "elvira-navarro-hemos-perdido-la-verguenza-por-el-pasado-a-la-vez-que-hemos-diversificado-nuestras-herencias",
+      "title": "Elvira Navarro: «Hemos perdido la vergüenza por el pasado, a la vez que hemos diversificado nuestras herencias»",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/20230123/elvira-navarro_87559.html",
+      "date": "2023-01-23",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "amor-una-historia-en-cinco-fantasias-las-narrativas-del-corazon",
+      "title": "'Amor. Una historia en cinco fantasías': las narrativas del corazón",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230121/amor-historia-cinco-fantasias-narrativas-corazon_86686.html",
+      "date": "2023-01-21",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "viento-herido-geniales-esbozos-de-humanidad",
+      "title": "'Viento herido': geniales esbozos de humanidad",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20230114/viento-herido-geniales-esbozos-humanidad_85260.html",
+      "date": "2023-01-14",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "las-efemerides-literarias-de-2023-un-ano-lleno-de-celebraciones",
+      "title": "Las efemérides literarias de 2023. Un año lleno de celebraciones",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221231/efemerides-literarias-2023-ano-lleno-celebraciones_82614.html",
+      "date": "2022-12-31",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "familia-infancia-y-juventud-libro-clave-para-entender-a-pio-baroja",
+      "title": "'Familia, infancia y juventud': libro clave para entender a Pío Baroja",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221217/familia-infancia-juventud-libro-clave-entender-pio-baroja_79898.html",
+      "date": "2022-12-17",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "percusion-desde-el-lugar-mas-lejano",
+      "title": "'Percusión': desde el lugar más lejano",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221203/percusion-desde-lugar-mas-lejano_77067.html",
+      "date": "2022-12-03",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-letra-herida-vidas-creadoras-vidas-rotas",
+      "title": "'La letra herida': vidas creadoras, vidas rotas",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221126/letra-herida-vidas-creadoras-vidas-rotas_74743.html",
+      "date": "2022-11-26",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "hojas-de-otono-un-canto-a-la-naturaleza-con-mayuscula",
+      "title": "'Hojas de otoño': un canto a la Naturaleza con mayúscula",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221105/hojas-otono-canto-naturaleza-mayuscula_70468.html",
+      "date": "2022-11-05",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "a-proposito-de-ferlosio-biografia-intelectual-de-un-heterodoxo",
+      "title": "'A propósito de Ferlosio': biografía intelectual de un heterodoxo",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221029/proposito-ferlosio-biografia-intelectual-heterodoxo_68721.html",
+      "date": "2022-10-29",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "aritmetica-familiar-anatomia-de-la-gran-burguesia-madrilena",
+      "title": "'Aritmética familiar': anatomía de la gran burguesía madrileña",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221015/aritmetica-familiar-anatomia-gran-burguesia-madrilena_65985.html",
+      "date": "2022-10-15",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "ojos-de-gato-no-lea-este-libro-si-tiene-hijas-pequenas-o-si",
+      "title": "'Ojos de gato': no lea este libro si tiene hijas pequeñas, o sí",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20221001/ojos-gato-no-lea-este-libro-tiene-hijas-pequenas-si_63196.html",
+      "date": "2022-10-01",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "los-demonios-del-padre-joan-job-y-el-padre-brown-se-encuentran-en-barcelona",
+      "title": "'Los demonios del padre Joan': Job y el Padre Brown se encuentran en Barcelona",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220924/demonios-padre-joan-job-padre-brown-encuentran-barcelona_60996.html",
+      "date": "2022-09-24",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "un-tal-cangrejo-un-titulo-tan-pegadizo-como-su-prosa",
+      "title": "'Un tal Cangrejo': un título tan pegadizo como su prosa",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220917/cangrejo-titulo-pegadizo-como-prosa_60233.html",
+      "date": "2022-09-17",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "los-santos-inocentes-de-paseo-con-azarias",
+      "title": "'Los santos inocentes': de paseo con Azarías",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220910/santos-inocentes-paseo-azarias_58460.html",
+      "date": "2022-09-10",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "grand-union-relatos-para-disfrutar-de-una-de-las-mejores-escritoras-britanicas",
+      "title": "'Grand Union': relatos para disfrutar de una de las mejores escritoras británicas",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220820/grand-union-relatos-disfrutar-mejores-escritoras-britanicas_52600.html",
+      "date": "2022-08-20",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "obras-reunidas-emociones-profundas-descubrimientos-familiares-y-cultura-escrita",
+      "title": "'Obras reunidas': emociones profundas, descubrimientos familiares y cultura escrita",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220812/0bras-reunidas-emociones-profundas-descubrimientos-familiares-cultura-escrita_52460.html",
+      "date": "2022-08-12",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/4/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "y-por-esto-el-principe-no-reino-la-mejor-ficcion-se-une-con-nuestro-pasado",
+      "title": "'Y por esto el príncipe no reinó': la mejor ficción se une con nuestro pasado",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220808/esto-principe-no-reino-mejor-ficcion-une-nuestro-pasado.html",
+      "date": "2022-08-08",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "encrucijadas-una-gran-novela-americana",
+      "title": "'Encrucijadas': una gran novela americana",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220804/encrucijadas-gran-novela-americana.html",
+      "date": "2022-08-04",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-castillo-de-barbazul-superventas-de-uno-de-nuestros-mejores-escritores",
+      "title": "'El castillo de Barbazul'. Superventas de uno de nuestros mejores escritores",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220728/castillo-barbazul-superventas-nuestros-mejores-escritores.html",
+      "date": "2022-07-28",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-maquina-de-amor-sagrado-y-profano-de-iris-murdoch",
+      "title": "'La máquina de amor sagrado y profano' de Iris Murdoch",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220726/ma-quina-amor-sagrado-profano-iris-murdoch.html",
+      "date": "2022-07-26",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "caso-clinico-juego-de-espejos-sobre-la-identidad-y-suspense-psicologico",
+      "title": "'Caso clínico': juego de espejos sobre la identidad y suspense psicológico",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220723/caso-clinico-juego-espejos-sobre-identidad-suspense-psicologico.html",
+      "date": "2022-07-23",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-alfabeto-de-los-dioses-de-sabios-santos-y-demonios",
+      "title": "'El alfabeto de los dioses': de sabios, santos y demonios",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220716/alfabeto-dioses-sabios-santos-demonios.html",
+      "date": "2022-07-16",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "apetito-por-paris-paris-bien-vale-una-cena",
+      "title": "'Apetito por París': París bien vale una cena",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220702/apetito-paris-paris-bien-vale-cena.html",
+      "date": "2022-07-02",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "diez-libros-para-releer",
+      "title": "Diez libros para releer",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220611/diez-libros-releer.html",
+      "date": "2022-06-11",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "todos-los-museos-son-novelas-de-ciencia-ficcion",
+      "title": "«Todos los museos son novelas de ciencia ficción»",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220528/todos-museos-son-novelas-ciencia-ficcion.html",
+      "date": "2022-05-28",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-maquina-de-amor-sagrado-y-profano",
+      "title": "«La máquina de amor sagrado y profano»",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220507/ma-quina-amor-humano-profano.html",
+      "date": "2022-05-07",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "el-castillo-de-barbazul-un-superventas-de-uno-de-nuestros-mejores-escritores",
+      "title": "«El castillo de Barbazul». Un superventas de uno de nuestros mejores escritores",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220416/castillo-barbazul-superventas-nuestros-mejores-escritores.html",
+      "date": "2022-04-16",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "diez-libros-para-celebrar-la-primavera",
+      "title": "Diez libros para celebrar la primavera",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220409/diez-libros-celebrar-primavera.html",
+      "date": "2022-04-09",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "10-libros-para-el-metro",
+      "title": "10 libros para el metro",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220319/10-libros-metro.html",
+      "date": "2022-03-19",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "desayuno-de-campeones-nuestro-mundo-visto-por-un-alienigena",
+      "title": "«Desayuno de campeones». Nuestro mundo visto por un alienígena",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220312/desayuno-campeones-nuestro-mundo-visto-alienigena.html",
+      "date": "2022-03-12",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "dune-el-renacer-de-un-clasico",
+      "title": "«Dune», el renacer de un clásico",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220226/dune-renacer-clasico.html",
+      "date": "2022-02-26",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "en-el-centenario-de-ulises",
+      "title": "En el centenario de «Ulises»",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220212/centenario-ulises.html",
+      "date": "2022-02-12",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "nigeria-deconstruida",
+      "title": "Nigeria deconstruida",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220205/nigeria-deconstruida.html",
+      "date": "2022-02-05",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "una-gran-novela-hipster",
+      "title": "Una gran novela hípster",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220115/gran-novela-hipster.html",
+      "date": "2022-01-15",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "volver-a-casa-paris-y-estambul-a-paso-lento",
+      "title": "«Volver a casa». París y Estambul a paso lento",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20220108/paris-estambul-paso-lento.html",
+      "date": "2022-01-08",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "la-culpa-la-gracia-y-aquellos-maravillosos-anos",
+      "title": "La culpa, la gracia y aquellos maravillosos años",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20211127/culpa-gracia-maravillosos-anos.html",
+      "date": "2021-11-27",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/5/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "en-los-limites-del-mundo",
+      "title": "En los límites del mundo",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20211113/limites-mundo.html",
+      "date": "2021-11-13",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/6/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "murakami-por-murakami",
+      "title": "Murakami, por Murakami",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20211105/murakami-murakami.html",
+      "date": "2021-11-05",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/6/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "maddaddam-sobre-el-fin-el-mundo-y-lo-que-sucedio-despues",
+      "title": "«Maddaddam». Sobre el fin el mundo y lo que sucedió después",
+      "publication": "El Debate",
+      "url": "https://www.eldebate.com/cultura/libros/20211029/maddaddam-sobre-mundo-sucedio.html",
+      "date": "2021-10-29",
+      "source": "https://www.eldebate.com/autor/fernando-ariza/6/",
+      "retrievedAt": "2026-09-25",
+      "featured": false
+    },
+    {
+      "id": "blasco-ibanez-contribucion-al-oficio-del-escritor",
+      "title": "Blasco Ibáñez y su contribución al oficio del escritor",
+      "publication": "República de las Letras",
+      "date": "2017-06-30",
+      "url": "https://republicadelasletras.acescritores.com/2017/06/30/blasco-ibanez-contribucion-al-oficio-del-escritor/",
+      "source": "https://republicadelasletras.acescritores.com/2017/06/30/blasco-ibanez-contribucion-al-oficio-del-escritor/",
+      "retrievedAt": "2026-09-25",
+      "authorshipEvidence": "Article body signed © FERNANDO ARIZA; author bio identifies Madrid 1978 / CEU literature professor.",
+      "featured": true,
+      "selectionReason": "La investigación sobre Blasco Ibáñez y el mercado editorial, contada para un público amplio."
+    },
+    {
+      "id": "cuarto-y-mitad-de-cultura",
+      "title": "Cuarto y mitad de cultura",
+      "publication": "Nueva Revista",
+      "date": "2008-04-30",
+      "url": "https://www.nuevarevista.net/cuarto-y-mitad-de-cultura/",
+      "source": "https://www.nuevarevista.net/autor/fernando-gonzalez-ariza/",
+      "retrievedAt": "2026-09-25",
+      "authorshipEvidence": "Publisher author archive and signed article, Fernando González-Ariza.",
+      "featured": false
+    },
+    {
+      "id": "los-premios-literarios-entre-la-cultura-y-el-marketing",
+      "title": "Los premios literarios, entre la cultura y el marketing",
+      "publication": "Nueva Revista",
+      "date": "2007-11-30",
+      "url": "https://www.nuevarevista.net/los-premios-literarios-entre-la-cultura-y-el-marketing/",
+      "source": "https://www.nuevarevista.net/autor/fernando-gonzalez-ariza/",
+      "retrievedAt": "2026-09-25",
+      "authorshipEvidence": "Publisher author archive and signed article, Fernando González-Ariza.",
+      "featured": true,
+      "selectionReason": "Un texto que conecta su crítica literaria con su investigación sobre el Premio Planeta."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "veredas",
+      "quote": "Una novela que nos atañe a todos, porque todos hemos pasado malos momentos y hemos peleado para superarlos.",
+      "name": "Recaredo Veredas",
+      "publication": "República de las Letras",
+      "portrait": "images/recaredo-veredas.png",
+      "source": "https://republicadelasletras.acescritores.com/2020/01/15/buscando-la-redencion-fuiste-el-rey-de-fernando-ariza/"
+    },
+    {
+      "id": "tamburri",
+      "quote": "Ariza demuestra que la batalla no está perdida y que hay quien puede ganarla.",
+      "name": "Pascual Tamburri Bariain",
+      "publication": "El Semanal Digital",
+      "portrait": "images/tamburri.png",
+      "source": "git:77f019e:index.html"
+    },
+    {
+      "id": "ballesteros",
+      "quote": "Un cóctel diferente.",
+      "name": "Ana Isabel Ballesteros",
+      "publication": "Artes Hoy",
+      "portrait": "images/ballesteros.png",
+      "source": "git:77f019e:index.html"
+    },
+    {
+      "id": "portoles",
+      "quote": "Un elogio a la literatura y a su capacidad de penetrar en la naturaleza humana.",
+      "name": "Alberto Portolés",
+      "publication": "Aceprensa",
+      "portrait": null,
+      "source": "git:77f019e:index.html"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "María Zambrano y las escritoras del 27",
+      "status": "contradicted",
+      "reason": "Publisher title page credits Francisco Morales Lomas and Manuel Gahete as editors. Fernando does not appear in the full table of contents. Bookseller attribution is insufficient.",
+      "source": "https://www.comares.com/media/comares/files/toc-166568.pdf"
+    }
+  ],
+  "archiveCoverage": {
+    "checkedAt": "2026-09-25",
+    "sources": [
+      {
+        "publication": "El Debate",
+        "scope": "All six author archive pages",
+        "count": 103
+      },
+      {
+        "publication": "Zenda",
+        "scope": "All three author archive pages and individual publication dates",
+        "count": 26
+      },
+      {
+        "publication": "República de las Letras",
+        "scope": "Author tag and site search; independently verified signatures",
+        "count": 5
+      },
+      {
+        "publication": "Nueva Revista",
+        "scope": "Publisher author archive, two entries",
+        "count": 2
+      }
+    ],
+    "exclusions": "Articles about Fernando, unsigned mentions and namesakes excluded. Academic publications are maintained separately. A complete lifetime bibliography cannot be guaranteed from public online archives alone."
+  }
+}

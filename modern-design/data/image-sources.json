@@ -1,0 +1,200 @@
+[
+  {
+    "id": "jekyll",
+    "file": "images/jekyll.webp",
+    "url": "https://www.ceuediciones.es/wp-content/uploads/9788419976499-3.jpg",
+    "source": "https://www.ceuediciones.es/catalogo/libros/critica-literaria/dualidad-y-sentido-etico-en-dr-jekyll-y-mr-hyde-guia-de-lectura/",
+    "retrieved": "2026-09-25",
+    "rights": "Publisher/book cover; attribution retained. No ownership claimed."
+  },
+  {
+    "id": "camino",
+    "file": "images/camino.webp",
+    "url": "https://cdn.agapea.com/Hualde-Alfaro-Luis-Enrique-y-Pascual-Loyarte-Unai/El-camino-Guia-de-Lectura-i7n1427228.jpg",
+    "source": "https://www.agapea.com/libros/El-camino-Guia-de-Lectura-9788496634220-i.htm",
+    "retrieved": "2026-09-25",
+    "rights": "Publisher/book cover; attribution retained. No ownership claimed."
+  },
+  {
+    "id": "rebelion",
+    "file": "images/rebelion.webp",
+    "url": "https://www.marcialpons.es/media/img/portadas/2025/10/30/9788418463747jpeg",
+    "source": "https://www.marcialpons.es/libros/el-pensamiento-narrativo/9788419661067/",
+    "retrieved": "2026-09-25"
+  },
+  {
+    "id": "fuiste-el-rey",
+    "file": "images/fuiste-el-rey-800.webp",
+    "source": "git:3366ea0:assets/images/",
+    "retrieved": "2026-09-25",
+    "notes": "Existing author website asset; optimized copy where applicable."
+  },
+  {
+    "id": "ciudad-dormida",
+    "file": "images/ciudad-dormida-800.webp",
+    "source": "git:3366ea0:assets/images/",
+    "retrieved": "2026-09-25",
+    "notes": "Existing author website asset; optimized copy where applicable."
+  },
+  {
+    "id": "planeta",
+    "file": "images/planeta.webp",
+    "source": "git:3366ea0:assets/images/",
+    "retrieved": "2026-09-25",
+    "notes": "Existing author website asset; optimized copy where applicable."
+  },
+  {
+    "id": "portrait",
+    "file": "../assets/images/fernando.webp",
+    "source": "git:3366ea0:assets/images/",
+    "retrieved": "2026-09-25",
+    "notes": "Existing author website asset; optimized copy where applicable."
+  },
+  {
+    "id": "hero",
+    "file": "../assets/images/ciudad-dormida-background-hero.webp",
+    "source": "git:3366ea0:assets/images/",
+    "retrieved": "2026-09-25",
+    "notes": "Existing author website asset; optimized copy where applicable."
+  },
+  {
+    "id": "mercado",
+    "file": "images/mercado.webp",
+    "url": "https://images.librotea.com/uploads/media/2010/02/18/literatura-y-mercado-editorial-en-espana.jpg",
+    "source": "https://librotea.eldiario.es/libros/literatura-y-mercado-editorial-en-espana",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      1050,
+      1580
+    ],
+    "displayDimensions": [
+      1050,
+      1580
+    ],
+    "notes": "Actual edition cover; no generated artwork or upscaling."
+  },
+  {
+    "id": "delibes",
+    "file": "images/delibes.webp",
+    "url": "https://www.iberoamericana-vervuert.es/portadas/R231977.jpg",
+    "source": "https://www.iberoamericana-vervuert.es/FichaLibro.aspx?ISBN=9788491924111&P1=231977",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      2130,
+      3126
+    ],
+    "displayDimensions": [
+      1226,
+      1800
+    ],
+    "notes": "Actual edition cover; no generated artwork or upscaling."
+  },
+  {
+    "id": "valle",
+    "file": "images/valle.webp",
+    "url": "https://images.librotea.com/uploads/media/2007/09/05/valle-inclan-el-bohemio.jpg",
+    "source": "https://librotea.eldiario.es/libros/literatura-y-mercado-editorial-en-espana",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      222,
+      350
+    ],
+    "displayDimensions": [
+      222,
+      350
+    ],
+    "notes": "Actual edition cover; no generated artwork or upscaling."
+  },
+  {
+    "id": "tesis",
+    "file": "images/tesis.webp",
+    "url": "https://docta.ucm.es/bitstreams/f8415856-344b-49e4-914e-4521b69d5564/download",
+    "source": "https://dialnet.unirioja.es/servlet/tesis?codigo=17274",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      1272,
+      1800
+    ],
+    "displayDimensions": [
+      1272,
+      1800
+    ],
+    "notes": "Original thesis title page rendered from university PDF."
+  },
+  {
+    "id": "macrae",
+    "file": "images/macrae.webp",
+    "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1678880710i/97440642.jpg",
+    "source": "https://www.goodreads.com/book/show/97440642-correspondencia-entre-vicente-blasco-ib-ez-y-john-macrae-1918-1932",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      341,
+      500
+    ],
+    "displayDimensions": [
+      341,
+      500
+    ],
+    "notes": "Actual edition cover; no generated artwork or upscaling."
+  },
+  {
+    "id": "puentes",
+    "file": "images/puentes.webp",
+    "url": "https://www.comares.com/media/comares/images/edition-142798.jpg",
+    "source": "https://www.comares.com/libro/construyendo-puentes_150232/",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      400,
+      614
+    ],
+    "displayDimensions": [
+      400,
+      614
+    ],
+    "notes": "Actual edition cover; no generated artwork or upscaling."
+  },
+  {
+    "id": "baroja",
+    "file": "images/baroja.webp",
+    "url": "https://www.popularlibros.com/imagenes-webp-grandes/9791387/979138769449.webp",
+    "source": "https://www.popularlibros.com/libro/pio-baroja-y-vicente-blasco-ibanez-_1697581",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      600,
+      945
+    ],
+    "displayDimensions": [
+      600,
+      945
+    ],
+    "notes": "Actual edition cover; no generated artwork or upscaling."
+  },
+  {
+    "id": "becquer",
+    "file": "images/becquer.webp",
+    "url": "https://images.librotea.com/uploads/media/2006/12/05/becquer-el-romantico.jpg",
+    "source": "https://librotea.eldiario.es/libros/becquer-el-romantico",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      223,
+      350
+    ],
+    "displayDimensions": [
+      223,
+      350
+    ],
+    "notes": "Actual edition cover; no generated artwork or upscaling."
+  },
+  {
+    "id": "pensamiento",
+    "file": "images/pensamiento.webp",
+    "url": "https://www.silexediciones.com/wp-content/uploads/2023/03/9788419661067_L38_04.jpg",
+    "source": "https://www.silexediciones.com/producto/el-pensamiento-narrativo/",
+    "retrieved": "2026-09-25",
+    "originalDimensions": [
+      366,
+      569
+    ],
+    "notes": "Original publisher cover; no upscaling."
+  }
+]

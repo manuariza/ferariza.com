@@ -1,16 +1,13 @@
 # Fernando Ariza
 
-> Experimental public URL guide for AI assistants and other crawlers. This file is a documentation aid only and is not a guarantee of indexing, ranking, citation, or visibility in any search or AI system.
+> Official website of Fernando Ariza, writer, literary critic and professor.
 
-Official website for Fernando Ariza, a Spanish writer, university professor, and literary researcher.
+## Public website
+- [Home](https://ferariza.com/): novels, essays, editions, biography and contact.
+- [Works](https://ferariza.com/#indice): bibliographic records and links to publication sources.
+- [Literary criticism](https://ferariza.com/#lecturas): dated links to articles on their original publishers’ websites.
+- [Biography](https://ferariza.com/#autor)
+- [Contact](https://ferariza.com/#contacto)
+- [X profile](https://x.com/ferariza_)
 
-## Important URLs
-
-- https://ferariza.com/ - Official homepage with works, reviews, biography summary, and contact.
-- https://ferariza.com/fernando.html - Biography of Fernando Ariza.
-
-## Contact and Profiles
-
-- Email: ferariza@ferariza.com
-- X/Twitter: https://twitter.com/ferariza_
-- LinkedIn: https://www.linkedin.com/in/fernando-ariza-075b2959/
+This is an experimental navigation aid, not an indexing or ranking mechanism. Refer to the visible website and linked sources for factual information.

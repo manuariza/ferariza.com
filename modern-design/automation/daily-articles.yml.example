@@ -1,0 +1,73 @@
+name: Refresh articles and publish website
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [master, main]
+    paths:
+      - 'modern-design/**'
+      - '.github/workflows/daily-articles.yml'
+permissions:
+  contents: read
+concurrency:
+  group: ferariza-pages
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch && vars.ARTICLE_UPDATES_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2 (2024-10-23)
+      - name: Verify updater
+        run: python3 -m unittest discover -s modern-design/scripts -p 'test_*.py'
+      - name: Fetch and validate articles
+        run: python3 modern-design/scripts/update-articles.py --write
+      - name: Build and stage public website
+        run: |
+          python3 modern-design/scripts/build.py
+          python3 modern-design/scripts/prepare-pages.py
+      - name: Record successful monthly activity
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import json
+          month = datetime.now(timezone.utc).strftime('%Y-%m')
+          Path('modern-design/data/refresh-health.json').write_text(json.dumps({'lastSuccessfulMonth': month}, indent=2) + '\n')
+          PY
+      - name: Save inventory changes and health record
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add modern-design/data/inventory.json modern-design/data/articles.csv modern-design/data/refresh-health.json modern-design/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh verified articles and automation health'
+            git push
+          fi
+      - name: Upload public website
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1 (2024-02-07)
+        with:
+          path: _site
+      - name: Failure summary
+        if: failure()
+        run: |
+          echo '## Article refresh failed' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No new site was deployed. Inspect the failing step; keep GitHub Actions failure notifications enabled.' >> "$GITHUB_STEP_SUMMARY"
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy this run explicitly
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5 (2024-03-18)
