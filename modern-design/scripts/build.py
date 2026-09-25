@@ -49,5 +49,21 @@ body=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="
 <section class="section reception" id="resenas"><div class="section-top"><span class="eyebrow">05 / La mirada de otros</span><span>Reseñas de su obra</span></div><h2>En otras palabras.</h2><p class="review-hint">Selecciona una tarjeta para leerla.</p><div class="review-stack">{reviews}</div></section>
 <section class="section author" id="autor"><div class="section-top"><span class="eyebrow">06 / El autor</span><span>Fernando Ariza</span></div><div class="author-layout"><div class="portrait"><img src="images/fernando.webp" width="360" height="440" loading="lazy" alt="Fernando Ariza"><span>Madrid, 1978</span></div><div><h2>Una vida<br>entre <em>libros.</em></h2><p class="author-lead">Novelista, investigador, profesor y crítico literario.</p><p>Doctor en Filología Hispánica por la Universidad Complutense de Madrid y máster en Edición por la Universidad de Salamanca. Es profesor de Literatura en la Universidad CEU San Pablo.</p><p>Su trabajo reúne creación narrativa, historia editorial y estudio de la literatura. Es autor de las novelas <em>Ciudad dormida</em> y <em>Fuiste el rey</em>, y de biografías, ensayos y guías de lectura.</p><p>Colabora como crítico en Zenda y en El Debate, donde es responsable de la sección de libros.</p><p>Ha sido invitado a universidades estadounidenses como Columbia, Nueva York y Austin. Se inició en la ficción con las biografías noveladas de Bécquer y Valle-Inclán.</p><p>Fuera de la escritura y la docencia, disfruta de los libros de cocina y de cuidar plantas de interior.</p><div class="author-links"><a class="text-link" href="#indice">Recorrer su obra ↓</a><a class="text-link" href="https://x.com/ferariza_" target="_blank" rel="me noopener noreferrer">Fernando en X ↗</a></div></div></div></section>
 <footer class="section contact" id="contacto"><div class="section-top"><span class="eyebrow">07 / Contacto</span><a href="#inicio">Volver arriba ↑</a></div><h2>Seguimos<br><em>conversando.</em></h2><a class="email" href="mailto:ferariza@ferariza.com">ferariza@ferariza.com <span>↗</span></a><div class="footer-bottom"><span>© Fernando Ariza</span><span>Literatura · Investigación · Docencia</span><a href="#inicio">Volver al inicio ↑</a></div></footer></main><noscript><p class="noscript-note">Puedes consultar toda la obra y abrir sus fichas en el índice. La biblioteca interactiva requiere JavaScript.</p></noscript></body></html>'''
+# Inline vectors prevent platform emoji fonts from replacing editorial symbols.
+icon_paths = {
+ '↗': 'M5 19 19 5M5 5h14v14',
+ '↓': 'M12 3v18M4 13l8 8 8-8',
+ '↑': 'M12 21V3M4 11l8-8 8 8',
+ '←': 'M21 12H3M11 4l-8 8 8 8',
+ '→': 'M3 12h18M13 4l8 8-8 8',
+ '✳': 'M12 2v20M2 12h20M5 5l14 14M5 19 19 5',
+}
+head, content = body.split('</head>', 1)
+for symbol, path in icon_paths.items():
+ css = 'icon icon-asterisk' if symbol == '✳' else 'icon'
+ weight = '2.4' if symbol == '✳' else '1.4'
+ svg = f'<svg class="{css}" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="{weight}" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="{path}"/></svg>'
+ content = content.replace(symbol, svg)
+body = head + '</head>' + content
 (R/'index.html').write_text(body)
 print('Built',R/'index.html')

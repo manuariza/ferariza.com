@@ -14,3 +14,9 @@
 @media(prefers-reduced-motion:reduce){.moving-type{white-space:normal;font-size:clamp(36px,7vw,110px);line-height:1.1}.moving-type span{width:auto;min-width:0}}
 
 .author-links{display:flex;flex-wrap:wrap;gap:20px 32px;align-items:center}
+
+/* Fixed vector geometry: never resolved through Apple/Android emoji fonts. */
+.icon{display:inline-block;width:1em;height:1em;flex-shrink:0;vertical-align:-.12em;overflow:visible}
+.hero-asterisk .icon{display:block;vertical-align:baseline}
+.circle-link .icon{width:1.1em;height:1.1em}
+.spine-plus .icon{vertical-align:middle}
