@@ -187,14 +187,10 @@
   },
   {
     "id": "pensamiento",
-    "file": "images/pensamiento.webp",
-    "url": "https://www.silexediciones.com/wp-content/uploads/2023/03/9788419661067_L38_04.jpg",
-    "source": "https://www.silexediciones.com/producto/el-pensamiento-narrativo/",
-    "retrieved": "2026-09-25",
-    "originalDimensions": [
-      366,
-      569
-    ],
-    "notes": "Original publisher cover; no upscaling."
+    "url": "https://m.media-amazon.com/images/I/61W3NRC4r-L.jpg",
+    "source": "https://www.amazon.es/dp/B0H2F28TVC",
+    "providedAt": "2026-09-30",
+    "rights": "Portada facilitada por el usuario. Se conserva la atribución; no se reivindica su propiedad.",
+    "hosting": "Imagen original de Amazon; la descarga local está bloqueada por el proxy del entorno."
   }
 ]

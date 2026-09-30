@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-30",
   "author": {
     "name": "Fernando Ariza",
     "aliases": [
@@ -101,32 +101,31 @@
     },
     {
       "id": "pensamiento",
-      "title": "El pensamiento narrativo",
-      "year": 2023,
+      "title": "El pensamiento narrativo: Fundamentos del relato",
+      "year": 2026,
       "category": "Ensayo e investigación",
-      "role": "Coautor con Miguel Herrero Herrero",
+      "role": "Coautor con Miguel Herrero",
       "publisher": "Sílex",
-      "isbn": "9788419661067",
-      "description": "Principios de storytelling. Un estudio de los elementos y técnicas que intervienen en la construcción de los relatos.",
-      "cover": "images/pensamiento.webp",
+      "isbn": "9791388205316",
+      "description": "Fundamentos del relato y claves para contar y analizar historias. Segunda edición revisada y ampliada, con nuevos análisis sobre universos narrativos, relato transmedial, inteligencia artificial generativa y narrativa de datos.",
+      "cover": "https://m.media-amazon.com/images/I/61W3NRC4r-L.jpg",
       "status": "verified",
-      "verifiedAt": "2026-09-25",
+      "verifiedAt": "2026-09-30",
       "language": "es",
       "sources": [
         {
-          "url": "https://dialnet.unirioja.es/servlet/libro?codigo=932945",
-          "kind": "bibliographic"
-        },
-        {
-          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
+          "url": "https://www.amazon.es/El-pensamiento-narrativo-Fundamentos-CUENTAHILOS/dp/B0H2F28TVC",
           "kind": "bibliographic"
         }
       ],
-      "pages": 192,
-      "notes": [],
+      "pages": 254,
+      "notes": [
+        "Segunda edición revisada y ampliada, publicada el 17 de junio de 2026. Datos del catálogo de Amazon facilitados por el usuario; sustituye a la edición de 2023."
+      ],
       "showInShelf": true,
-      "coverWidth": 366,
-      "coverHeight": 569
+      "coverWidth": 617,
+      "coverHeight": 974,
+      "coverAlt": "Portada de El pensamiento narrativo: Fundamentos del relato, edición ampliada de 2026"
     },
     {
       "id": "jekyll",
@@ -203,7 +202,7 @@
       ],
       "coverWidth": 223,
       "coverHeight": 350,
-      "showInShelf": false
+      "showInShelf": true
     },
     {
       "id": "valle",
@@ -232,7 +231,7 @@
       "notes": [],
       "coverWidth": 222,
       "coverHeight": 350,
-      "showInShelf": false
+      "showInShelf": true
     },
     {
       "id": "planeta",
@@ -310,37 +309,6 @@
       "showInShelf": true
     },
     {
-      "id": "macrae",
-      "title": "Correspondencia entre Vicente Blasco Ibáñez y John Macrae",
-      "year": 2017,
-      "category": "Ediciones",
-      "role": "Edición, traducción, introducción y notas",
-      "publisher": "Editorial Académica Española",
-      "isbn": "9783639490138",
-      "description": "Correspondencia de 1918 a 1932, en edición traducida con introducción y notas de Fernando Ariza.",
-      "cover": "images/macrae.webp",
-      "status": "verified",
-      "verifiedAt": "2026-09-25",
-      "language": "es",
-      "sources": [
-        {
-          "url": "https://www.goodreads.com/book/show/97440642-correspondencia-entre-vicente-blasco-ib-ez-y-john-macrae-1918-1932",
-          "kind": "bibliographic"
-        },
-        {
-          "url": "https://accesoabiertocomares.com/index.php/coa/catalog/download/75/154/981?inline=1",
-          "kind": "bibliographic"
-        }
-      ],
-      "pages": 176,
-      "notes": [
-        "ISBN and 176 pages verified against Goodreads edition metadata; actual cover credits Fernando Ariza (Ed.)."
-      ],
-      "coverWidth": 341,
-      "coverHeight": 500,
-      "showInShelf": true
-    },
-    {
       "id": "delibes",
       "title": "Miguel Delibes: encuadres y figuras en una España cambiante",
       "year": 2024,
@@ -368,42 +336,11 @@
       "showInShelf": true
     },
     {
-      "id": "tesis",
-      "title": "Literatura y sociedad: el premio Planeta",
-      "year": 2004,
-      "category": "Tesis",
-      "role": "Autor",
-      "publisher": "Universidad Complutense de Madrid",
-      "isbn": "8466928561",
-      "description": "Tesis doctoral dirigida por J. Ignacio Díez Fernández. Defendida en 2004; memoria publicada en 2006.",
-      "cover": "images/tesis.webp",
-      "status": "verified",
-      "verifiedAt": "2026-09-25",
-      "language": "es",
-      "sources": [
-        {
-          "url": "https://docta.ucm.es/bitstreams/f8415856-344b-49e4-914e-4521b69d5564/download",
-          "kind": "primary-document"
-        },
-        {
-          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=887454",
-          "kind": "bibliographic"
-        }
-      ],
-      "pages": null,
-      "notes": [],
-      "coverWidth": 1272,
-      "coverHeight": 1800,
-      "coverAlt": "Portada original de la tesis Literatura y sociedad: el premio Planeta",
-      "coverKind": "original-title-page",
-      "showInShelf": true
-    },
-    {
       "id": "baroja",
       "title": "Pío Baroja y Vicente Blasco Ibáñez",
       "year": 2026,
       "category": "Ediciones",
-      "role": "Autor",
+      "role": "Editor",
       "publisher": "Sílex",
       "isbn": "9791387694494",
       "description": "Correspondencia editorial con Estados Unidos.",
@@ -419,7 +356,8 @@
       ],
       "pages": 188,
       "notes": [
-        "2026 catalogue record verified at bookseller; publisher confirmation and relationship to 2017 edition remain to be checked."
+        "2026 catalogue record verified at bookseller; publisher confirmation and relationship to 2017 edition remain to be checked.",
+        "El autor confirma que esta edición sustituye a la correspondencia de 2017, descatalogada."
       ],
       "coverWidth": 600,
       "coverHeight": 945,

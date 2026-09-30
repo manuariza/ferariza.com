@@ -27,7 +27,7 @@ def metadata(data):
         # Never label an edition/coordinated volume as a solely authored book.
         if w['role']=='Autor' or w['role'].startswith('Coautor'):
             work['author'] = [{'@id':person['@id']}]
-            if w['id']=='pensamiento': work['author'].append({'@type':'Person','name':'Miguel Herrero Herrero'})
+            if w['id']=='pensamiento': work['author'].append({'@type':'Person','name':'Miguel Herrero'})
         else:
             work['contributor'] = {'@id':person['@id']}
         if w['isbn'] and work['@type']=='Book':work['isbn']=w['isbn']

@@ -42,7 +42,9 @@ class SearchTests(unittest.TestCase):
             self.assertEqual(entry['name'],w['title'])
             self.assertIn('id="obra-'+w['id']+'"',self.page)
         self.assertNotIn('author',items[SITE+'#obra-delibes'])
-        self.assertNotIn('author',items[SITE+'#obra-macrae'])
+        self.assertNotIn('author',items[SITE+'#obra-baroja'])
+        self.assertNotIn(SITE+'#obra-macrae', items)
+        self.assertNotIn(SITE+'#obra-tesis', items)
     def test_assets_exist_and_build_internals_not_published(self):
         for tag,attrs in self.tags:
             for key in ['src','href']:

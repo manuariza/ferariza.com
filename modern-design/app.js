@@ -1,5 +1,8 @@
 (() => {
   'use strict';
+  document.querySelector('#contact-email').addEventListener('click', () => {
+    location.href = 'mailto:' + ['ferariza', ['ferariza', 'com'].join('.')].join('@');
+  });
   const books = [...document.querySelectorAll('.book')];
   const shelf = document.querySelector('.bookshelf');
   const category = document.querySelector('#shelf-category');

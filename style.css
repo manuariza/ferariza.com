@@ -20,3 +20,6 @@
 .hero-asterisk .icon{display:block;vertical-align:baseline}
 .circle-link .icon{width:1.1em;height:1.1em}
 .spine-plus .icon{vertical-align:middle}
+
+/* Keep the written-out contact address readable on narrow screens. */
+.contact .email{font-size:clamp(18px,3.5vw,52px);overflow-wrap:anywhere;margin-bottom:24px}
