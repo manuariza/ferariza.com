@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "baselineAt": "2026-09-30T09:34:45.371133+00:00",
+  "articles": {
+    "https://www.eldebate.com/cultura/20230123/elvira-navarro_87559.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20211029/maddaddam-sobre-mundo-sucedio.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20211105/murakami-murakami.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20211113/limites-mundo.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20211127/culpa-gracia-maravillosos-anos.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220108/paris-estambul-paso-lento.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220115/gran-novela-hipster.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220205/nigeria-deconstruida.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220212/centenario-ulises.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220226/dune-renacer-clasico.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220312/desayuno-campeones-nuestro-mundo-visto-alienigena.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220319/10-libros-metro.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220409/diez-libros-celebrar-primavera.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220416/castillo-barbazul-superventas-nuestros-mejores-escritores.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220507/ma-quina-amor-humano-profano.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220528/todos-museos-son-novelas-ciencia-ficcion.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220611/diez-libros-releer.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220702/apetito-paris-paris-bien-vale-cena.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220716/alfabeto-dioses-sabios-santos-demonios.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220723/caso-clinico-juego-espejos-sobre-identidad-suspense-psicologico.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220726/ma-quina-amor-sagrado-profano-iris-murdoch.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220728/castillo-barbazul-superventas-nuestros-mejores-escritores.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220804/encrucijadas-gran-novela-americana.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220808/esto-principe-no-reino-mejor-ficcion-une-nuestro-pasado.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220812/0bras-reunidas-emociones-profundas-descubrimientos-familiares-cultura-escrita_52460.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220820/grand-union-relatos-disfrutar-mejores-escritoras-britanicas_52600.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220910/santos-inocentes-paseo-azarias_58460.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220917/cangrejo-titulo-pegadizo-como-prosa_60233.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20220924/demonios-padre-joan-job-padre-brown-encuentran-barcelona_60996.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221001/ojos-gato-no-lea-este-libro-tiene-hijas-pequenas-si_63196.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221015/aritmetica-familiar-anatomia-gran-burguesia-madrilena_65985.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221029/proposito-ferlosio-biografia-intelectual-heterodoxo_68721.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221105/hojas-otono-canto-naturaleza-mayuscula_70468.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221126/letra-herida-vidas-creadoras-vidas-rotas_74743.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221203/percusion-desde-lugar-mas-lejano_77067.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221217/familia-infancia-juventud-libro-clave-entender-pio-baroja_79898.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20221231/efemerides-literarias-2023-ano-lleno-celebraciones_82614.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230114/viento-herido-geniales-esbozos-humanidad_85260.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230121/amor-historia-cinco-fantasias-narrativas-corazon_86686.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230204/escenas-cine-mudo-recuerdos-olvidados-viejas-fotografias_90795.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230211/mundo-feliz-lectura-urgencia_92056.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230225/arana-western-mitico-existencial_95529.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230304/volver-cuando-revolucion-devora-hijos_97389.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230311/orlando-furioso-origenes-quijote_99097.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230318/anoxia-loa-fotografia-mortuoria_101471.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230401/much-dithering-donde-amor-siempre-triunfa_104918.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230422/elizabeth-finch-sobre-mitificacion-fracaso_108372.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230429/fortuna-felices-anos-veinte-resacas_110886.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230513/lobo-memorias-falsas-autorretrato-bestia-humana_113928.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230527/ballet-leprosos-cohen-engano_117250.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230610/ronda-sangre-m-30_120348.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230624/querido-hermano-manuel-machado-entre-burgos-colliure_123348.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230701/nosotros-madre-todas-distopias-politicas_124886.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230722/diez-clasicos-leer-tus-hijos-este-verano_129427.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230819/arenas-arabia-canto-libertad_127666.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230909/mago-kremlin-politica-como-ficcion_138347.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20230923/primer-aniversario-muerte-javier-marias_141069.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231007/negro-vargas-llosa-divertido-homenaje-mundo-libro_144204.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231021/conejo-maldito-fantasia-terror-ciencia-ficcion-contenido_147543.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231021/crisis-narracion-arte-contar-buenas-historias_147542.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231028/cancion-verdugo-gran-libro-psicologia-criminal_148996.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231104/birdgirl-familia-demas-son-pajaros_150669.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231118/cabeza-cercenada-inteligente-divertida-satira-psicoanalisis_154434.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231202/todas-criaturas-grandes-pequenas-aventuras-desventuras-veterinario-campina-inglesa_157219.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20231230/regreso-cuentos-navidenos-populares_163853.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240113/asesino-ciego-sobre-memoria-trampas_166257.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240127/aventureros-nuevo-mundo-america-no-contaron_170081.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240203/solsticio-siniestro-cuentos-noches-largas_171480.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240210/federico-garcia-lorca-franquismo-poeta-meandros-historia_173248.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240217/solito-viaje-homerico-tierra-prometida_175289.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240309/therese-desqueyroux-armonia-fondo-forma_180403.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240330/ciudad-muros-inciertos-platon-kafka-ritmo-jazz_185358.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240413/saga-familiar-historia-reciente-espana-como-escenario-poder-como-motor_188866.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240420/naci-sobre-rotativa-ortega-involucrado-tiempo_190799.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240504/defensa-clasicos-vivos-gonzalo-hidalgo-bayal_194269.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240518/mariana-enriquez-extrano-fenomeno-literario_197814.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240601/aerostatos-pequena-gran-novela_201625.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240615/magistral-tejido-historias-maggie-farrell_205384.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240713/memoria-animales-pandemia-revisitada_212837.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240727/cualquier-cosa-pequena-rafael-reig_216127.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240817/matar-ruisenor-valor-perspectiva_220606.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240907/jekyll-hyde-actualidad-clasico_225489.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20240928/ahi-fuera-novios-ciberneticos-casas-organicas_231173.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20241019/basilisco-domenado_236792.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20241109/cuentos-poe-memoria_243022.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20241228/gotico-botanico-cuentos-verdor-perverso_256303.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20250118/antes-google-alcance-poetica-contra-olvido-digital_261470.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20250329/tinta-invisible-cuando-vida-escritores-dice-casi-tanto-como-escribieron_281490.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20250524/mientras-agonizo-muerte-vida-profundo-sur_298693.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20250607/mistico-porque_303501.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20250719/salto-fe-versos-dudan-aman-recuerdan_312145.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20250816/banquetes-gran-rey-siglo-oro-espanol-encuentra-dinastia-ming_325635.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20250927/pequeno-teatro-opera-prima-ana-maria-matute_337555.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20251108/entre-visillos-redescubrir-calma-tiempos-vacio_352397.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20251227/ignacio-aldecoa-pulso-cuento_368715.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260124/ratas-dignidad-campo_376954.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260307/viejas-historias-castilla-vieja-delibes-memoria-tierra-resiste_381803.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260411/andrea-chica-rara_405088.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260523/cancionero-romancero-ausencias-voz-desnuda-prisionero_420021.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260620/mortal-rosa-dolor-umbral-convirtio-literatura_430215.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260801/madame-bovary-muerte-narrador_445137.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260822/fortunata-jacinta-gran-novela-espanola_451036.html": {
+      "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20260919/nunca-me-abandones-canto-finitud-humana_459158.html": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/arboles-biograficos-y-culturales/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/blackwater-la-cosa-del-pantano-llega-a-yoknapatawpha/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/cioran-y-los-origenes-del-mal/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/cuando-ellas-miran-piedad-memoria-y-deslumbramiento/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/cuando-la-amistad-es-destino/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/el-arte-de-saltarse-las-reglas-la-irrupcion-de-un-narrador-que-juzga-insulta-y-divierte/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/el-genero-negro-llevado-a-la-trastienda-del-consumo/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/elegia-al-campo-espanol/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/entre-osas-y-merinas-tragedia-y-naturaleza-en-la-cordillera-cantabrica/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/estetica-de-la-desolacion/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/fantasia-destilada/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/flujo-erudito-de-conciencia/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/la-aristocracia-ante-el-espejo/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/la-fabula-oscura-de-bora-chung/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/la-hija-que-el-fenix-no-quiso-ver/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/la-pesadilla-de-un-houellebecq-naturalista/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/la-red-desvelada/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/las-vidas-creadas-de-los-grandes-creadores/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/lecciones-de-realismo-social-y-metafisica-pop/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/loas-literarias-a-un-catalogo-espectacular/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/los-cuentos-de-hadas-son-para-todas-las-edades/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/martirio-y-milagro-entre-los-escombros-de-la-identidad/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/picaresca-y-destino-en-la-posguerra/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/retrato-en-negro-y-blanco-de-tres-pioneras-de-nuestras-letras/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/trascendencia-y-vacio/": {
+      "status": "baseline"
+    },
+    "https://www.zendalibros.com/una-vida-literaria-unida-por-sus-fragmentos/": {
+      "status": "baseline"
+    }
+  }
+}

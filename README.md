@@ -23,6 +23,6 @@ The same concurrency group serializes deployments. A monthly successful-run reco
 
 ## Deferred
 
-Buffer/social posting is not enabled. The site links to Fernando's X profile only.
+Automatic X publishing through Buffer is implemented with an independent `TWITTER_UPDATES_ENABLED` switch and a `BUFFER_API_KEY` Actions secret. Activation requires those settings.
 
 See `modern-design/automation/README.md` for implementation details and `modern-design/reports/search-review.md` for the pre-launch SEO baseline.

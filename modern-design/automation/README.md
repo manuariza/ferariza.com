@@ -1,6 +1,6 @@
 # Daily article updates
 
-Implemented 25 September 2026. Buffer and automatic X posting are backlog only. The public site has a plain profile link; no X widgets or tracking scripts were added.
+Implemented 25 September 2026. Buffer publishing implementation added 30 September 2026; activation requires BUFFER_API_KEY and the X enable variable. The public site has a plain profile link; no X widgets or tracking scripts were added.
 
 ## What runs
 
@@ -29,7 +29,7 @@ The same workflow explicitly uploads and deploys the Pages artifact; it does not
 
 A small `refresh-health.json` commit is made on the first successful run of each UTC month, even when no articles are new. This provides regular repository activity and a visible health record to reduce the risk of GitHub's 60-day inactive-public-repository schedule shutdown. It is not an independent uptime monitor. If the schedule stops or is disabled, re-enable it in Actions, inspect failures and run it manually; a disabled workflow cannot notify about its own inactivity. GitHub may delay scheduled runs.
 
-Stop daily refresh/deployment by setting `ARTICLE_UPDATES_ENABLED=false` or disabling the workflow. No Buffer key, AI key or X account access is used.
+Stop daily refresh/deployment by setting `ARTICLE_UPDATES_ENABLED=false` or disabling the workflow. X has its own enable switch, described below.
 
 ## Verified action release ages
 
@@ -47,11 +47,19 @@ All exceed the seven-day requirement. No package manifests or lockfiles are chan
 - Live dry run: six El Debate archive pages / 103 distinct articles; four Zenda archive URLs (including its page-one alias) / 26 distinct articles. No new records found; existing 136-record inventory unchanged.
 - Production staging uses only local public assets and does not include the old design.
 
-## Backlog: Buffer
+## Automatic X publishing through Buffer
 
-After Fernando grants access and a Buffer account exists: implement off/draft/automatic modes, store credentials in GitHub Secrets, introduce a durable URL-to-Buffer-post ledger, and start from a baseline that excludes historical articles. Draft messages should reflect each article's actual content and Fernando's reviewed style. No social publishing implementation or scheduled social task has been added.
+After a successful website deployment, `publish-x` posts each newly inventoried El Debate/Zenda article to `ferariza_` with `Nuevo artículo en [publication]:` and the original URL. Uses Buffer GraphQL `shareNow`, no drafts, reviews, AI generation or extra dependencies. Detection follows the daily article checks; GitHub schedule delays remain possible.
+
+Activation: store a Buffer personal key in repository Actions secret `BUFFER_API_KEY`; set `BUFFER_CHANNEL_ID=6abcd038ea19ca0bde30b8c0` and `TWITTER_UPDATES_ENABLED=true` in repository Actions variables. Only account read, posts read and posts write permissions are needed. Keep the key's expiry monitored and replace the secret before expiration.
+
+Disable X independently with `TWITTER_UPDATES_ENABLED=false`. Website updates continue. Articles discovered while disabled remain eligible on reactivation; already submitted articles are not repeated.
+
+`modern-design/data/twitter-ledger.json` excludes 129 historical source articles at initial setup. Each submission records a Buffer post ID. Intent is committed and pushed before creating a post. After a timeout or interrupted run, the next run checks Buffer posts and reconciles a matching URL; if absent it stops for inspection rather than risking a duplicate. Confirmed API rejections stay retryable on later daily runs. Delivery errors on an existing post require resolution in Buffer. A successful API submission does not prove X delivery; check Buffer's Sent/Error state.
+
+For an uncertain `attempting` entry, inspect Buffer first. If no post exists and creation definitively failed, change that entry's status to `retry` and rerun the workflow. Never delete the ledger or reset the baseline.
 
 References:
-- https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
-- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-- https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+- https://developers.buffer.com/guides/posts-and-scheduling.html
+- https://developers.buffer.com/types/ShareMode.html
+- https://buffer.com/api
