@@ -1,7 +1,26 @@
 (() => {
   'use strict';
-  document.querySelector('#contact-email').addEventListener('click', () => {
-    location.href = 'mailto:' + ['ferariza', ['ferariza', 'com'].join('.')].join('@');
+  const emailAddress = ['ferariza', ['ferariza', 'com'].join('.')].join('@');
+  const emailDisplay = document.querySelector('#email-address');
+  const emailLink = document.querySelector('#contact-email');
+  const copyEmail = document.querySelector('#copy-email');
+  const contactStatus = document.querySelector('#contact-status');
+  emailDisplay.textContent = emailAddress;
+  emailLink.href = 'mailto:' + emailAddress;
+  emailLink.hidden = false;
+  copyEmail.hidden = false;
+  copyEmail.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(emailAddress);
+      contactStatus.textContent = 'Correo copiado.';
+    } catch {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(emailDisplay);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      contactStatus.textContent = 'No se pudo copiar automáticamente. Seleccionamos el correo para que puedas copiarlo.';
+    }
   });
   const books = [...document.querySelectorAll('.book')];
   const shelf = document.querySelector('.bookshelf');

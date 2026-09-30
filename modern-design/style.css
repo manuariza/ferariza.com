@@ -23,3 +23,7 @@
 
 /* Keep the written-out contact address readable on narrow screens. */
 .contact .email{font-size:clamp(18px,3.5vw,52px);overflow-wrap:anywhere;margin-bottom:24px}
+
+.contact-actions{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center}
+.contact-actions button{padding:0;text-align:left}
+.contact-status{min-height:1.6em;margin-top:16px;font-size:14px;color:var(--muted)}
