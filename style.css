@@ -27,3 +27,6 @@
 .contact-actions{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center}
 .contact-actions button{padding:0;text-align:left}
 .contact-status{min-height:1.6em;margin-top:16px;font-size:14px;color:var(--muted)}
+
+.email-image{width:clamp(240px,47vw,485px);max-width:100%;height:auto}
+.email-copy-fallback{width:min(100%,360px);padding:12px;border:1px solid var(--line);background:var(--paper);font-size:16px}
