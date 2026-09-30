@@ -1,6 +1,6 @@
 # Daily article updates
 
-Implemented 25 September 2026. Buffer publishing implementation added 30 September 2026; activation requires BUFFER_API_KEY and the X enable variable. The public site has a plain profile link; no X widgets or tracking scripts were added.
+Implemented 25 September 2026. Buffer publishing implementation added 30 September 2026; activated with a GitHub Actions secret and independent X enable variable. The public site has a plain profile link; no X widgets or tracking scripts were added.
 
 ## What runs
 
@@ -51,7 +51,7 @@ All exceed the seven-day requirement. No package manifests or lockfiles are chan
 
 After a successful website deployment, `publish-x` posts each newly inventoried El Debate/Zenda article to `ferariza_` with `Nuevo artículo en [publication]:` and the original URL. Uses Buffer GraphQL `shareNow`, no drafts, reviews, AI generation or extra dependencies. Detection follows the daily article checks; GitHub schedule delays remain possible.
 
-Activation: store a Buffer personal key in repository Actions secret `BUFFER_API_KEY`; set `BUFFER_CHANNEL_ID=6abcd038ea19ca0bde30b8c0` and `TWITTER_UPDATES_ENABLED=true` in repository Actions variables. Only account read, posts read and posts write permissions are needed. Keep the key's expiry monitored and replace the secret before expiration.
+Activation: store a Buffer personal key in repository Actions secret `BUFFER_API_KEY`; set `BUFFER_CHANNEL_ID=6abcd038ea19ca0bde30b8c0` and `TWITTER_UPDATES_ENABLED=true` in repository Actions variables. Only account read, posts read and posts write permissions are needed. The active key expires on 2027-09-30, Buffer's maximum personal-key lifetime. `BUFFER_KEY_EXPIRES_AT=2027-09-30` records this limit. Every enabled run checks the credential, channel and Buffer delivery errors, even without new articles. During the final 30 days, an alert step fails after publishing to draw attention to renewal while allowing that run's article posts. Renew the key, replace the secret and update the expiry variable. Buffer personal keys cannot be made non-expiring.
 
 Disable X independently with `TWITTER_UPDATES_ENABLED=false`. Website updates continue. Articles discovered while disabled remain eligible on reactivation; already submitted articles are not repeated.
 

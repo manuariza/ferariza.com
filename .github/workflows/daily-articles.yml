@@ -92,7 +92,22 @@ jobs:
           TWITTER_UPDATES_ENABLED: ${{ vars.TWITTER_UPDATES_ENABLED }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-        run: python3 modern-design/scripts/publish-articles.py --publish --persist
+          BUFFER_KEY_EXPIRES_AT: ${{ vars.BUFFER_KEY_EXPIRES_AT }}
+        run: |
+          python3 modern-design/scripts/publish-articles.py --check
+          python3 modern-design/scripts/publish-articles.py --publish --persist
+      - name: Warn before Buffer key expiration
+        env:
+          BUFFER_KEY_EXPIRES_AT: ${{ vars.BUFFER_KEY_EXPIRES_AT }}
+        run: |
+          python3 - <<'PYTHON'
+          import os
+          from datetime import date, datetime, timezone
+          days = (date.fromisoformat(os.environ['BUFFER_KEY_EXPIRES_AT']) - datetime.now(timezone.utc).date()).days
+          if days <= 30:
+              raise SystemExit('Renew Buffer key and BUFFER_API_KEY secret within ' + str(days) + ' days. Article publishing completed before this advance-expiry alert.')
+          print('Buffer key expires in', days, 'days.')
+          PYTHON
       - name: Publishing summary
         if: always()
         run: |

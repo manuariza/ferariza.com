@@ -1,6 +1,6 @@
 """Publish newly inventoried articles through Buffer; no third-party packages."""
 import argparse
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import json
 import os
 from pathlib import Path
@@ -40,6 +40,25 @@ def api(query):
         raise RuntimeError('Buffer GraphQL request failed; inspect API permissions/schema')
     return result['data']
 
+def check_connection(channel):
+    expiry = os.environ.get('BUFFER_KEY_EXPIRES_AT')
+    if expiry and (date.fromisoformat(expiry) - datetime.now(timezone.utc).date()).days <= 0:
+        raise RuntimeError('Buffer key has expired. Renew the key and GitHub secret to keep X publishing active.')
+    account = api('query {account {organizations {id}}}')
+    matched = []
+    for org in account['account']['organizations']:
+        channels = api('query {channels(input: {organizationId: ' + json.dumps(org['id'])
+                       + '}) {id name service isDisconnected isLocked isQueuePaused}}')['channels']
+        matched.extend((org['id'], c) for c in channels if c['id'] == channel)
+    if len(matched) != 1:
+        raise RuntimeError('Configured Buffer channel was not uniquely found')
+    org, c = matched[0]
+    if c['service'] != 'twitter' or c['name'].lstrip('@') != 'ferariza_' or any(
+            c[k] for k in ('isDisconnected', 'isLocked', 'isQueuePaused')):
+        raise RuntimeError('ferariza_ X channel is unavailable for automatic publishing')
+    return org
+
+
 def existing_posts(org, channel):
     cursor = None
     posts = []
@@ -63,18 +82,7 @@ def publish(state, inventory, channel, persist=False):
     if not pending:
         print('No new articles to publish; historical baseline excluded.')
         return
-    account = api('query {account {organizations {id}}}')
-    matched = []
-    for org in account['account']['organizations']:
-        channels = api('query {channels(input: {organizationId: ' + json.dumps(org['id'])
-                       + '}) {id name service isDisconnected isLocked isQueuePaused}}')['channels']
-        matched.extend((org['id'], c) for c in channels if c['id'] == channel)
-    if len(matched) != 1:
-        raise RuntimeError('Configured Buffer channel was not uniquely found')
-    org, c = matched[0]
-    if c['service'] != 'twitter' or c['name'].lstrip('@') != 'ferariza_' or any(
-            c[k] for k in ('isDisconnected', 'isLocked', 'isQueuePaused')):
-        raise RuntimeError('ferariza_ X channel is unavailable for automatic publishing')
+    org = check_connection(channel)
     posts = existing_posts(org, channel)
     for url in sorted(pending, key=lambda u: (inventory[u]['date'], u)):
         text = message(inventory[url])
@@ -108,7 +116,15 @@ def main():
     parser.add_argument('--baseline', action='store_true')
     parser.add_argument('--publish', action='store_true')
     parser.add_argument('--persist', action='store_true')
+    parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
+    if args.check:
+        org = check_connection(os.environ['BUFFER_CHANNEL_ID'])
+        posts = existing_posts(org, os.environ['BUFFER_CHANNEL_ID'])
+        if any(p['status'] == 'error' for p in posts):
+            raise RuntimeError('Buffer reports a failed X post. Inspect and retry it in Buffer.')
+        print('Buffer credential, ferariza_ channel and post-reading checks passed.')
+        return
     inventory = articles()
     if args.baseline:
         if LEDGER.exists():
