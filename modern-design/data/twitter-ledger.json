@@ -388,6 +388,9 @@
     },
     "https://www.zendalibros.com/una-vida-literaria-unida-por-sus-fragmentos/": {
       "status": "baseline"
+    },
+    "https://www.eldebate.com/cultura/libros/20261003/subasta-lote-49-no-apto-obsesivos_465117.html": {
+      "status": "attempting"
     }
   }
 }
