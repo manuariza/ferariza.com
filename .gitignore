@@ -9,3 +9,5 @@ __pycache__/
 *.pyc
 .playwright-mcp/
 modern-design/research/
+
+.venv-security/

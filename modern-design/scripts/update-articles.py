@@ -1,6 +1,7 @@
-"""Daily, additive press refresh. Standard library + curl; default is a dry run."""
+"""Daily, additive press refresh. Standard library + curl + patched CA bundle; default is a dry run."""
 import argparse
 import csv
+import certifi
 from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 import json
@@ -67,7 +68,7 @@ def fetch(url):
     # Only configured public publisher hosts are requested. No browser session or credentials.
     if urlsplit(url).hostname not in {urlsplit(u).hostname for u in SOURCES.values()}:
         raise ValueError('Unexpected publisher host')
-    result = subprocess.run(['curl', '--fail', '--silent', '--show-error', '--location',
+    result = subprocess.run(['curl', '--cacert', certifi.where(), '--fail', '--silent', '--show-error', '--location',
                              '--proto', '=https', '--proto-redir', '=https', '--max-time', '30',
                              '--retry', '2', '--retry-delay', '2', '--max-filesize', '10000000',
                              '--user-agent', 'FernandoArizaSite/1.0 (+https://ferariza.com)', url],
