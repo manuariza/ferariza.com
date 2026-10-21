@@ -1,8 +1,10 @@
-"""Publish newly inventoried articles through Buffer; no third-party packages."""
+"""Publish newly inventoried articles through Buffer; patched certificate trust."""
 import argparse
 from datetime import date, datetime, timezone
 import json
 import os
+import ssl
+import certifi
 from pathlib import Path
 import subprocess
 from urllib.request import Request, urlopen
@@ -34,7 +36,7 @@ def api(query):
     request = Request('https://api.buffer.com', data=json.dumps({'query': query}).encode(),
                       headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key})
     # Never blindly retry a mutation: a timeout may follow a successful creation.
-    with urlopen(request, timeout=45) as response:
+    with urlopen(request, timeout=45, context=ssl.create_default_context(cafile=certifi.where())) as response:
         result = json.load(response)
     if result.get('errors'):
         raise RuntimeError('Buffer GraphQL request failed; inspect API permissions/schema')
